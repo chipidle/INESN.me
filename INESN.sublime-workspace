@@ -1,0 +1,709 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"dịch",
+				"dịchNgay"
+			],
+			[
+				"khóa",
+				"khóaDịch"
+			],
+			[
+				"user",
+				"userAgent"
+			],
+			[
+				"tiêu",
+				"tiêuĐề"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"bài",
+				"bàiViết"
+			],
+			[
+				"strip",
+				"strip_tags"
+			],
+			[
+				"chờ",
+				"tảiChờ"
+			],
+			[
+				"bà",
+				"bàiViết"
+			],
+			[
+				"nội",
+				"nộiDung"
+			],
+			[
+				"lưu",
+				"lưuTrữNhóm"
+			],
+			[
+				"phân",
+				"phânLoại"
+			],
+			[
+				"bổ",
+				"bổTrợ"
+			],
+			[
+				"đăng",
+				"đăngBài"
+			],
+			[
+				"cá",
+				"cáNhân"
+			],
+			[
+				"content",
+				"contenteditable"
+			],
+			[
+				"ov",
+				"overflow-y"
+			],
+			[
+				"nhóm",
+				"nhómLưuTrữ"
+			],
+			[
+				"slo",
+				"slogan"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"pl",
+				"placeholder"
+			],
+			[
+				"đã",
+				"đãKhởiTạo"
+			],
+			[
+				"scroll",
+				"scrollHeight"
+			],
+			[
+				"không",
+				"khôngGian"
+			],
+			[
+				"pu",
+				"pushState"
+			],
+			[
+				"đổi",
+				"đổiURL"
+			],
+			[
+				"đầu",
+				"đầuBài"
+			],
+			[
+				"background",
+				"backgroundImage"
+			],
+			[
+				"erro",
+				"error_log"
+			],
+			[
+				"danh",
+				"danhSách"
+			],
+			[
+				"ob",
+				"object"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"err",
+				"error_log"
+			],
+			[
+				"chuyên",
+				"chuyênMục"
+			],
+			[
+				"kết",
+				"kếtQuả"
+			],
+			[
+				"sở",
+				"sởHữu"
+			],
+			[
+				"ẩn",
+				"ẩnXóa"
+			],
+			[
+				"sửa",
+				"sửaLớp"
+			],
+			[
+				"chọn",
+				"chọnĐốiTượng2"
+			],
+			[
+				"chọ",
+				"chọnĐốiTượng"
+			],
+			[
+				"quản",
+				"quảnTrị"
+			],
+			[
+				"đối",
+				"đốiTượng"
+			],
+			[
+				"ep",
+				"empty"
+			],
+			[
+				"iTi",
+				"iTip-bootstrap"
+			],
+			[
+				"class",
+				"classes"
+			],
+			[
+				"append",
+				"appendTo"
+			],
+			[
+				"dữ",
+				"dữLiệu"
+			],
+			[
+				"tin",
+				"tinTức"
+			],
+			[
+				"border-ri",
+				"border-right-width"
+			],
+			[
+				"border-lef",
+				"border-left-width"
+			],
+			[
+				"có",
+				"cóLớp"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "www/config.xml",
+			"settings":
+			{
+				"buffer_size": 12636,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/index.html",
+			"settings":
+			{
+				"buffer_size": 2432,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/Chipidle/IE/test.php",
+			"settings":
+			{
+				"buffer_size": 2893,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/chipi/Downloads/vi_lXlEd6S.srt",
+		"/C/Users/chipi/Desktop/inesn-master/README.md",
+		"/C/Users/chipi/Desktop/inesn-master/www/config.xml",
+		"/C/Users/chipi/Desktop/inesn-master/package.json",
+		"/C/Users/chipi/Desktop/inesn-master/NOTICE",
+		"/C/Users/chipi/Desktop/inesn-master/COPYRIGHT",
+		"/C/Users/chipi/Desktop/inesn-master/LICENSE",
+		"/C/Users/chipi/Desktop/inesn-master/CONTRIBUTING.md",
+		"/C/Users/chipi/Desktop/inesn-master/.gitignore",
+		"/C/Users/chipi/Desktop/inesn-master/.bithoundrc",
+		"/D/Chipidle/IE/css/include.sub.css",
+		"/D/Chipidle/IE/css/include.main.css",
+		"/D/Chipidle/IE/js/include.main.js",
+		"/D/Chipidle/IE/js/include.template.js",
+		"/D/Chipidle/IE/php/session.php",
+		"/D/Chipidle/IE/php/include.php",
+		"/D/Chipidle/IE/js/function.manage.js",
+		"/D/Chipidle/IE/js/function.access.js",
+		"/D/Chipidle/IE/js/function.core.js",
+		"/D/Chipidle/IE/js/function.main.js",
+		"/D/Chipidle/IE/build.php",
+		"/D/Chipidle/IE/index.php",
+		"/C/Users/chipi/Desktop/create_certs.bat",
+		"/C/Users/chipi/AppData/Local/Temp/fz3temp-2/PHP70_errors.txt",
+		"/C/Users/chipi/Desktop/INESN_me-debug/assets/www/index.html",
+		"/C/Users/chipi/Desktop/INESN_me-debug/res/xml/config.xml",
+		"/C/Users/chipi/Desktop/INESN_me-debug/assets/www/cordova.js",
+		"/C/Users/chipi/Desktop/INESN_me-debug/assets/www/cordova_plugins.js",
+		"/C/Users/chipi/AppData/Local/Temp/fz3temp-2/PHP54_errors.log",
+		"/D/Chipidle/IE/js/function.sub.js",
+		"/D/Chipidle/IE/php/function.php",
+		"/C/Users/chipi/AppData/Local/Temp/fz3temp-1/PHP70_errors.txt",
+		"/D/Chipidle/IE/js/jquery.mobile.js",
+		"/C/Users/chipi/AppData/Local/Temp/Temp1_jquery.mobile.custom.zip/jquery.mobile.custom.min.js",
+		"/C/Users/chipi/AppData/Local/Temp/fz3temp-1/PHP54_errors.log",
+		"/D/Chipidle/IE/php/class.php",
+		"/D/Chipidle/APD/build.php",
+		"/C/Users/chipi/AppData/Local/Temp/7zO47BE2066/index.php",
+		"/D/Chipidle/HGC/index.php",
+		"/C/Users/chipi/AppData/Local/Temp/fz3temp-1/-asXgbo8KUA.isio",
+		"/D/Chipidle/IE/php/config.php",
+		"/D/Chipidle/IE/php/defined.php",
+		"/C/Users/chipi/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/chipi/AppData/Local/Temp/fz3temp-1/vF299ZRk-Yg.json",
+		"/C/Users/chipi/AppData/Local/Temp/fz3temp-1/vF299ZRk-Yg.isio",
+		"/D/Chipidle/unikey.txt",
+		"/C/Users/chipi/AppData/Local/Temp/fz3temp-1/PHP70_errors.log",
+		"/C/Users/chipi/AppData/Local/Temp/fz3temp-1/PHP70x64_errors.log",
+		"/D/Chipidle/PHP70x64_errors.log",
+		"/C/Users/chipi/AppData/Local/Temp/fz3temp-1/PHP56_errors.log",
+		"/D/Chipidle/IE/js/function.ui.js",
+		"/D/Chipidle/IE/old.js",
+		"/D/Chipidle/IE/js/function.ui.isj",
+		"/D/Chipidle/IE/js/jquery.ui.js",
+		"/D/Chipidle/IE/js/lib.main.js",
+		"/C/Users/chipi/AppData/Local/Temp/fz3temp-1/info.php",
+		"/D/Chipidle/ctyluat/general.css",
+		"/D/Chipidle/hoaam/function.core.js",
+		"/D/Chipidle/hoaam/v1.include.main.js",
+		"/D/Chipidle/PHP56_errors.log",
+		"/D/Chipidle/IE/proj.sublime-project",
+		"/C/Users/chipi/Downloads/PM-Navicat-Premium-11.0.5/Luu-y.txt",
+		"/D/Chipidle/IE/js/include.main.isj",
+		"/C/Users/chipi/Downloads/Adobe Photoshop CC 2015 Cracked/ReadMe.txt",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/chipi/Downloads/Ccleaner v5.18.5607 Professional + All Edition Keys [4realtorrentz]/CCleaner Keys [4realtorrentz].txt",
+		"/C/Users/chipi/Downloads/Ccleaner v5.18.5607 Professional + All Edition Keys [4realtorrentz]/Info.txt",
+		"/C/Chipidle/IE/web.config",
+		"/C/Users/chipi/AppData/Local/Microsoft/Web Platform Installer/logs/install/2016-06-09T00.25.01/PHPManagerForIIS-1.2.0-x64.txt",
+		"/C/Users/chipi/AppData/Local/Microsoft/Web Platform Installer/logs/install/2016-06-08T23.56.51/PHPManagerForIIS-1.2.0-x64.txt",
+		"/C/Users/chipi/AppData/Local/Microsoft/Web Platform Installer/logs/webpi/webpi.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\Chipidle\\IE,*.js",
+			"D:\\Chipidle\\IE,*.css",
+			"D:\\Chipidle\\IE,*.js",
+			"D:\\Chipidle\\IE,*.php",
+			"D:\\Chipidle\\IE,*.js",
+			"D:\\Chipidle\\IE,*.php",
+			"D:\\Chipidle\\IE,*.js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"inesn.me",
+			"INESN.me",
+			"phonegap/phonegap-app-hello-world",
+			"phonegap/phonegap-template-hello-world",
+			"[href]",
+			"ĐiềuKhiển",
+			"điềuKhiển",
+			"plugin",
+			"iframe",
+			"567",
+			"khóa",
+			"-20px",
+			"\"lớn\"",
+			"unclick",
+			"replace",
+			".dịch",
+			"self:",
+			"z-index: 1",
+			"+(diĐộng() && navigator.userAgent.match(/Chrome/i) ? \"\" : \" o0 \")+",
+			" : \"pen\"",
+			"(navigator.userAgent.match(/iPhone|iPad/i) ? \"\" : \"pen\")",
+			"self",
+			"(\"",
+			"(navigator.userAgent.match(/iPhone|iPad|Chrome/i) ? \"\" : \"pen\")",
+			"iPhone|iPad",
+			"\"pen\"",
+			" pen",
+			"pen ",
+			"pen",
+			"top",
+			"lẻCao",
+			"unclick",
+			"m[3]",
+			"youtube",
+			".trigger(\"hiện\")",
+			"swipe",
+			"destroy",
+			".swipe",
+			"migrate",
+			"core",
+			"main",
+			"lưutrữ.",
+			"join(\",\")",
+			"join()",
+			"join(\",\")",
+			"join(\",",
+			".join()",
+			":visible",
+			"hmn5",
+			"mt10 hmn5",
+			"clear: both; ",
+			":after {",
+			"none",
+			"nhóm",
+			"iConfirm",
+			"lưuTrữNhóm",
+			"chữ",
+			"mảng",
+			"chuyênMụcCon",
+			"#giữa,#phải",
+			"khôngGian.bàiViết.thấy",
+			"iradio",
+			"{ id:\"bàiĐăng\", ",
+			",{ id:\"bàiĐăng\", c",
+			"{ id:\"bàiĐăng\", clas",
+			"bài tập bổ",
+			"bổtrợ",
+			",\"gallery\")",
+			"\"gallery",
+			"cl13",
+			"pa0",
+			"tậpTin",
+			"nhómMới",
+			"fs2",
+			"text",
+			"\"#dữLiệu",
+			"=dữLiệu",
+			"overflow-y: auto;",
+			":hover { ov",
+			"galleri",
+			"bàiViết",
+			"console",
+			"%C3%A",
+			"đầuBài",
+			"tạoảnh",
+			"lưuTrữ",
+			"nhóm",
+			"console.log",
+			"ma0",
+			"chuyênMục.\"+ú);",
+			"tìmKiếm",
+			"slogan",
+			"logo",
+			" Bấm logo",
+			"slogan",
+			"logo",
+			"alert(",
+			"c=>",
+			".e",
+			"size",
+			"line-height: 1.8;",
+			"ffn",
+			"{img}",
+			"{css}",
+			"{js}",
+			"{json}",
+			"matter",
+			"Anything you need about English matter",
+			"intel en",
+			".nhái",
+			"pa5",
+			"connect",
+			".nhái",
+			"đãKhởiTạo",
+			"#bàiviết",
+			"console.log(",
+			"bàiviết.khởi",
+			"go to g",
+			"gallery",
+			"m[3]",
+			"m[4]",
+			",\"ga",
+			"\"gallery\"",
+			"this.url",
+			"replacestate",
+			"pushstate(",
+			".thànhvi",
+			"4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "www/config.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12636,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								291,
+								299
+							],
+							[
+								514,
+								522
+							],
+							[
+								536,
+								544
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2239,
+								2239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/Chipidle/IE/test.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2749,
+								2888
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 672.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "INESN.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Chipidle\\IE\\IE.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
