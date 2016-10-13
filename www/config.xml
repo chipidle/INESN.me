@@ -5,8 +5,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "me.inesn.app"
         version   = "1.0.2"
-        android-versionCode="3"
-        versionCode="3">
+        android-versionCode="4"
+        versionCode="4">
 
     <name>★ INESN.me LITE</name>
 
@@ -24,21 +24,8 @@
     <!-- Customize your app and platform with the preference element. -->
     <preference name="DisallowOverscroll" value="true" />
     <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
-    <preference name="android-minSdkVersion" value="7" />
-    <preference name="permissions" value="none" />
+    <preference name="android-minSdkVersion" value="14" />
     <preference name="orientation" value="portrait" />
-    <preference name="target-device" value="universal" />
-    <preference name="fullscreen" value="false" />
-    <preference name="webviewbounce" value="true" />
-    <preference name="prerendered-icon" value="true" />
-    <preference name="stay-in-webview" value="false" />
-    <preference name="ios-statusbarstyle" value="black-opaque" />
-    <preference name="detect-data-types" value="true" />
-    <preference name="exit-on-suspend" value="false" />
-    <preference name="show-splash-screen-spinner" value="true" />
-    <preference name="auto-hide-splash-screen" value="true" />
-    <preference name="disable-cursor" value="false" />
-    <preference name="android-installLocation" value="auto" />
     <!-- Define a specific version of PhoneGap to build into your app. -->
     <!-- <preference name="phonegap-version"       value="cli-6.0.0" /> -->
     <preference name="SplashScreen" value="icon.png" />
