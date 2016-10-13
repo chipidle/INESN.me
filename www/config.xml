@@ -4,11 +4,11 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "me.inesn.app"
-        version   = "1.0.1"
-        android-versionCode="2"
-        versionCode="2">
+        version   = "1.0.2"
+        android-versionCode="3"
+        versionCode="3">
 
-    <name>★ INESN.me</name>
+    <name>★ INESN.me LITE</name>
 
     <description>
         A world-class social network platform; Anything you need for English matter: learning English, sharing knowledge, exchanging values...
@@ -22,13 +22,28 @@
     <content src="index.html" />
 
     <!-- Customize your app and platform with the preference element. -->
-    <preference name="DisallowOverscroll"         value="true" />
+    <preference name="DisallowOverscroll" value="true" />
     <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
-    <preference name="android-minSdkVersion"      value="14" />
-
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="portrait" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-installLocation" value="auto" />
     <!-- Define a specific version of PhoneGap to build into your app. -->
     <!-- <preference name="phonegap-version"       value="cli-6.0.0" /> -->
-
+    <preference name="SplashScreen" value="icon.png" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreenDelay" value="3210" />
     <!-- Plugins -->
     <!-- Core plugins -->
     <plugin name="cordova-plugin-battery-status"      source="npm" spec="~1.1.1" />
@@ -55,24 +70,24 @@
     <!-- Define app icon and splashscreen for each platform. -->
     <icon src="icon.png" />
     <platform name="android">
-        <icon   src="www/res/icon/android/drawable-ldpi-icon.png"               density="ldpi" />
-        <icon   src="www/res/icon/android/drawable-mdpi-icon.png"               density="mdpi" />
-        <icon   src="www/res/icon/android/drawable-hdpi-icon.png"               density="hdpi" />
-        <icon   src="www/res/icon/android/drawable-xhdpi-icon.png"              density="xhdpi" />
-        <icon   src="www/res/icon/android/drawable-xxhdpi-icon.png"             density="xxhdpi" />
-        <icon   src="www/res/icon/android/drawable-xxxhdpi-icon.png"            density="xxxhdpi" />
-        <splash src="www/res/screen/android/drawable-land-ldpi-screen.png"      density="land-ldpi" />
-        <splash src="www/res/screen/android/drawable-land-mdpi-screen.png"      density="land-mdpi" />
-        <splash src="www/res/screen/android/drawable-land-hdpi-screen.png"      density="land-hdpi" />
-        <splash src="www/res/screen/android/drawable-land-xhdpi-screen.png"     density="land-xhdpi" />
-        <splash src="www/res/screen/android/drawable-land-xxhdpi-screen.png"    density="land-xxhdpi" />
-        <splash src="www/res/screen/android/drawable-land-xxxhdpi-screen.png"   density="land-xxxhdpi" />
-        <splash src="www/res/screen/android/drawable-port-ldpi-screen.png"      density="port-ldpi" />
-        <splash src="www/res/screen/android/drawable-port-mdpi-screen.png"      density="port-mdpi" />
-        <splash src="www/res/screen/android/drawable-port-hdpi-screen.png"      density="port-hdpi" />
-        <splash src="www/res/screen/android/drawable-port-xhdpi-screen.png"     density="port-xhdpi" />
-        <splash src="www/res/screen/android/drawable-port-xxhdpi-screen.png"    density="port-xxhdpi" />
-        <splash src="www/res/screen/android/drawable-port-xxxhdpi-screen.png"   density="port-xxxhdpi" />
+        <icon   src="www/res/icon/android/drawable-ldpi-icon.png"               platform="android" qualifier="ldpi" />
+        <icon   src="www/res/icon/android/drawable-mdpi-icon.png"               platform="android" qualifier="mdpi" />
+        <icon   src="www/res/icon/android/drawable-hdpi-icon.png"               platform="android" qualifier="hdpi" />
+        <icon   src="www/res/icon/android/drawable-xhdpi-icon.png"              platform="android" qualifier="xhdpi" />
+        <icon   src="www/res/icon/android/drawable-xxhdpi-icon.png"             platform="android" qualifier="xxhdpi" />
+        <icon   src="www/res/icon/android/drawable-xxxhdpi-icon.png"            platform="android" qualifier="xxxhdpi" />
+        <splash src="www/res/screen/android/drawable-land-ldpi-screen.png"      platform="android" qualifier="land-ldpi" />
+        <splash src="www/res/screen/android/drawable-land-mdpi-screen.png"      platform="android" qualifier="land-mdpi" />
+        <splash src="www/res/screen/android/drawable-land-hdpi-screen.png"      platform="android" qualifier="land-hdpi" />
+        <splash src="www/res/screen/android/drawable-land-xhdpi-screen.png"     platform="android" qualifier="land-xhdpi" />
+        <splash src="www/res/screen/android/drawable-land-xxhdpi-screen.png"    platform="android" qualifier="land-xxhdpi" />
+        <splash src="www/res/screen/android/drawable-land-xxxhdpi-screen.png"   platform="android" qualifier="land-xxxhdpi" />
+        <splash src="www/res/screen/android/drawable-port-ldpi-screen.png"      platform="android" qualifier="port-ldpi" />
+        <splash src="www/res/screen/android/drawable-port-mdpi-screen.png"      platform="android" qualifier="port-mdpi" />
+        <splash src="www/res/screen/android/drawable-port-hdpi-screen.png"      platform="android" qualifier="port-hdpi" />
+        <splash src="www/res/screen/android/drawable-port-xhdpi-screen.png"     platform="android" qualifier="port-xhdpi" />
+        <splash src="www/res/screen/android/drawable-port-xxhdpi-screen.png"    platform="android" qualifier="port-xxhdpi" />
+        <splash src="www/res/screen/android/drawable-port-xxxhdpi-screen.png"   platform="android" qualifier="port-xxxhdpi" />
     </platform>
 
     <platform name="ios">
