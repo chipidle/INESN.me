@@ -5,8 +5,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "me.inesn.app"
         version   = "1.0.4"
-        android-versionCode="8"
-        versionCode="8">
+        android-versionCode="9"
+        versionCode="9">
 
     <name>★ INESN.me LITE</name>
 
@@ -31,7 +31,7 @@
     <!-- <preference name="phonegap-version"       value="cli-6.0.0" /> -->
     <preference name="AllowInlineMediaPlayback" value="true"/>
     <preference name="AutoHideSplashScreen" value="true" />
-    <preference name="SplashScreenDelay" value="1234" />
+    <preference name="SplashScreenDelay" value="12345" />
     <preference name="ShowSplashScreenSpinner" value="false" />
 
     <!-- Plugins -->
