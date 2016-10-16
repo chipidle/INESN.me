@@ -223,7 +223,7 @@
 			"file": "www/config.xml",
 			"settings":
 			{
-				"buffer_size": 13297,
+				"buffer_size": 13061,
 				"line_ending": "Unix"
 			}
 		},
@@ -231,7 +231,7 @@
 			"file": "www/index.html",
 			"settings":
 			{
-				"buffer_size": 2414,
+				"buffer_size": 2590,
 				"line_ending": "Unix"
 			}
 		},
@@ -518,7 +518,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -527,15 +527,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13297,
+						"buffer_size": 13061,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1416,
-								1416
+								275,
+								275
 							]
 						],
 						"settings":
@@ -548,7 +548,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -557,15 +557,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2414,
+						"buffer_size": 2590,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2211,
-								2211
+								2208,
+								2208
 							]
 						],
 						"settings":
@@ -575,10 +575,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 168.0,
+						"translation.y": 126.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
