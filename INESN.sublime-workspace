@@ -223,7 +223,7 @@
 			"file": "www/config.xml",
 			"settings":
 			{
-				"buffer_size": 12839,
+				"buffer_size": 12673,
 				"line_ending": "Unix"
 			}
 		},
@@ -231,7 +231,7 @@
 			"file": "www/index.html",
 			"settings":
 			{
-				"buffer_size": 2583,
+				"buffer_size": 2565,
 				"line_ending": "Unix"
 			}
 		}
@@ -268,6 +268,11 @@
 	},
 	"file_history":
 	[
+		"/C/Users/chipi/Desktop/PhoneGap Demo App_v1.0.0_apkpure.com/assets/www/cordova.js",
+		"/C/Users/chipi/Desktop/PhoneGap Demo App_v1.0.0_apkpure.com/assets/www/index.html",
+		"/C/Users/chipi/Desktop/PhoneGap Demo App_v1.0.0_apkpure.com/assets/www/js/main.js",
+		"/C/Users/chipi/Desktop/PhoneGap Demo App_v1.0.0_apkpure.com/res/xml/config.xml",
+		"/C/Users/chipi/Desktop/PhoneGap Demo App_v1.0.0_apkpure.com/assets/_where-is-www.txt",
 		"/D/Chipidle/IE/test.php",
 		"/C/Users/chipi/AppData/Local/Temp/7zO0130FD58/config.xml",
 		"/C/Users/chipi/Downloads/vi_lXlEd6S.srt",
@@ -365,6 +370,29 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"                      ",
+			"                     ",
+			"                    ",
+			"                   ",
+			"                  ",
+			"                 ",
+			"                ",
+			"               ",
+			"              ",
+			"             ",
+			"            ",
+			"           ",
+			"          ",
+			"         ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"   ",
+			"  ",
+			"gap:",
+			"splash",
 			"5",
 			"platform",
 			"splash",
@@ -469,30 +497,7 @@
 			"galleri",
 			"bàiViết",
 			"console",
-			"%C3%A",
-			"đầuBài",
-			"tạoảnh",
-			"lưuTrữ",
-			"nhóm",
-			"console.log",
-			"ma0",
-			"chuyênMục.\"+ú);",
-			"tìmKiếm",
-			"slogan",
-			"logo",
-			" Bấm logo",
-			"slogan",
-			"logo",
-			"alert(",
-			"c=>",
-			".e",
-			"size",
-			"line-height: 1.8;",
-			"ffn",
-			"{img}",
-			"{css}",
-			"{js}",
-			"{json}"
+			"%C3%A"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -520,15 +525,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12839,
+						"buffer_size": 12673,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								334,
-								334
+								331,
+								331
 							]
 						],
 						"settings":
@@ -538,7 +543,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 294.0,
+						"translation.y": 378.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -550,15 +555,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2583,
+						"buffer_size": 2565,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2561,
-								2561
+								2355,
+								2355
 							]
 						],
 						"settings":
