@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "me.inesn.app"
-        version   = "1.0.6"
+        version   = "1.0.7"
         versionCode="10">
 
     <name>★ INESN.me LITE</name>
@@ -33,7 +33,7 @@
     <preference name="SplashScreenDelay" value="12345" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="StatusBarOverlaysWebView"   value="false" />
-    <preference name="StatusBarBackgroundColor"   value="#ee6e73" />
+    <!-- <preference name="StatusBarBackgroundColor"   value="#ee6e73" /> -->
     <preference name="StatusBarStyle"             value="blacktranslucent" />
     <preference name="SplashMaintainAspectRatio" value="false" />
 
