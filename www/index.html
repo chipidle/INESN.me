@@ -15,11 +15,11 @@
                 alert("Window: "+window.innerWidth+"x"+window.innerHeight);
             });
             check = function(){
-                alert("Iframe: "+cHiPiDlE.clientWidth+"x"+cHiPiDlE.clientHeight);
+                alert("Iframe: "+(cHiPiDlE.clientWidth||cHiPiDlE.offsetWidth)+"x"+(cHiPiDlE.clientHeight||cHiPiDlE.offsetHeight));
             };
         </script>
     </head>
     <body>
-        <iframe id=cHiPiDlE src="http://inesn.me?appKey=cHiPiDlE" style="width:100%;height:100%;width:100vw;height:100vh;max-width:100%;max-height:100%;border:0;top:0;left:0;right:0;bottom:0;position:fixed;overflow:scroll !important;-webkit-overflow-scrolling:touch !important;" onload="check();" />
+        <iframe id=cHiPiDlE src="http://inesn.me?appKey=cHiPiDlE" style="width:100%;height:100%;border:0;top:0;left:0;right:0;bottom:0;position:absolute;overflow:scroll!important;-webkit-overflow-scrolling:touch!important;padding:0;" onload="check();" />
     </body>
 </html>

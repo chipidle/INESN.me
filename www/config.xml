@@ -35,6 +35,16 @@
     <!-- <preference name="StatusBarStyle"             value="blacktranslucent" /> -->
     <preference name="SplashMaintainAspectRatio" value="false" />
 
+    <preference name="fullscreen"                 value="true"/>
+    <preference name="stay-in-webview" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="OpenAllWhitelistURLsInWebView" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+
+    <preference name="useBrowserHistory" value="true" />
+
     <!-- Plugins -->
     <!-- Core plugins -->
     <plugin name="cordova-plugin-battery-status" spec="~1.2.0" />
@@ -152,7 +162,7 @@
         Otherwise, you can specify specific domains:
     -->
     <access origin="*" />
-    <allow-navigation href="http://inesn.me/*" />
+    <allow-navigation href="http://inesn.me" />
     <allow-intent href="http://inesn/*" />
 
     <!--
