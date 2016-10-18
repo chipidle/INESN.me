@@ -35,13 +35,6 @@
                     windows: {},
                 });
                 log = alert; // navigator.notification.alert;
-                push.hasPermission(function(data) {
-                    if (data.isEnabled) {
-                        log('OK');
-                    } else {
-                        log("FAILED");
-                    }
-                });
                 push.on('registration', function(data) {
                     // data.registrationId
                     localStorage.setItem('registrationId', data.registrationId);
