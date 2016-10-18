@@ -12,14 +12,12 @@
         <script type="text/javascript">
             document.addEventListener('deviceready',function(){
                 navigator.splashscreen.hide();
-                alert("Window: "+window.innerWidth+"x"+window.innerHeight);
             });
             check = function(){
                 $(function(){
                     var f = $("#cHiPiDlE"),
-                        w,h;
-                    alert("Iframe: "+f.width()+"x"+f.height());
-                    alert("Physical: "+(w=window.screen.width*window.devicePixelRatio)+"x"+(h=window.screen.height*window.devicePixelRatio));
+                        w,h,r = window.devicePixelRatio;
+                    alert("Ratio: "+r+"\nWindow: "+(w=window.innerWidth)+"x"+(h=window.innerHeight)+"\nIframe: "+f.width()+"x"+f.height()+"\nPhysical: "+(window.screen.width*r)+"x"+(window.screen.height*r));
                     f.width(w).height(h);
                 });
             };
