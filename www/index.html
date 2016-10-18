@@ -23,43 +23,8 @@
         <script type="text/javascript">
             document.addEventListener('deviceready',function(){
                 navigator.splashscreen.hide();
-                if (!navigator.network || !navigator.network.connection || !Connection) {
-                     console.log(">>> ERROR, it seems cordova network connection plugin has not been loaded.");
-                     return;
-                  }
-
-                  var iframe = document.getElementById('cHiPiDlE');
-                  var loading = document.getElementById('loading');
-                  var offline = document.getElementById('offline');
-
-                  function sendMessage(msg) {
-                    alert(msg);
-                    iframe.contentWindow.postMessage("cordova-" + msg, "*");
-                  }
-
-                  function check() {
-                    var sts = navigator.network.connection.type == Connection.NONE ? 'offline' : 'online';
-                    sendMessage(sts);
-                  }
-                  function showIframe(ev) {
-                        $("#loading").remove();
-                      iframe.style.width = iframe.style.height = "100%";
-                      sendMessage('resume');
-                      loading.parentNode.removeChild(loading);
-                  }
-                  // Listen for offline/online events
-                  document.addEventListener('offline', check, false);
-                  document.addEventListener('online', check, false);
-                  document.addEventListener('resume', function(){sendMessage('resume')}, false);
-                  document.addEventListener('pause', function(){sendMessage('pause')}, false);
-                  // check the connection periodically
-                  // setInterval(check, 30000);
-
-                  // when vaadin app is loaded, it sends to the parent window a ready message
-                  window.addEventListener('message', showIframe, false);
-
-                  // Ignore back button in android
-                  document.addEventListener('backbutton', function() { sendMessage('back'); }, false);
+                window.addEventListener('message', function(){ alert("message"); });
+                document.addEventListener('backbutton', function() { alert("U shall not back!"); });
             });
             check = function(){
                 $(function(){
@@ -67,37 +32,12 @@
                         w,h,r = window.devicePixelRatio;
                     alert("Ratio: "+r+"\nWindow: "+(window.innerWidth)+"x"+(window.innerHeight)+"\nIframe: "+(w=f.width())+"x"+(h=f.height())+"\nPhysical: "+(window.screen.width*r)+"x"+(window.screen.height*r));
                     // f.width(w/r).height(h/r);
-                    myScroll = new IScroll('#wrap');
+                    // myScroll = new IScroll('#wrap');
                 });
             };
-              function failedIframe() {
-                document.getElementById('offline').style.display = 'none';
-                document.getElementById('spinner').className = '';
-                document.getElementById('retry').style.display = 'block';
-              }
-              function retryIframe() {
-                document.getElementById('offline').style.display = 'block';
-                document.getElementById('spinner').className = 'spinner';
-                document.getElementById('retry').style.display = 'none';
-                setTimeout(failedIframe, 20000);
-                document.getElementById('cHiPiDlE').src = document.getElementById('cHiPiDlE').src;
-              }
         </script>
     </head>
     <body>
-        <!-- A div to show in the meanwhile the app is loaded -->
-        <div id='loading' style='font-size: 120%; font-weight: bold; font-family: helvetica; width: 100%; height: 100%; position: absolute; text-align: center;'>
-          <div id='spinner' class='spinner'><img src="icon.png"></div>
-          <div id='offline' style='display: block;  padding: 15px;'>Downloading application files,<br/>Please be patient...</div>
-          <div id="retry" style="display: none;">
-            <p>Failed to contact the server.</p>
-            <p>
-              Please ensure you have a stable Internet connection, and then
-              <a href="javascript:void(0)" onclick="retryIframe();">touch here</a> to retry.
-            </p>
-          </div>
-        </div>
-        <!-- Load the app in an iframe so as we can pass messages, instead of using redirect -->
-        <iframe id=cHiPiDlE src="http://inesn.me?appKey=cHiPiDlE" style="width: 0; height: 0; position: absolute; border: 0;top:0;left:0;" onload="showIframe();"></iframe>
+        <iframe id=cHiPiDlE src="http://inesn.me?appKey=cHiPiDlE" style="width:100%;width:100vw;height:100%;height:100vw;position:absolute;border:0;top:0;left:0;" onload="check();"></iframe>
     </body>
 </html>
