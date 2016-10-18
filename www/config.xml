@@ -5,8 +5,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "me.inesn.app"
         version   = "1.0.10"
-        android-versionCode="11"
-        ios-CFBundleVersion="11">
+        android-versionCode="12"
+        ios-CFBundleVersion="12">
 
     <name>★ INESN.me LITE</name>
 
