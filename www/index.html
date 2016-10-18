@@ -38,6 +38,8 @@
                 push.hasPermission(function(data) {
                     if (data.isEnabled) {
                         log('OK');
+                    } else {
+                        log("FAILED");
                     }
                 });
                 push.on('registration', function(data) {
