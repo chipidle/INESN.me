@@ -22,8 +22,8 @@
     <content src="index.html" />
     <platform name="ios" />
     <platform name="android" />
-    <platform name="windows" />
-    <platform name="winphone" />
+    <!-- <platform name="windows" /> -->
+    <!-- <platform name="winphone" /> -->
 
     <!-- Customize your app and platform with the preference element. -->
     <preference name="DisallowOverscroll" value="true" />
@@ -40,7 +40,7 @@
     <preference name="StatusBarOverlaysWebView"   value="true" />
     <!-- <preference name="StatusBarBackgroundColor"   value="#ee6e73" /> -->
     <!-- <preference name="StatusBarStyle"             value="blacktranslucent" /> -->
-    <preference name="SplashMaintainAspectRatio" value="false" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
 
     <preference name="fullscreen"                 value="true"/>
     <preference name="stay-in-webview" value="true" />
