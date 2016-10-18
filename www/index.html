@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="msapplication-tap-highlight" content="no" />
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
         <!-- <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" /> -->
         <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'self' 'unsafe-inline' 'unsafe-eval'; script-src * 'self' 'unsafe-inline' 'unsafe-eval';">
         <title>★ INESN.me LITE</title>
@@ -14,12 +14,12 @@
                 navigator.splashscreen.hide();
             });
             check = function(){
-                // $(function(){
-                //     var f = $("#cHiPiDlE"),
-                //         w,h,r = window.devicePixelRatio;
-                //     alert("Ratio: "+r+"\nWindow: "+(w=window.innerWidth)+"x"+(h=window.innerHeight)+"\nIframe: "+f.width()+"x"+f.height()+"\nPhysical: "+(window.screen.width*r)+"x"+(window.screen.height*r)+"\nSet: "+w+"x"+h);
-                //     f.width(w).height(h);
-                // });
+                $(function(){
+                    var f = $("#cHiPiDlE"),
+                        w,h,r = window.devicePixelRatio;
+                    alert("Ratio: "+r+"\nWindow: "+(window.innerWidth)+"x"+(window.innerHeight)+"\nIframe: "+(w=f.width())+"x"+(h=f.height())+"\nPhysical: "+(window.screen.width*r)+"x"+(window.screen.height*r)+"\nSet: "+w/r+"x"+h/r);
+                    f.width(w/r).height(h/r);
+                });
             };
         </script>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
