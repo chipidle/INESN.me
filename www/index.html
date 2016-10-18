@@ -17,7 +17,7 @@
                 $(function(){
                     var f = $("#cHiPiDlE"),
                         w,h,r = window.devicePixelRatio;
-                    alert("Ratio: "+r+"\nWindow: "+(w=window.innerWidth)+"x"+(h=window.innerHeight)+"\nIframe: "+f.width()+"x"+f.height()+"\nPhysical: "+(window.screen.width*r)+"x"+(window.screen.height*r));
+                    alert("Ratio: "+r+"\nWindow: "+(w=window.innerWidth)+"x"+(h=window.innerHeight)+"\nIframe: "+f.width()+"x"+f.height()+"\nPhysical: "+(window.screen.width*r)+"x"+(window.screen.height*r)+"\nSet: "+w+"x"+h);
                     f.width(w).height(h);
                 });
             };
@@ -25,6 +25,6 @@
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     </head>
     <body>
-        <iframe id=cHiPiDlE src="http://inesn.me?appKey=cHiPiDlE" width="100%" height="100%" style="border:0;top:0;left:0;right:0;bottom:0;position:absolute;overflow:scroll!important;-webkit-overflow-scrolling:touch!important;padding:0;" onload="check();" />
+        <iframe id=cHiPiDlE src="http://inesn.me?appKey=cHiPiDlE" style="width:0;height:0;border:0;top:0;left:0;position:fixed;overflow:scroll!important;-webkit-overflow-scrolling:touch!important;padding:0;" onload="check();" />
     </body>
 </html>
