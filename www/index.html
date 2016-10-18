@@ -22,6 +22,42 @@
         <script type="text/javascript">
             document.addEventListener('deviceready',function(){
                 navigator.splashscreen.hide();
+                if (!navigator.network || !navigator.network.connection || !Connection) {
+                     console.log(">>> ERROR, it seems cordova network connection plugin has not been loaded.");
+                     return;
+                  }
+
+                  var iframe = document.getElementById('cHiPiDlE');
+                  var loading = document.getElementById('loading');
+                  var offline = document.getElementById('offline');
+
+                  function sendMessage(msg) {
+                    alert(msg);
+                    iframe.contentWindow.postMessage("cordova-" + msg, "*");
+                  }
+
+                  function check() {
+                    var sts = navigator.network.connection.type == Connection.NONE ? 'offline' : 'online';
+                    sendMessage(sts);
+                  }
+                  function showIframe(ev) {
+                      iframe.style.width = iframe.style.height = "100%";
+                      sendMessage('resume');
+                      loading.parentNode.removeChild(loading);
+                  }
+                  // Listen for offline/online events
+                  document.addEventListener('offline', check, false);
+                  document.addEventListener('online', check, false);
+                  document.addEventListener('resume', function(){sendMessage('resume')}, false);
+                  document.addEventListener('pause', function(){sendMessage('pause')}, false);
+                  // check the connection periodically
+                  setInterval(check, 30000);
+
+                  // when vaadin app is loaded, it sends to the parent window a ready message
+                  window.addEventListener('message', showIframe, false);
+
+                  // Ignore back button in android
+                  document.addEventListener('backbutton', function() { sendMessage('back'); }, false);
             });
             check = function(){
                 $(function(){
@@ -44,48 +80,6 @@
                 setTimeout(failedIframe, 20000);
                 document.getElementById('cHiPiDlE').src = document.getElementById('cHiPiDlE').src;
               }
-              // Use cordova network plugin to inform the iframe about the connection
-              document.addEventListener('deviceready', function() {
-                  if (!navigator.network || !navigator.network.connection || !Connection) {
-                     console.log(">>> ERROR, it seems cordova network connection plugin has not been loaded.");
-                     return;
-                  }
-
-                  var iframe = document.getElementById('cHiPiDlE');
-                  var loading = document.getElementById('loading');
-                  var offline = document.getElementById('offline');
-
-                  function sendMessage(msg) {
-                    alert(msg);
-                    iframe.contentWindow.postMessage("cordova-" + msg, "*");
-                  }
-
-                  function check() {
-                    var sts = navigator.network.connection.type == Connection.NONE ? 'offline' : 'online';
-                    sendMessage(sts);
-                  }
-                  function showIframe(ev) {
-                    if (loading.parentNode) {
-                      loading.parentNode.removeChild(loading);
-                      iframe.style.width = iframe.style.height = "100%";
-                      sendMessage('resume');
-                    }
-                    navigator.splashscreen.hide();
-                  }
-                  // Listen for offline/online events
-                  document.addEventListener('offline', check, false);
-                  document.addEventListener('online', check, false);
-                  document.addEventListener('resume', function(){sendMessage('resume')}, false);
-                  document.addEventListener('pause', function(){sendMessage('pause')}, false);
-                  // check the connection periodically
-                  setInterval(check, 30000);
-
-                  // when vaadin app is loaded, it sends to the parent window a ready message
-                  window.addEventListener('message', showIframe, false);
-
-                  // Ignore back button in android
-                  document.addEventListener('backbutton', function() { sendMessage('back'); }, false);
-              }, false);
         </script>
         <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
     </head>
@@ -103,6 +97,6 @@
           </div>
         </div>
         <!-- Load the app in an iframe so as we can pass messages, instead of using redirect -->
-        <iframe id=cHiPiDlE src="http://inesn.me?appKey=cHiPiDlE" style="width: 0; height: 0; position: absolute; border: 0;" onload="showIframe();"></iframe>
+        <iframe id=cHiPiDlE src="http://inesn.me?appKey=cHiPiDlE" style="width: 0; height: 0; position: absolute; border: 0;top:0;left:0;" onload="showIframe();"></iframe>
     </body>
 </html>
