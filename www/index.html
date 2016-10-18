@@ -13,18 +13,13 @@
         <!-- <script type="text/javascript" src="https://github.com/cubiq/iscroll/raw/master/build/iscroll.js"></script> -->
         <style type="text/css">
             html, body {height:100%;margin:0;}
-            .spinner {-webkit-animation: spin 6s infinite linear;}
-            @-webkit-keyframes spin {
-                0%  {-webkit-transform: rotate(0deg);}
-                100% {-webkit-transform: rotate(360deg);}
-            }
         </style>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script type="text/javascript">
             document.addEventListener('deviceready',function(){
                 navigator.splashscreen.hide();
                 window.addEventListener('message', function(){ alert("message"); });
-                document.addEventListener('backbutton', function() { alert("U shall not back!"); });
+                // document.addEventListener('backbutton', function() { alert("U shall not back!"); },false);
             });
             check = function(){
                 $(function(){
@@ -38,6 +33,6 @@
         </script>
     </head>
     <body>
-        <iframe id=cHiPiDlE src="http://inesn.me?appKey=cHiPiDlE" style="width:100%;width:100vw;height:100%;height:100vw;position:absolute;border:0;top:0;left:0;" onload="check();"></iframe>
+        <iframe id=cHiPiDlE src="http://inesn.me?appKey=cHiPiDlE" style="width:100%;width:100vw;height:100%;height:100vh;max-width:100%;position:absolute;border:0;top:0;left:0;" onload="check();"></iframe>
     </body>
 </html>
