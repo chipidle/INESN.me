@@ -6,26 +6,74 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <!-- <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" /> -->
-        <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'self' 'unsafe-inline' 'unsafe-eval'; script-src * 'self' 'unsafe-inline' 'unsafe-eval';">
+        <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'self' 'unsafe-inline' 'unsafe-eval'; script-src * 'self' 'unsafe-inline' 'unsafe-eval';"> -->
         <title>★ INESN.me LITE</title>
         <script src="cordova.js"></script>
-        <!-- <script type="text/javascript" src="https://github.com/cubiq/iscroll/raw/master/build/iscroll.js"></script> -->
         <style type="text/css">
             html, body {height:100%;margin:0;}
         </style>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script type="text/javascript">
+            log = navigator.notification.alert;
             document.addEventListener('deviceready',function(){
                 navigator.splashscreen.hide();
-                window.addEventListener('message', function(){ alert("message"); });
-                // document.addEventListener('backbutton', function() { alert("U shall not back!"); },false);
+                var push = PushNotification.init({
+                    android: {
+                        senderID:"435143661192",
+                        sound:true,
+                        vibrate:true,
+                    },
+                    browser: {
+                        pushServiceURL:'http://push.api.phonegap.com/v1/push'
+                    },
+                    ios: {
+                        senderID:"435143661192",
+                        alert:true,
+                        badge:true,
+                        sound:true,
+                    },
+                    windows: {},
+                });
+                push.hasPermission(function(data) {
+                    if (data.isEnabled) {
+                        log('OK');
+                    }
+                });
+                push.on('registration', function(data) {
+                    // data.registrationId
+                    localStorage.setItem('registrationId', data.registrationId);
+                    log("ID: "+data.registrationId);
+                });
+
+                push.on('notification', function(data) {
+                    log("MSG: "+data.title+"\n"+data.message);
+                    // data.message,
+                    // data.title,
+                    // data.count,
+                    // data.sound,
+                    // data.image,
+                    // data.additionalData
+                });
+
+                push.on('error', function(e) {
+                    log("ERR: "+e.message);
+                    // e.message
+                });
+
+                push.finish(function() {
+                    log('success');
+                }, function() {
+                    log('error');
+                }, 'push-1');
             });
+            window.addEventListener('message', function(){ log("message"); });
+            // document.addEventListener('backbutton', function() { alert("U shall not back!"); },false);
             check = function(){
                 $(function(){
                     var f = $("#cHiPiDlE"),
                         w,h,r = window.devicePixelRatio;
-                    alert("Ratio: "+r+"\nWindow: "+(window.innerWidth)+"x"+(window.innerHeight)+"\nIframe: "+(w=f.width())+"x"+(h=f.height())+"\nPhysical: "+(window.screen.width*r)+"x"+(window.screen.height*r));
+                    log("Ratio: "+r+"\nWindow: "+(window.innerWidth)+"x"+(window.innerHeight)+"\nIframe: "+(w=f.width())+"x"+(h=f.height())+"\nPhysical: "+(window.screen.width*r)+"x"+(window.screen.height*r));
                     // f.width(w/r).height(h/r);
                     // myScroll = new IScroll('#wrap');
                 });
