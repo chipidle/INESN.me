@@ -53,7 +53,7 @@
                   document.addEventListener('resume', function(){sendMessage('resume')}, false);
                   document.addEventListener('pause', function(){sendMessage('pause')}, false);
                   // check the connection periodically
-                  setInterval(check, 30000);
+                  // setInterval(check, 30000);
 
                   // when vaadin app is loaded, it sends to the parent window a ready message
                   window.addEventListener('message', showIframe, false);
