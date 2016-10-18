@@ -4,8 +4,8 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "me.inesn.app"
-        version   = "1.0.8"
-        versionCode="8">
+        version   = "1.0.9"
+        versionCode="9">
 
     <name>★ INESN.me LITE</name>
 
@@ -21,7 +21,7 @@
     <content src="index.html" />
     
     <!-- Customize your app and platform with the preference element. -->
-    <preference name="DisallowOverscroll" value="true" />
+    <!-- <preference name="DisallowOverscroll" value="true" /> -->
     <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-minSdkVersion" value="14" />
     <!-- Define a specific version of PhoneGap to build into your app. -->
@@ -30,7 +30,7 @@
     <preference name="AutoHideSplashScreen" value="false" />
     <preference name="SplashScreenDelay" value="12345" />
     <preference name="ShowSplashScreenSpinner" value="false" />
-    <preference name="StatusBarOverlaysWebView"   value="false" />
+    <preference name="StatusBarOverlaysWebView"   value="true" />
     <!-- <preference name="StatusBarBackgroundColor"   value="#ee6e73" /> -->
     <!-- <preference name="StatusBarStyle"             value="blacktranslucent" /> -->
     <preference name="SplashMaintainAspectRatio" value="false" />
