@@ -34,7 +34,7 @@
                     },
                     windows: {},
                 });
-                log = navigator.notification.alert;
+                log = alert; // navigator.notification.alert;
                 push.hasPermission(function(data) {
                     if (data.isEnabled) {
                         log('OK');
