@@ -21,9 +21,9 @@
 
     <!-- Define the main entry-point to the application -->
     <content src="index.html" />
-    <gap:config-file platform="android" parent="/manifest">
+    <!-- <gap:config-file platform="android" parent="/manifest">
          <application android:debuggable="true" />
-    </gap:config-file>
+    </gap:config-file> -->
 
     <preference name="windows-identity-name" value="51394IECorp.me.inesn.app" />
     <!-- Customize your app and platform with the preference element. -->
@@ -31,7 +31,7 @@
     <preference name="Orientation" value="portrait" />
     <preference name="HideKeyboardFormAccessoryBar" value="true"/>
     <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
-    <preference name="android-minSdkVersion" value="15" />
+    <preference name="android-minSdkVersion" value="14" />
     <!-- Define a specific version of PhoneGap to build into your app. -->
     <!-- <preference name="phonegap-version"       value="cli-6.0.0" /> -->
     <preference name="AllowInlineMediaPlayback" value="true"/>
