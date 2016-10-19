@@ -227,7 +227,7 @@
 			"file": "www/config.xml",
 			"settings":
 			{
-				"buffer_size": 12973,
+				"buffer_size": 14003,
 				"line_ending": "Unix"
 			}
 		},
@@ -235,7 +235,7 @@
 			"file": "www/index.html",
 			"settings":
 			{
-				"buffer_size": 1470,
+				"buffer_size": 3719,
 				"line_ending": "Unix"
 			}
 		},
@@ -243,8 +243,24 @@
 			"file": "/D/Chipidle/IE/test.php",
 			"settings":
 			{
-				"buffer_size": 5310,
+				"buffer_size": 6288,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/chipi/Desktop/template_src/www/js/index.js",
+			"settings":
+			{
+				"buffer_size": 3273,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/chipi/Desktop/template_src/plugins/phonegap-plugin-push/src/browser/manifest.json",
+			"settings":
+			{
+				"buffer_size": 61,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -280,11 +296,22 @@
 	},
 	"file_history":
 	[
-		"/C/Users/chipi/Desktop/phonegap-template-push-master/template_src/www/config.xml",
+		"/C/Users/chipi/Desktop/template_src/plugins/phonegap-plugin-push/package.json",
+		"/C/Users/chipi/Desktop/template_src/plugins/phonegap-plugin-push/src/browser/manifest.json",
+		"/C/Users/chipi/Desktop/template_src/plugins/phonegap-plugin-push/docs/INSTALLATION.md",
+		"/C/Users/chipi/Desktop/template_src/plugins/phonegap-plugin-push/www/push.js",
+		"/C/Users/chipi/Desktop/template_src/www/config.xml",
+		"/C/Users/chipi/Desktop/template_src/www/index.html",
+		"/C/Users/chipi/AppData/Local/Temp/Temp1_phonegap-template-push-1.0.1.zip/phonegap-template-push-1.0.1/index.js",
+		"/C/Users/chipi/Desktop/phonegap-template-push-master/template_src/config.xml",
 		"/C/Users/chipi/Desktop/phonegap-template-push-master/template_src/www/index.html",
+		"/C/Users/chipi/Desktop/phonegap-template-push-master/template_src/www/js/index.js",
+		"/C/Users/chipi/Desktop/phonegap-template-push-master/template_src/plugins/fetch.json",
+		"/C/Users/chipi/Desktop/phonegap-template-push-master/template_src/www/config.xml",
+		"/C/Users/chipi/Desktop/phonegap-template-push-master/push/config.xml",
+		"/C/Users/chipi/Downloads/google-services (1).json",
 		"/C/Users/chipi/Desktop/phonegap-template-push-master/template_src/www/google-services.json",
 		"/C/Users/chipi/Desktop/phonegap-template-push-master/template_src/www/manifest.json",
-		"/C/Users/chipi/Desktop/phonegap-template-push-master/template_src/www/js/index.js",
 		"/C/Users/chipi/Desktop/PhoneGap Demo App_v1.0.0_apkpure.com/assets/www/cordova.js",
 		"/C/Users/chipi/Desktop/PhoneGap Demo App_v1.0.0_apkpure.com/assets/www/index.html",
 		"/C/Users/chipi/Desktop/PhoneGap Demo App_v1.0.0_apkpure.com/assets/www/js/main.js",
@@ -373,6 +400,8 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Users\\chipi\\Desktop\\template_src\\plugins\\phonegap-plugin-push,*.*",
+			"D:\\Chipidle\\IE,*.js,C:\\Users\\chipi\\Desktop\\template_src\\plugins\\phonegap-plugin-push",
 			"D:\\Chipidle\\IE,*.js",
 			"D:\\Chipidle\\IE,*.css",
 			"D:\\Chipidle\\IE,*.js",
@@ -387,6 +416,27 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"85075801930",
+			"init",
+			"appendChild",
+			"alert",
+			"log(",
+			"12",
+			"registrationId",
+			", false",
+			"0px",
+			"\n  ",
+			"iframe",
+			"!important",
+			"window.devicePixelRatio",
+			"cHiPiDlE",
+			"indows\"   width=\"",
+			"   width=\"150\"",
+			"platform",
+			"  height",
+			"    qualifier",
+			"platform",
+			"   src",
 			"initialize",
 			"android",
 			"                      ",
@@ -493,28 +543,7 @@
 			"chữ",
 			"mảng",
 			"chuyênMụcCon",
-			"#giữa,#phải",
-			"khôngGian.bàiViết.thấy",
-			"iradio",
-			"{ id:\"bàiĐăng\", ",
-			",{ id:\"bàiĐăng\", c",
-			"{ id:\"bàiĐăng\", clas",
-			"bài tập bổ",
-			"bổtrợ",
-			",\"gallery\")",
-			"\"gallery",
-			"cl13",
-			"pa0",
-			"tậpTin",
-			"nhómMới",
-			"fs2",
-			"text",
-			"\"#dữLiệu",
-			"=dữLiệu",
-			"overflow-y: auto;",
-			":hover { ov",
-			"galleri",
-			"bàiViết"
+			"#giữa,#phải"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -533,7 +562,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -542,15 +571,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12973,
+						"buffer_size": 14003,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								299,
-								299
+								3850,
+								3862
 							]
 						],
 						"settings":
@@ -560,10 +589,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 630.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -572,15 +601,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1470,
+						"buffer_size": 3719,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1138,
-								1138
+								3711,
+								3711
 							]
 						],
 						"settings":
@@ -593,7 +622,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -602,15 +631,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5310,
+						"buffer_size": 6288,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3571,
-								3571
+								3996,
+								4035
 							]
 						],
 						"settings":
@@ -619,7 +648,65 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 966.0,
+						"translation.y": 1372.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/chipi/Desktop/template_src/www/js/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1740,
+								1747
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 462.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/chipi/Desktop/template_src/plugins/phonegap-plugin-push/src/browser/manifest.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 61,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,

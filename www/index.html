@@ -34,15 +34,14 @@
                     },
                     windows: {},
                 });
-                log = alert; // navigator.notification.alert;
                 push.on('registration', function(data) {
                     // data.registrationId
                     localStorage.setItem('registrationId', data.registrationId);
-                    log("ID: "+data.registrationId);
+                    alert("ID: "+data.registrationId);
                 });
 
                 push.on('notification', function(data) {
-                    log("MSG: "+data.title+"\n"+data.message);
+                    alert("MSG: "+data.title+"\n"+data.message);
                     // data.message,
                     // data.title,
                     // data.count,
@@ -52,22 +51,22 @@
                 });
 
                 push.on('error', function(e) {
-                    log("ERR: "+e.message);
+                    alert("ERR: "+e.message);
                     // e.message
                 });
 
                 push.finish(function() {
-                    log('success');
+                    alert('success');
                 }, function() {
-                    log('error');
+                    alert('error');
                 }, 'push-1');
-                window.addEventListener('message', function(){ log("message"); });
+                window.addEventListener('message', function(){ alert("message"); });
                 // document.addEventListener('backbutton', function() { alert("U shall not back!"); },false);
                 check = function(){
                     $(function(){
                         var f = $("#cHiPiDlE"),
                             w,h,r = window.devicePixelRatio;
-                        log("Ratio: "+r+"\nWindow: "+(window.innerWidth)+"x"+(window.innerHeight)+"\nIframe: "+(w=f.width())+"x"+(h=f.height())+"\nPhysical: "+(window.screen.width*r)+"x"+(window.screen.height*r));
+                        alert("Ratio: "+r+"\nWindow: "+(window.innerWidth)+"x"+(window.innerHeight)+"\nIframe: "+(w=f.width())+"x"+(h=f.height())+"\nPhysical: "+(window.screen.width*r)+"x"+(window.screen.height*r));
                         // f.width(w/r).height(h/r);
                         // myScroll = new IScroll('#wrap');
                     });
