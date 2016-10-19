@@ -72,10 +72,10 @@
     <plugin name="cordova-plugin-statusbar" spec="~2.2.0" />
     <plugin name="cordova-plugin-whitelist" spec="~1.3.0" />
 
-    <preference name="android-build-tool" value="gradle" />
-    <plugin name="phonegap-plugin-push" spec="~1.8.3">
+    <!-- <preference name="android-build-tool" value="gradle" /> -->
+    <!-- <plugin name="phonegap-plugin-push" spec="~1.8.3">
         <param name="SENDER_ID" value="435143661192" />
-    </plugin>
+    </plugin> -->
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
