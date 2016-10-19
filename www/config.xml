@@ -3,6 +3,7 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.app"
         version   = "1.0.10"
         android-versionCode="13"
@@ -20,6 +21,9 @@
 
     <!-- Define the main entry-point to the application -->
     <content src="index.html" />
+    <gap:config-file platform="android" parent="/manifest">
+         <application android:debuggable="true" />
+    </gap:config-file>
 
     <!-- Customize your app and platform with the preference element. -->
     <preference name="DisallowOverscroll" value="true" />
