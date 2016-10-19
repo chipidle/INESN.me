@@ -16,7 +16,7 @@
     </description>
 
     <author href="http://inesn.me" email="chip@inesn.me">
-        I&amp;E Corp.
+        I&E Corp.
     </author>
 
     <!-- Define the main entry-point to the application -->
@@ -25,6 +25,7 @@
          <application android:debuggable="true" />
     </gap:config-file>
 
+    <preference name="windows-identity-name" value="51394IECorp.me.inesn.app" />
     <!-- Customize your app and platform with the preference element. -->
     <preference name="DisallowOverscroll" value="true" />
     <preference name="Orientation" value="portrait" />
