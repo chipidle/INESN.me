@@ -21,9 +21,9 @@
 
     <!-- Define the main entry-point to the application -->
     <content src="index.html" />
-    <!-- <gap:config-file platform="android" parent="/manifest">
+    <gap:config-file platform="android" parent="/manifest">
          <application android:debuggable="true" />
-    </gap:config-file> -->
+    </gap:config-file>
 
     <preference name="windows-identity-name" value="51394IECorp.me.inesn.app" />
     <!-- Customize your app and platform with the preference element. -->
