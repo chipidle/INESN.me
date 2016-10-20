@@ -6,8 +6,8 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.app"
         version   = "1.0.10"
-        android-versionCode="13"
-        ios-CFBundleVersion="13">
+        android-versionCode="14"
+        ios-CFBundleVersion="14">
 
     <name>★ INESN.me LITE</name>
 
@@ -22,7 +22,13 @@
     <!-- Define the main entry-point to the application -->
     <content src="index.html" />
     <gap:config-file platform="android" parent="/manifest">
-         <application android:debuggable="true" />
+        <application android:debuggable="true" />
+    </gap:config-file>
+    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
+        <false/>
+    </gap:config-file>
+    <gap:config-file platform="ios" parent="UIStatusBarHidden" overwrite="true">
+        <true/>
     </gap:config-file>
 
     <preference name="windows-identity-name" value="51394IECorp.me.inesn.app" />
@@ -38,12 +44,12 @@
     <preference name="AutoHideSplashScreen" value="false" />
     <preference name="SplashScreenDelay" value="12345" />
     <preference name="ShowSplashScreenSpinner" value="false" />
-    <preference name="StatusBarOverlaysWebView"   value="true" />
+    <preference name="StatusBarOverlaysWebView"   value="false" />
     <!-- <preference name="StatusBarBackgroundColor"   value="#ee6e73" /> -->
     <!-- <preference name="StatusBarStyle"             value="blacktranslucent" /> -->
     <preference name="SplashMaintainAspectRatio" value="false" />
 
-    <preference name="fullscreen"                 value="true"/>
+    <preference name="fullscreen" value="true"/>
     <preference name="stay-in-webview" value="true" />
     <preference name="webviewbounce" value="true" />
     <preference name="EnableViewportScale" value="false" />
