@@ -81,7 +81,7 @@
     <gap:config-file platform="android" parent="/manifest">
         <application android:debuggable="true" />
         <application android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-        <application android:windowSoftInputMode="stateVisible|adjustResize" />
+        <!-- <application android:windowSoftInputMode="stateVisible|adjustResize" /> -->
     </gap:config-file>
 <!--     <gap:config-file platform="android" parent="/manifest/application">
         android:windowSoftInputMode="stateVisible|adjustResize"
