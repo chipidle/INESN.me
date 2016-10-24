@@ -49,7 +49,7 @@
     <preference name="KeepRunning" value="true" />
     <preference name="UIWebViewDecelerationSpeed" value="fast" />
     <preference name="useBrowserHistory" value="true" />
-    <preference name="android-windowSoftInputMode" value="adjustResize" />
+    <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize">
     <preference name="KeyboardShrinksView" value="true" />
 
     <!-- Plugins -->
@@ -81,10 +81,10 @@
     <gap:config-file platform="android" parent="/manifest">
         <application android:debuggable="true" />
         <application android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-        <application android:windowSoftInputMode="adjustResize" />
+        <application android:windowSoftInputMode="stateVisible|adjustResize" />
     </gap:config-file>
     <gap:config-file platform="android" parent="/manifest/application">
-        android:windowSoftInputMode="adjustResize"
+        android:windowSoftInputMode="stateVisible|adjustResize"
     </gap:config-file> 
     <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
         <false/>
