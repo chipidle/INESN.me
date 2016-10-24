@@ -49,7 +49,7 @@
     <preference name="KeepRunning" value="true" />
     <preference name="UIWebViewDecelerationSpeed" value="fast" />
     <preference name="useBrowserHistory" value="true" />
-    <!-- <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize"> -->
+    <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
     <preference name="KeyboardShrinksView" value="true" />
 
     <!-- Plugins -->
