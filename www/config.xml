@@ -39,16 +39,17 @@
     <!-- <preference name="StatusBarBackgroundColor"   value="#ee6e73" /> -->
     <!-- <preference name="StatusBarStyle"             value="blacktranslucent" /> -->
     <preference name="SplashMaintainAspectRatio" value="false" />
-    <preference name="fullscreen" value="true"/>
+    <preference name="fullscreen" value="false" />
     <preference name="stay-in-webview" value="true" />
     <preference name="webviewbounce" value="true" />
     <preference name="EnableViewportScale" value="false" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
     <preference name="OpenAllWhitelistURLsInWebView" value="true" />
     <preference name="exit-on-suspend" value="false" />
-    <preference name="KeepRunning" value="true"/>
+    <preference name="KeepRunning" value="true" />
     <preference name="UIWebViewDecelerationSpeed" value="fast" />
     <preference name="useBrowserHistory" value="true" />
+    <preference name="android-windowSoftInputMode" value="stateUnchanged|adjustResize" />
 
     <!-- Plugins -->
     <!-- Core plugins -->
