@@ -39,9 +39,9 @@
     <!-- <preference name="StatusBarBackgroundColor"   value="#ee6e73" /> -->
     <!-- <preference name="StatusBarStyle"             value="blacktranslucent" /> -->
     <preference name="SplashMaintainAspectRatio" value="false" />
-    <preference name="fullscreen" value="false" />
+    <preference name="fullscreen" value="true" />
     <preference name="stay-in-webview" value="true" />
-    <preference name="webviewbounce" value="true" />
+    <preference name="webviewbounce" value="false" />
     <preference name="EnableViewportScale" value="false" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
     <preference name="OpenAllWhitelistURLsInWebView" value="true" />
