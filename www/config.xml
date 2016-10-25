@@ -188,7 +188,6 @@
     -->
     <access origin="*" />
     <allow-navigation href="http://inesn.me" />
-    <allow-intent href="http://inesn.me/*" />
 
     <!--
        <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
