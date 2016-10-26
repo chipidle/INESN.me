@@ -91,7 +91,7 @@
     <plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" spec="1.2.0" source="pgb" />
 
    <!-- <preference name="android-build-tool" value="gradle" /> -->
-    <plugin name="cordova-plugin-fcm" source="npm" spec="1.1.5" />
+    <!-- <plugin name="cordova-plugin-fcm" source="npm" spec="1.1.5" /> -->
     <plugin name="phonegap-plugin-push" source="npm" spec="1.8.3">
         <param name="SENDER_ID" value="85075801930" />
     </plugin>
