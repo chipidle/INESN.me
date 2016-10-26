@@ -49,6 +49,7 @@
     <preference name="KeepRunning" value="true" />
     <preference name="UIWebViewDecelerationSpeed" value="fast" />
     <preference name="useBrowserHistory" value="true" />
+    <preference name="keyboardDisplayRequiresUserAction" value="false" />
 
     <!-- Plugins -->
     <!-- Core plugins -->
