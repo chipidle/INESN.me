@@ -92,7 +92,7 @@
 
    <!-- <preference name="android-build-tool" value="gradle" /> -->
     <plugin name="phonegap-plugin-push" source="npm" spec="1.8.3">
-        <param name="SENDER_ID" value="435143661192" />
+        <param name="SENDER_ID" value="XXXXXXXX" />
     </plugin>
 
     <!-- Define app icon for each platform. -->
