@@ -6,8 +6,8 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.app"
         version   = "1.0.10"
-        android-versionCode="19"
-        ios-CFBundleVersion="19">
+        android-versionCode="20"
+        ios-CFBundleVersion="20">
 
     <name>★ INESN.me LITE</name>
 
@@ -75,7 +75,7 @@
 
 
     <gap:config-file platform="android" parent="/manifest">
-        <application android:debuggable="true" />
+        <!-- <application android:debuggable="true" /> -->
         <application android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
     </gap:config-file>
     <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
