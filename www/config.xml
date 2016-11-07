@@ -10,14 +10,13 @@
         ios-CFBundleVersion="22">
 
     <name>★ INESN.me LITE</name>
+    <name platform="windows">INESN.me LITE</name>
 
     <description>
         A world-class social network platform; Anything you need for English matter: learning English, sharing knowledge, exchanging values...
     </description>
 
-    <author href="https://inesn.me" email="admin@inesn.me">
-        I&amp;E Corp.
-    </author>
+    <author href="https://inesn.me" email="admin@inesn.me">I&amp;E Corp.</author>
 
     <!-- Define the main entry-point to the application -->
     <content src="index.html" />
