@@ -6,8 +6,8 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.app"
         version   = "1.1.0"
-        android-versionCode="21"
-        ios-CFBundleVersion="21">
+        android-versionCode="22"
+        ios-CFBundleVersion="22">
 
     <name>★ INESN.me LITE</name>
 
@@ -91,7 +91,7 @@
 
    <!-- <preference name="android-build-tool" value="gradle" /> -->
     <!-- <plugin name="cordova-plugin-fcm" source="npm" spec="1.1.5" /> -->
-    <plugin name="phonegap-plugin-push" source="npm" spec="1.8.3">
+    <plugin name="phonegap-plugin-push" source="npm" spec="1.9.0">
         <param name="SENDER_ID" value="85075801930" />
     </plugin>
 
