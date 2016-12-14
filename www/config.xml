@@ -6,11 +6,11 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.app"
         version   = "1.1.0"
-        android-versionCode="22"
-        ios-CFBundleVersion="22">
+        android-versionCode="23"
+        ios-CFBundleVersion="23">
 
     <name>★ INESN.me LITE</name>
-    <name platform="windows">INESN.me LITE</name>
+    <!-- <name platform="windows">INESN.me LITE</name> -->
 
     <description>
         A world-class social network platform; Anything you need for English matter: learning English, sharing knowledge, exchanging values...
@@ -34,7 +34,7 @@
     <preference name="AutoHideSplashScreen" value="false" />
     <preference name="SplashScreenDelay" value="12345" />
     <preference name="ShowSplashScreenSpinner" value="false" />
-    <preference name="StatusBarOverlaysWebView"   value="false" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="fullscreen" value="true" />
     <preference name="stay-in-webview" value="true" />
@@ -91,8 +91,8 @@
    <!-- <preference name="android-build-tool" value="gradle" /> -->
     <!-- <plugin name="cordova-plugin-fcm" source="npm" spec="1.1.5" /> -->
     <plugin name="phonegap-plugin-push" source="npm" spec="1.8.4">
-        <param name="SENDER_ID" value="435143661192" />
-        <!-- <param name="SENDER_ID" value="85075801930" /> -->
+        <!-- <param name="SENDER_ID" value="435143661192" /> -->
+        <param name="SENDER_ID" value="85075801930" />
     </plugin>
 
     <!-- Define app icon for each platform. -->
@@ -189,8 +189,9 @@
         Otherwise, you can specify specific domains:
     -->
     <access origin="*" />
-    <allow-navigation href="https://inesn.me" />
-
+    <!-- <allow-navigation href="https://inesn.me" /> -->
+    <allow-navigation href="*" />
+    <allow-navigation href="blob:*" />
     <!--
        <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
        <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
@@ -200,8 +201,9 @@
     <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
     <!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
 
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
+    <allow-intent href="file:*" />
+    <allow-intent href="http:*" />
+    <allow-intent href="https:*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
