@@ -86,7 +86,7 @@
 
     <plugin name="ionic-plugin-keyboard" source="npm" spec="2.2.1" />
     <!-- <plugin name="de.appplant.cordova.plugin.local-notification" source="npm" spec="0.8.4" /> -->
-    <plugin name="https://github.com/katzer/cordova-plugin-hidden-statusbar-overlay.git" spec="1.2.0" />
+    <!-- <plugin name="https://github.com/katzer/cordova-plugin-hidden-statusbar-overlay.git" spec="1.2.0" /> -->
 
    <!-- <preference name="android-build-tool" value="gradle" /> -->
     <!-- <plugin name="cordova-plugin-fcm" source="npm" spec="1.1.5" /> -->
