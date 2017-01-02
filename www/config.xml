@@ -5,11 +5,11 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.app"
-        version   = "1.1.0"
-        android-versionCode="23"
-        ios-CFBundleVersion="23">
+        version   = "1.1.1"
+        android-versionCode="24"
+        ios-CFBundleVersion="24">
 
-    <name>★ INESN.me LITE</name>
+    <name>★ INESN.me</name>
     <!-- <name platform="windows">INESN.me LITE</name> -->
 
     <description>
@@ -32,7 +32,7 @@
     <!-- <preference name="phonegap-version"       value="cli-6.0.0" /> -->
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="AutoHideSplashScreen" value="false" />
-    <preference name="SplashScreenDelay" value="12345" />
+    <preference name="SplashScreenDelay" value="5432" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="SplashMaintainAspectRatio" value="true" />
