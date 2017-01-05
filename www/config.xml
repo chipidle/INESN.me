@@ -6,8 +6,8 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.app"
         version   = "1.1.1"
-        android-versionCode="26"
-        ios-CFBundleVersion="26">
+        android-versionCode="27"
+        ios-CFBundleVersion="27">
 
     <name>★ INESN.me</name>
     <!-- <name platform="windows">INESN.me LITE</name> -->
@@ -193,8 +193,8 @@
         Otherwise, you can specify specific domains:
     -->
     <access origin="*" />
-    <!-- <allow-navigation href="https://inesn.me" /> -->
-    <allow-navigation href="*" />
+    <allow-navigation href="https://inesn.me" />
+    <!-- <allow-navigation href="*" /> -->
     <allow-navigation href="blob:*" />
     <!--
        <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
