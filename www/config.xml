@@ -47,6 +47,7 @@
     <preference name="UIWebViewDecelerationSpeed" value="fast" />
     <preference name="useBrowserHistory" value="true" />
     <preference name="keyboardDisplayRequiresUserAction" value="false" />
+    <preference name="SuppressesLongPressGesture" value="true" />
 
     <!-- Plugins -->
     <!-- Core plugins -->
