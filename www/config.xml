@@ -77,7 +77,7 @@
 
 
     <gap:config-file platform="android" parent="/manifest">
-        <!-- <application android:debuggable="true" /> -->
+        <application android:debuggable="true" />
         <application android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
     </gap:config-file>
     <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
