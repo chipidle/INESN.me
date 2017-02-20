@@ -48,7 +48,7 @@
     <preference name="useBrowserHistory" value="true" />
     <preference name="keyboardDisplayRequiresUserAction" value="false" />
     <!-- <preference name="SuppressesLongPressGesture" value="true" /> -->
-    <!-- <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" /> -->
+    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
     <!-- <preference name="android-build-tool" value="gradle" /> -->
 
     <!-- Plugins -->
@@ -85,15 +85,15 @@
         <!-- <param name="SENDER_ID" value="435143661192" /> -->
         <param name="SENDER_ID" value="85075801930" />
     </plugin>
-    <!-- <plugin name="cordova-plugin-wkwebview-engine" source="npm" spec="1.1.1" /> -->
-    <plugin name="cordova-plugin-wkwebview" source="npm" spec="0.6.10" />
+    <plugin name="cordova-plugin-wkwebview-engine" source="npm" spec="1.1.1" />
+    <!-- <plugin name="cordova-plugin-wkwebview" source="npm" spec="0.6.10" /> -->
 
     <feature name="StatusBar">
         <param name="ios-package" value="CDVStatusBar" onload="true" />
     </feature>
-    <!-- <feature name="CDVWKWebViewEngine">
+    <feature name="CDVWKWebViewEngine">
         <param name="ios-package" value="CDVWKWebViewEngine" />
-    </feature> -->
+    </feature>
 
     <config-file platform="android" parent="/manifest">
         <application android:debuggable="true" />
