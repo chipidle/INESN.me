@@ -10,7 +10,9 @@
         ios-CFBundleVersion="34">
 
     <name>★ INESN.me</name>
-    <!-- <name platform="windows">INESN.me LITE</name> -->
+    <platform name="windows">
+        <name>INESN.me</name>
+    </platform>
 
     <description>
         A world-class social network platform; Anything you need for English matter: learning English, sharing knowledge, exchanging values...
