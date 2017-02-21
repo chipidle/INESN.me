@@ -10,9 +10,6 @@
         ios-CFBundleVersion="35">
 
     <name>★ INESN.me</name>
-    <platform name="windows">
-        <name>INESN.me</name>
-    </platform>
 
     <description>
         A world-class social network platform; Anything you need for English matter: learning English, sharing knowledge, exchanging values...
@@ -21,8 +18,8 @@
     <author href="https://inesn.me" email="admin@inesn.me">I&amp;E Corp.</author>
 
     <!-- Define the main entry-point to the application -->
-    <!-- <content src="index.html" /> -->
-    <content src="http://localhost:45678" />
+    <content src="index.html" />
+    <!-- <content src="http://localhost:45678" /> -->
 
     <preference name="windows-identity-name" value="51394IECorp.me.inesn.app" />
     <!-- Customize your app and platform with the preference element. -->
