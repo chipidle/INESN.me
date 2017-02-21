@@ -18,8 +18,8 @@
     <author href="https://inesn.me" email="admin@inesn.me">I&amp;E Corp.</author>
 
     <!-- Define the main entry-point to the application -->
-    <content src="index.html" />
-    <!-- <content src="http://localhost:45678" /> -->
+    <!-- <content src="index.html" /> -->
+    <content src="http://localhost:45678" />
 
     <preference name="windows-identity-name" value="51394IECorp.me.inesn.app" />
     <!-- Customize your app and platform with the preference element. -->
@@ -205,6 +205,8 @@
     <allow-navigation href="https://inesn.me" />
     <!-- <allow-navigation href="*" /> -->
     <allow-navigation href="blob:*" />
+    <allow-navigation href="gap://ready" />
+    <allow-navigation href="http://localhost:*" />
     <!--
        <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
        <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
