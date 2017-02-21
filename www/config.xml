@@ -90,7 +90,8 @@
         <!-- <param name="SENDER_ID" value="435143661192" /> -->
         <param name="SENDER_ID" value="85075801930" />
     </plugin>
-    <!-- <plugin name="cordova-plugin-wkwebview-engine" source="npm" spec="1.1.1" /> -->
+    <plugin name="cordova-plugin-wkwebview-engine" source="npm" spec="1.1.1" />
+    <plugin name="cocoon-cordova-labs-local-webserver" source="npm" spec="2.4.1" />
     <!-- <plugin name="cordova-plugin-wkwebview" source="npm" spec="0.6.10" /> -->
     <plugin name="cocoon-cordova-labs-wkwebview-engine-localhost" source="npm" spec="0.5.1" />
 
