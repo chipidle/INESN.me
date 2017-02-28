@@ -18,8 +18,8 @@
     <author href="https://inesn.me" email="admin@inesn.me">I&amp;E Corp.</author>
 
     <!-- Define the main entry-point to the application -->
-    <!-- <content src="index.html" /> -->
-    <content src="http://localhost:45678" />
+    <content src="index.html" />
+    <!-- <content src="http://localhost:45678" /> -->
 
     <preference name="windows-identity-name" value="51394IECorp.me.inesn.app" />
     <!-- Customize your app and platform with the preference element. -->
@@ -86,9 +86,9 @@
         <!-- <param name="SENDER_ID" value="435143661192" /> -->
         <param name="SENDER_ID" value="85075801930" />
     </plugin>
-    <!-- <plugin name="cordova-plugin-wkwebview-engine" source="npm" spec="1.1.1" /> -->
+    <plugin name="cordova-plugin-wkwebview-engine" source="npm" spec="1.1.1" />
     <!-- <plugin name="cocoon-cordova-labs-local-webserver" source="npm" spec="2.4.1" /> -->
-    <plugin name="cocoon-cordova-labs-wkwebview-engine-localhost" source="npm" spec="0.5.1" />
+    <!-- <plugin name="cocoon-cordova-labs-wkwebview-engine-localhost" source="npm" spec="0.5.1" /> -->
 
     <feature name="StatusBar">
         <param name="ios-package" value="CDVStatusBar" onload="true" />
@@ -98,7 +98,7 @@
     </feature>
 
     <config-file platform="android" parent="/manifest">
-        <application android:debuggable="true" />
+        <!-- <application android:debuggable="true" /> -->
         <application android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
     </config-file>
     <config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true" mode="replace">
@@ -202,7 +202,7 @@
         Otherwise, you can specify specific domains:
     -->
     <access origin="*" />
-    <allow-navigation href="https://inesn.me" />
+    <allow-navigation href="https://inesn.me:*" />
     <!-- <allow-navigation href="*" /> -->
     <allow-navigation href="blob:*" />
     <allow-navigation href="gap://ready" />
