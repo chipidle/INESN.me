@@ -6,8 +6,8 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.app"
         version   = "1.1.3"
-        android-versionCode="38"
-        ios-CFBundleVersion="38">
+        android-versionCode="39"
+        ios-CFBundleVersion="39">
 
     <name>★ INESN.me</name>
 
@@ -51,6 +51,7 @@
     <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
     <!-- <preference name="android-build-tool" value="gradle" /> -->
     <!-- <preference name="deployment-target" value="8.3" /> -->
+    <preference name="AllowBackForwardNavigationGestures" value="true" />
 
     <!-- Plugins -->
     <!-- Core plugins -->
@@ -86,7 +87,7 @@
         <!-- <param name="SENDER_ID" value="435143661192" /> -->
         <param name="SENDER_ID" value="85075801930" />
     </plugin>
-    <plugin name="cordova-plugin-wkwebview-engine" source="npm" spec="1.1.1" />
+    <plugin name="cordova-plugin-wkwebview-engine" source="npm" spec="1.1.3" />
     <!-- <plugin name="cocoon-cordova-labs-local-webserver" source="npm" spec="2.4.1" /> -->
     <!-- <plugin name="cocoon-cordova-labs-wkwebview-engine-localhost" source="npm" spec="0.5.1" /> -->
 
