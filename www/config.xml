@@ -6,8 +6,8 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.app"
         version   = "1.1.3"
-        android-versionCode="40"
-        ios-CFBundleVersion="40">
+        android-versionCode="41"
+        ios-CFBundleVersion="41">
 
     <name>★ INESN.me</name>
 
@@ -84,7 +84,7 @@
     <plugin name="ionic-plugin-keyboard" source="npm" spec="2.2.1" />
     <!-- <plugin name="de.appplant.cordova.plugin.local-notification" source="npm" spec="0.8.4" /> -->
     <!-- <plugin name="cordova-plugin-fcm" source="npm" spec="1.1.5" /> -->
-    <plugin name="phonegap-plugin-push" source="npm" spec="1.8.4">
+    <plugin name="phonegap-plugin-push" source="npm" spec="1.10.3">
         <param name="SENDER_ID" value="435143661192" />
         <!-- <param name="SENDER_ID" value="85075801930" /> -->
     </plugin>
