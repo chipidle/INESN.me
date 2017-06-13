@@ -5,9 +5,9 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.app"
-        version   = "1.1.4"
-        android-versionCode="43"
-        ios-CFBundleVersion="43">
+        version   = "1.1.5"
+        android-versionCode="45"
+        ios-CFBundleVersion="45">
 
     <name>★ INESN.me</name>
 
@@ -56,7 +56,7 @@
     <!-- Plugins -->
     <!-- Core plugins -->
     <!-- <plugin name="cordova-plugin-battery-status" source="npm" spec="1.2.0" /> -->
-    <!-- <plugin name="cordova-plugin-camera" source="npm" spec="2.4.1" /> -->
+    <plugin name="cordova-plugin-camera" source="npm" spec="2.4.1" />
     <plugin name="cordova-plugin-console" source="npm" spec="1.0.7" />
     <!-- <plugin name="cordova-plugin-contacts" source="npm" spec="2.2.0" /> -->
     <plugin name="cordova-plugin-device" source="npm" spec="1.1.6" />
@@ -67,7 +67,7 @@
     <plugin name="cordova-plugin-file-transfer" source="npm" spec="1.6.3" />
     <!-- <plugin name="cordova-plugin-geolocation" source="npm" spec="2.4.0" /> -->
     <!-- <plugin name="cordova-plugin-globalization" source="npm" spec="1.0.4" /> -->
-    <!-- <plugin name="cordova-plugin-inappbrowser" source="npm" spec="1.5.0" /> -->
+    <!-- <plugin name="cordova-plugin-inappbrowser" source="npm" spec="1.7.1" /> -->
     <plugin name="cordova-plugin-media" source="npm" spec="3.0.1" />
     <plugin name="cordova-plugin-media-capture" source="npm" spec="1.4.3">
         <variable name="CAMERA_USAGE_DESCRIPTION" value="Let you take a picture." />
@@ -84,7 +84,7 @@
     <plugin name="ionic-plugin-keyboard" source="npm" spec="2.2.1" />
     <!-- <plugin name="de.appplant.cordova.plugin.local-notification" source="npm" spec="0.8.4" /> -->
     <!-- <plugin name="cordova-plugin-fcm" source="npm" spec="1.1.5" /> -->
-    <plugin name="phonegap-plugin-push" source="npm" spec="1.10.3">
+    <plugin name="phonegap-plugin-push" source="npm" spec="1.10.4">
         <param name="SENDER_ID" value="435143661192" />
         <!-- <param name="SENDER_ID" value="85075801930" /> -->
     </plugin>
