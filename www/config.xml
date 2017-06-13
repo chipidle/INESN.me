@@ -5,7 +5,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.app"
-        version   = "1.1.5"
+        version   = "1.1.4"
         android-versionCode="45"
         ios-CFBundleVersion="45">
 
@@ -100,7 +100,7 @@
     </feature>
 
     <config-file platform="android" parent="/manifest">
-        <!-- <application android:debuggable="true" /> -->
+        <application android:debuggable="true" />
         <application android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
     </config-file>
     <config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true" mode="replace">
