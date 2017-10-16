@@ -12,13 +12,13 @@
 <!-- 
     <name>★ INESN.me</name>
     <description>
-        Social Network designed for FMT @hanu
+        A social Network Platform exceptionally designed for Education Purpose, whose mission is to help you learn, study, connect and interact with your particular community, no matter where in the world you are.
     </description>
  -->
 
     <name>★ FMT</name>
     <description>
-        A social Network Platform exceptionally designed for Education Purpose, whose mission is to help you learn, study, connect and interact with your particular community, no matter where in the world you are.
+        Social Network designed for FMT @hanu
     </description>
 
     <author href="https://inesn.me" email="admin@inesn.me">I&amp;E Corp.</author>
@@ -121,12 +121,12 @@
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.fmt.png" />
-    <icon src="res/icon/android/drawable-ldpi-icon.fmt.png"         platform="android" qualifier="ldpi" />
-    <icon src="res/icon/android/drawable-mdpi-icon.fmt.png"         platform="android" qualifier="mdpi" />
-    <icon src="res/icon/android/drawable-hdpi-icon.fmt.png"         platform="android" qualifier="hdpi" />
-    <icon src="res/icon/android/drawable-xhdpi-icon.fmt.png"        platform="android" qualifier="xhdpi" />
-    <icon src="res/icon/android/drawable-xxhdpi-icon.fmt.png"       platform="android" qualifier="xxhdpi" />
-    <icon src="res/icon/android/drawable-xxxhdpi-icon.fmt.png"      platform="android" qualifier="xxxhdpi" />
+    <icon src="res/icon/android/drawable-ldpi-icon.fmt.png"         platform="android" density="ldpi" />
+    <icon src="res/icon/android/drawable-mdpi-icon.fmt.png"         platform="android" density="mdpi" />
+    <icon src="res/icon/android/drawable-hdpi-icon.fmt.png"         platform="android" density="hdpi" />
+    <icon src="res/icon/android/drawable-xhdpi-icon.fmt.png"        platform="android" density="xhdpi" />
+    <icon src="res/icon/android/drawable-xxhdpi-icon.fmt.png"       platform="android" density="xxhdpi" />
+    <icon src="res/icon/android/drawable-xxxhdpi-icon.fmt.png"      platform="android" density="xxxhdpi" />
     <icon src="res/icon/blackberry/icon-80.png"                 platform="blackberry" />
     <icon src="res/icon/blackberry/icon-80.png"                 platform="blackberry" state="hover" />
     <icon src="res/icon/ios/icon.png"                           platform="ios" width="57"  height="57" />
@@ -151,18 +151,18 @@
 
     <!-- Define app splash screen for each platform. -->
     <splash src="splash.fmt.png" />
-    <splash src="res/screen/android/drawable-port-ldpi-screen.fmt.png"      platform="android" qualifier="port-ldpi" />
-    <splash src="res/screen/android/drawable-port-mdpi-screen.fmt.png"      platform="android" qualifier="port-mdpi" />
-    <splash src="res/screen/android/drawable-port-hdpi-screen.fmt.png"      platform="android" qualifier="port-hdpi" />
-    <splash src="res/screen/android/drawable-port-xhdpi-screen.fmt.png"     platform="android" qualifier="port-xhdpi" />
-    <splash src="res/screen/android/drawable-port-xxhdpi-screen.fmt.png"    platform="android" qualifier="port-xxhdpi" />
-    <splash src="res/screen/android/drawable-port-xxxhdpi-screen.fmt.png"   platform="android" qualifier="port-xxxhdpi" />
-    <splash src="res/screen/android/drawable-land-ldpi-screen.fmt.png"      platform="android" qualifier="land-ldpi" />
-    <splash src="res/screen/android/drawable-land-mdpi-screen.fmt.png"      platform="android" qualifier="land-mdpi" />
-    <splash src="res/screen/android/drawable-land-hdpi-screen.fmt.png"      platform="android" qualifier="land-hdpi" />
-    <splash src="res/screen/android/drawable-land-xhdpi-screen.fmt.png"     platform="android" qualifier="land-xhdpi" />
-    <splash src="res/screen/android/drawable-land-xxhdpi-screen.fmt.png"    platform="android" qualifier="land-xxhdpi" />
-    <splash src="res/screen/android/drawable-land-xxxhdpi-screen.fmt.png"   platform="android" qualifier="land-xxxhdpi" />
+    <splash src="res/screen/android/drawable-port-ldpi-screen.fmt.png"      platform="android" density="port-ldpi" />
+    <splash src="res/screen/android/drawable-port-mdpi-screen.fmt.png"      platform="android" density="port-mdpi" />
+    <splash src="res/screen/android/drawable-port-hdpi-screen.fmt.png"      platform="android" density="port-hdpi" />
+    <splash src="res/screen/android/drawable-port-xhdpi-screen.fmt.png"     platform="android" density="port-xhdpi" />
+    <splash src="res/screen/android/drawable-port-xxhdpi-screen.fmt.png"    platform="android" density="port-xxhdpi" />
+    <splash src="res/screen/android/drawable-port-xxxhdpi-screen.fmt.png"   platform="android" density="port-xxxhdpi" />
+    <splash src="res/screen/android/drawable-land-ldpi-screen.fmt.png"      platform="android" density="land-ldpi" />
+    <splash src="res/screen/android/drawable-land-mdpi-screen.fmt.png"      platform="android" density="land-mdpi" />
+    <splash src="res/screen/android/drawable-land-hdpi-screen.fmt.png"      platform="android" density="land-hdpi" />
+    <splash src="res/screen/android/drawable-land-xhdpi-screen.fmt.png"     platform="android" density="land-xhdpi" />
+    <splash src="res/screen/android/drawable-land-xxhdpi-screen.fmt.png"    platform="android" density="land-xxhdpi" />
+    <splash src="res/screen/android/drawable-land-xxxhdpi-screen.fmt.png"   platform="android" density="land-xxxhdpi" />
     <splash src="res/screen/blackberry/screen-225.png"                  platform="blackberry" />
     <splash src="res/screen/wp8/screen-portrait.png"          platform="winphone" />
     <splash src="res/screen/ios/Default-568h@2x~iphone.png"             platform="ios" width="640"  height="1136" />
