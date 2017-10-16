@@ -164,7 +164,7 @@
     <splash src="res/screen/android/drawable-land-xxhdpi-screen.fmt.png"    platform="android" qualifier="land-xxhdpi" />
     <splash src="res/screen/android/drawable-land-xxxhdpi-screen.fmt.png"   platform="android" qualifier="land-xxxhdpi" />
     <splash src="res/screen/blackberry/screen-225.png"                  platform="blackberry" />
-    <splash src="res/screen/wp8/screen-portrait.jpg"          platform="winphone" />
+    <splash src="res/screen/wp8/screen-portrait.png"          platform="winphone" />
     <splash src="res/screen/ios/Default-568h@2x~iphone.png"             platform="ios" width="640"  height="1136" />
     <splash src="res/screen/ios/Default-667h.png"                       platform="ios" width="750"  height="1334" />
     <splash src="res/screen/ios/Default-736h.png"                       platform="ios" width="1242" height="2208" />
