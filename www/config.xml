@@ -4,10 +4,10 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id        = "me.inesn.app"
-        version   = "1.1.4"
-        android-versionCode="46"
-        ios-CFBundleVersion="46">
+        id        = "me.inesn.fmt"
+        version   = "1.0.0"
+        android-versionCode="1"
+        ios-CFBundleVersion="1">
 
 <!-- 
     <name>★ INESN.me</name>
