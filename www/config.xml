@@ -127,8 +127,8 @@
     <icon src="res/icon/android/drawable-xhdpi-icon.fmt.png"        platform="android" density="xhdpi" />
     <icon src="res/icon/android/drawable-xxhdpi-icon.fmt.png"       platform="android" density="xxhdpi" />
     <icon src="res/icon/android/drawable-xxxhdpi-icon.fmt.png"      platform="android" density="xxxhdpi" />
-    <icon src="res/icon/blackberry/icon-80.png"                 platform="blackberry" />
-    <icon src="res/icon/blackberry/icon-80.png"                 platform="blackberry" state="hover" />
+    <!-- <icon src="res/icon/blackberry/icon-80.png"                 platform="blackberry" /> -->
+    <!-- <icon src="res/icon/blackberry/icon-80.png"                 platform="blackberry" state="hover" /> -->
     <icon src="res/icon/ios/fmt/icon.png"                           platform="ios" width="57"  height="57" />
     <icon src="res/icon/ios/fmt/icon@2x.png"                        platform="ios" width="114" height="114" />
     <icon src="res/icon/ios/fmt/icon-40.png"                        platform="ios" width="40"  height="40" />
@@ -145,9 +145,9 @@
     <icon src="res/icon/ios/fmt/icon-small.png"                     platform="ios" width="29"  height="29" />
     <icon src="res/icon/ios/fmt/icon-small@2x.png"                  platform="ios" width="58"  height="58" />
     <icon src="res/icon/ios/fmt/icon-small@3x.png"                  platform="ios" width="87"  height="87" />
-    <icon src="res/icon/webos/icon-64.png"                      platform="webos" />
-    <icon src="res/icon/wp8/icon-48.png"              platform="winphone" />
-    <icon src="res/icon/wp8/icon-173.png"             platform="winphone"   role="background" />
+    <!-- <icon src="res/icon/webos/icon-64.png"                      platform="webos" /> -->
+    <!-- <icon src="res/icon/wp8/icon-48.png"              platform="winphone" /> -->
+    <!-- <icon src="res/icon/wp8/icon-173.png"             platform="winphone"   role="background" /> -->
 
     <!-- Define app splash screen for each platform. -->
     <splash src="splash.fmt.png" />
@@ -163,8 +163,8 @@
     <splash src="res/screen/android/drawable-land-xhdpi-screen.fmt.png"     platform="android" density="land-xhdpi" />
     <splash src="res/screen/android/drawable-land-xxhdpi-screen.fmt.png"    platform="android" density="land-xxhdpi" />
     <splash src="res/screen/android/drawable-land-xxxhdpi-screen.fmt.png"   platform="android" density="land-xxxhdpi" />
-    <splash src="res/screen/blackberry/screen-225.png"                  platform="blackberry" />
-    <splash src="res/screen/wp8/screen-portrait.png"          platform="winphone" />
+    <!-- <splash src="res/screen/blackberry/screen-225.png"                  platform="blackberry" /> -->
+    <!-- <splash src="res/screen/wp8/screen-portrait.png"          platform="winphone" /> -->
     <splash src="res/screen/ios/fmt/Default-568h@2x~iphone.png"             platform="ios" width="640"  height="1136" />
     <splash src="res/screen/ios/fmt/Default-667h.png"                       platform="ios" width="750"  height="1334" />
     <splash src="res/screen/ios/fmt/Default-736h.png"                       platform="ios" width="1242" height="2208" />
@@ -176,7 +176,7 @@
     <splash src="res/screen/ios/fmt/Default@2x~iphone.png"                  platform="ios" width="640"  height="960" />
     <splash src="res/screen/ios/fmt/Default~iphone.png"                     platform="ios" width="320"  height="480" />
 
-    <platform name="windows">
+    <!-- <platform name="windows"> -->
         <!-- For Windows the recommended approach to define app icons is to use target attribute -->
         <!-- <icon src="res/icon/windows/StoreLogo.png"         target="StoreLogo" /> -->
         <!-- <icon src="res/icon/windows/Square30x30Logo.png"   target="Square30x30Logo" /> -->
@@ -186,23 +186,23 @@
         <!-- <icon src="res/icon/windows/Square150x150Logo.png" target="Square150x150Logo" /> -->
         <!-- <icon src="res/icon/windows/Square310x310Logo.png" target="Square310x310Logo" /> -->
         <!-- <icon src="res/icon/windows/Wide310x150Logo.png"   target="Wide310x150Logo" /> -->
-        <icon src="res/icon/windows/Square150x150Logo.scale-100.png"        platform="windows" width="150"  height="150" />
-        <icon src="res/icon/windows/Square30x30Logo.scale-100.png"          platform="windows" width="30"   height="30" />
-        <icon src="res/icon/windows/StoreLogo.scale-100.png"                platform="windows" width="50"   height="50" />
-        <splash src="res/screen/windows/SplashScreen.scale-100.png"         platform="windows" width="620"  height="300" />
+        <!-- <icon src="res/icon/windows/Square150x150Logo.scale-100.png"        platform="windows" width="150"  height="150" /> -->
+        <!-- <icon src="res/icon/windows/Square30x30Logo.scale-100.png"          platform="windows" width="30"   height="30" /> -->
+        <!-- <icon src="res/icon/windows/StoreLogo.scale-100.png"                platform="windows" width="50"   height="50" /> -->
+        <!-- <splash src="res/screen/windows/SplashScreen.scale-100.png"         platform="windows" width="620"  height="300" /> -->
         <!-- scaled images are specified here for backward compatibility only so we can find them by size -->
-        <icon src="res/icon/windows/StoreLogo.scale-240.png"                platform="windows" width="120"  height="120" />
-        <icon src="res/icon/windows/Square44x44Logo.scale-100.png"          platform="windows" width="44"   height="44" />
-        <icon src="res/icon/windows/Square44x44Logo.scale-240.png"          platform="windows" width="106"  height="106" />
-        <icon src="res/icon/windows/Square70x70Logo.scale-100.png"          platform="windows" width="70"   height="70" />
-        <icon src="res/icon/windows/Square71x71Logo.scale-100.png"          platform="windows" width="71"   height="71" />
-        <icon src="res/icon/windows/Square71x71Logo.scale-240.png"          platform="windows" width="170"  height="170" />
-        <icon src="res/icon/windows/Square150x150Logo.scale-240.png"        platform="windows" width="360"  height="360" />
-        <icon src="res/icon/windows/Square310x310Logo.scale-100.png"        platform="windows" width="310"  height="310" />
-        <icon src="res/icon/windows/Wide310x150Logo.scale-100.png"          platform="windows" width="310"  height="150" />
-        <icon src="res/icon/windows/Wide310x150Logo.scale-240.png"          platform="windows" width="744"  height="360" />
-        <splash src="res/screen/windows/SplashScreenPhone.scale-240.png"    platform="windows" width="1152" height="1920" />
-    </platform>
+        <!-- <icon src="res/icon/windows/StoreLogo.scale-240.png"                platform="windows" width="120"  height="120" /> -->
+        <!-- <icon src="res/icon/windows/Square44x44Logo.scale-100.png"          platform="windows" width="44"   height="44" /> -->
+        <!-- <icon src="res/icon/windows/Square44x44Logo.scale-240.png"          platform="windows" width="106"  height="106" /> -->
+        <!-- <icon src="res/icon/windows/Square70x70Logo.scale-100.png"          platform="windows" width="70"   height="70" /> -->
+        <!-- <icon src="res/icon/windows/Square71x71Logo.scale-100.png"          platform="windows" width="71"   height="71" /> -->
+        <!-- <icon src="res/icon/windows/Square71x71Logo.scale-240.png"          platform="windows" width="170"  height="170" /> -->
+        <!-- <icon src="res/icon/windows/Square150x150Logo.scale-240.png"        platform="windows" width="360"  height="360" /> -->
+        <!-- <icon src="res/icon/windows/Square310x310Logo.scale-100.png"        platform="windows" width="310"  height="310" /> -->
+        <!-- <icon src="res/icon/windows/Wide310x150Logo.scale-100.png"          platform="windows" width="310"  height="150" /> -->
+        <!-- <icon src="res/icon/windows/Wide310x150Logo.scale-240.png"          platform="windows" width="744"  height="360" /> -->
+        <!-- <splash src="res/screen/windows/SplashScreenPhone.scale-240.png"    platform="windows" width="1152" height="1920" /> -->
+    <!-- </platform> -->
 
     <!--
         Define access to external domains.
