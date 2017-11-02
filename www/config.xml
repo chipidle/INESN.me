@@ -6,8 +6,8 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.fmt"
         version   = "1.0.0"
-        android-versionCode="2"
-        ios-CFBundleVersion="2">
+        android-versionCode="3"
+        ios-CFBundleVersion="3">
 
 <!-- 
     <name>★ INESN.me</name>
@@ -93,7 +93,8 @@
     <!-- <plugin name="de.appplant.cordova.plugin.local-notification" source="npm" spec="0.8.4" /> -->
     <!-- <plugin name="cordova-plugin-fcm" source="npm" spec="1.1.5" /> -->
     <plugin name="phonegap-plugin-push" source="npm" spec="1.10.4">
-        <param name="SENDER_ID" value="435143661192" />
+        <param name="SENDER_ID" value="57811167537" />
+        <!-- <param name="SENDER_ID" value="435143661192" /> -->
         <!-- <param name="SENDER_ID" value="85075801930" /> -->
     </plugin>
     <plugin name="cordova-plugin-wkwebview-engine" source="npm" spec="1.1.3" />
