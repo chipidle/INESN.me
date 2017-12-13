@@ -6,8 +6,8 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.fmt"
         version   = "1.0.2"
-        android-versionCode="3022"
-        ios-CFBundleVersion="3022">
+        android-versionCode="3023"
+        ios-CFBundleVersion="3023">
 
 <!-- 
     <name>★ INESN.me</name>
@@ -179,12 +179,12 @@
     <splash src="res/screen/ios/fmt/Default~iphone.png"                     platform="ios" width="320"  height="480" />
 
     <platform name="android">
-        <resource-file src="www/res/notify_icon/android/fmt/notify_icon-ldpi.png" target="res/drawable-ldpi/notify_icon.png" />
-        <resource-file src="www/res/notify_icon/android/fmt/notify_icon-mdpi.png" target="res/drawable-mdpi/notify_icon.png" />
-        <resource-file src="www/res/notify_icon/android/fmt/notify_icon-hdpi.png" target="res/drawable-hdpi/notify_icon.png" />
-        <resource-file src="www/res/notify_icon/android/fmt/notify_icon-xhdpi.png" target="res/drawable-xhdpi/notify_icon.png" />
-        <resource-file src="www/res/notify_icon/android/fmt/notify_icon-xxhdpi.png" target="res/drawable-xxhdpi/notify_icon.png" />
-        <resource-file src="www/res/notify_icon/android/fmt/notify_icon-xxxhdpi.png" target="res/drawable-xxxhdpi/notify_icon.png" />
+        <resource-file src="www/res/icon/android/fmt/notify_icon-ldpi.png" target="res/drawable-ldpi/notify_icon.png" />
+        <resource-file src="www/res/icon/android/fmt/notify_icon-mdpi.png" target="res/drawable-mdpi/notify_icon.png" />
+        <resource-file src="www/res/icon/android/fmt/notify_icon-hdpi.png" target="res/drawable-hdpi/notify_icon.png" />
+        <resource-file src="www/res/icon/android/fmt/notify_icon-xhdpi.png" target="res/drawable-xhdpi/notify_icon.png" />
+        <resource-file src="www/res/icon/android/fmt/notify_icon-xxhdpi.png" target="res/drawable-xxhdpi/notify_icon.png" />
+        <resource-file src="www/res/icon/android/fmt/notify_icon-xxxhdpi.png" target="res/drawable-xxxhdpi/notify_icon.png" />
     </platform>
     <!-- <platform name="windows"> -->
         <!-- For Windows the recommended approach to define app icons is to use target attribute -->
