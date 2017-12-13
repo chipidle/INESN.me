@@ -5,9 +5,9 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.fmt"
-        version   = "1.0.1"
-        android-versionCode="5"
-        ios-CFBundleVersion="5">
+        version   = "1.0.2"
+        android-versionCode="3022"
+        ios-CFBundleVersion="3022">
 
 <!-- 
     <name>★ INESN.me</name>
@@ -34,13 +34,14 @@
     <preference name="HideKeyboardFormAccessoryBar" value="true" />
     <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-targetSdkVersion" value="20"/>
     <!-- Define a specific version of PhoneGap to build into your app. -->
-    <preference name='phonegap-version' value='cli-7.0.1' />
-    <preference name='pgb-builder-version' value='2' />
+    <preference name="phonegap-version" value="cli-7.0.1" />
+    <preference name="pgb-builder-version" value="2" />
 
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="AutoHideSplashScreen" value="true" />
-    <preference name="SplashScreenDelay" value="5432" />
+    <preference name="SplashScreenDelay" value="2345" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="SplashMaintainAspectRatio" value="true" />
@@ -59,7 +60,7 @@
     <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
     <!-- <preference name="android-build-tool" value="gradle" /> -->
     <!-- <preference name="deployment-target" value="8.3" /> -->
-    <preference name="AllowBackForwardNavigationGestures" value="true" />
+    <!-- <preference name="AllowBackForwardNavigationGestures" value="true" /> -->
 
     <!-- Plugins -->
     <!-- Core plugins -->
@@ -113,10 +114,10 @@
         <!-- <application android:debuggable="true" /> -->
         <application android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
     </config-file>
-    <config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true" mode="replace">
+    <config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true" mode="replace" target="*-Info.plist">
         <false/>
     </config-file>
-    <config-file platform="ios" parent="UIStatusBarHidden" overwrite="true" mode="replace">
+    <config-file platform="ios" parent="UIStatusBarHidden" overwrite="true" mode="replace" target="*-Info.plist">
         <true/>
     </config-file>
 
@@ -177,6 +178,14 @@
     <splash src="res/screen/ios/fmt/Default@2x~iphone.png"                  platform="ios" width="640"  height="960" />
     <splash src="res/screen/ios/fmt/Default~iphone.png"                     platform="ios" width="320"  height="480" />
 
+    <platform name="android">
+        <resource-file src="res/notify_icon/android/fmt/notify_icon-ldpi.png" target="res/drawable-ldpi/notify_icon.png" />
+        <resource-file src="res/notify_icon/android/fmt/notify_icon-mdpi.png" target="res/drawable-mdpi/notify_icon.png" />
+        <resource-file src="res/notify_icon/android/fmt/notify_icon-hdpi.png" target="res/drawable-hdpi/notify_icon.png" />
+        <resource-file src="res/notify_icon/android/fmt/notify_icon-xhdpi.png" target="res/drawable-xhdpi/notify_icon.png" />
+        <resource-file src="res/notify_icon/android/fmt/notify_icon-xxhdpi.png" target="res/drawable-xxhdpi/notify_icon.png" />
+        <resource-file src="res/notify_icon/android/fmt/notify_icon-xxxhdpi.png" target="res/drawable-xxxhdpi/notify_icon.png" />
+    </platform>
     <!-- <platform name="windows"> -->
         <!-- For Windows the recommended approach to define app icons is to use target attribute -->
         <!-- <icon src="res/icon/windows/StoreLogo.png"         target="StoreLogo" /> -->
