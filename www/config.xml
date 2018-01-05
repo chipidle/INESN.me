@@ -151,7 +151,7 @@
     <!-- <icon src="res/icon/wp8/icon-173.png"             platform="winphone"   role="background" /> -->
 
     <!-- Define app splash screen for each platform. -->
-    <splash src="splash.apd.png" />
+    <!-- <splash src="splash.apd.png" /> -->
     <splash src="res/screen/android/apd/drawable-port-ldpi-screen.png"      platform="android" density="port-ldpi" />
     <splash src="res/screen/android/apd/drawable-port-mdpi-screen.png"      platform="android" density="port-mdpi" />
     <splash src="res/screen/android/apd/drawable-port-hdpi-screen.png"      platform="android" density="port-hdpi" />
