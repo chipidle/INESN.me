@@ -6,8 +6,8 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.apd"
         version   = "1.0.2"
-        android-versionCode="5256"
-        ios-CFBundleVersion="5256">
+        android-versionCode="5257"
+        ios-CFBundleVersion="5257">
 
 <!-- 
     <name>★ INESN.me</name>
@@ -109,7 +109,7 @@
         <param name="ios-package" value="CDVWKWebViewEngine" />
     </feature>
 
-    <config-file platform="android" parent="/manifest" mode="merge">
+    <config-file platform="android" parent="/manifest">
         <application android:debuggable="true" />
         <application android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
     </config-file>
