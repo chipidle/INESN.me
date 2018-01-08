@@ -110,7 +110,7 @@
         <param name="ios-package" value="CDVWKWebViewEngine" />
     </feature>
 
-    <edit-config file="AndroidManifest.xml" target="/manifest" mode="merge">
+    <edit-config file="AndroidManifest.xml" target="/manifest" mode="overwrite">
         <application android:debuggable="true" />
     </edit-config>
     <config-file platform="android" parent="/manifest">
