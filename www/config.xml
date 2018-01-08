@@ -35,8 +35,9 @@
     <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-minSdkVersion" value="14" />
     <!-- Define a specific version of PhoneGap to build into your app. -->
-    <preference name="phonegap-version" value="cli-7.0.1" />
-    <preference name="pgb-builder-version" value="2" />
+    <!-- <preference name="phonegap-version" value="cli-7.0.1" /> -->
+    <!-- <preference name="pgb-builder-version" value="2" /> -->
+    <preference name="phonegap-version" value="cli-6.5.0" />
 
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="AutoHideSplashScreen" value="true" />
