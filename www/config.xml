@@ -6,8 +6,8 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.apd"
         version   = "1.0.2"
-        android-versionCode="5011"
-        ios-CFBundleVersion="5011">
+        android-versionCode="5256"
+        ios-CFBundleVersion="5256">
 
 <!-- 
     <name>★ INESN.me</name>
@@ -110,7 +110,7 @@
     </feature>
 
     <config-file platform="android" parent="/manifest">
-        <!-- <application android:debuggable="true" /> -->
+        <application android:debuggable="true" />
         <application android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
     </config-file>
     <config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true" mode="replace" target="*-Info.plist">
