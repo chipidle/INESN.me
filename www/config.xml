@@ -6,8 +6,8 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.apd"
         version   = "1.0.2"
-        android-versionCode="5264"
-        ios-CFBundleVersion="5264">
+        android-versionCode="5569"
+        ios-CFBundleVersion="5569">
 
 <!-- 
     <name>★ INESN.me</name>
@@ -77,6 +77,7 @@
     <!-- <plugin name="cordova-plugin-geolocation" source="npm" spec="2.4.0" /> -->
     <!-- <plugin name="cordova-plugin-globalization" source="npm" spec="1.0.4" /> -->
     <plugin name="cordova-plugin-inappbrowser" source="npm" spec="1.7.1" />
+    <plugin name="cordova-plugin-themeablebrowser" />
     <plugin name="cordova-plugin-media" source="npm" spec="3.0.1" />
     <plugin name="cordova-plugin-media-capture" source="npm" spec="1.4.3">
         <variable name="CAMERA_USAGE_DESCRIPTION" value="Let you take a picture." />
