@@ -6,8 +6,8 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.apd"
         version   = "1.0.2"
-        android-versionCode="6511"
-        ios-CFBundleVersion="6511">
+        android-versionCode="6525"
+        ios-CFBundleVersion="6525">
 
 <!-- 
     <name>★ INESN.me</name>
