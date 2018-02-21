@@ -5,7 +5,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.goldsunairmedia"
-        version   = "1.0.3"
+        version   = "1.0.4"
         android-versionCode="7006"
         ios-CFBundleVersion="7006">
 
