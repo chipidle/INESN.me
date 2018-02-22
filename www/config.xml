@@ -6,8 +6,8 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.fmt"
         version   = "1.0.4"
-        android-versionCode="7121"
-        ios-CFBundleVersion="7121">
+        android-versionCode="7122"
+        ios-CFBundleVersion="7122">
 
 <!-- 
     <name>★ INESN.me</name>
@@ -128,7 +128,7 @@
     </config-file>
 
     <!-- Define app icon for each platform. -->
-    <icon src="icon.png" />
+    <!-- <icon src="icon.png" /> -->
     <icon src="res/icon/android/fmt/drawable-ldpi-icon.png"         platform="android" density="ldpi" />
     <icon src="res/icon/android/fmt/drawable-mdpi-icon.png"         platform="android" density="mdpi" />
     <icon src="res/icon/android/fmt/drawable-hdpi-icon.png"         platform="android" density="hdpi" />
