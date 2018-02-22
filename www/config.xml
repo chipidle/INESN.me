@@ -4,10 +4,10 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id        = "me.inesn.goldsunairmedia"
+        id        = "me.inesn.fmt"
         version   = "1.0.4"
-        android-versionCode="7009"
-        ios-CFBundleVersion="7009">
+        android-versionCode=""
+        ios-CFBundleVersion="">
 
 <!-- 
     <name>★ INESN.me</name>
@@ -16,9 +16,9 @@
     </description>
  -->
 
-    <name>Goldsun Airmedia</name>
+    <name>FMT Connections</name>
     <description>
-        A social network that helps all Goldsun Airmedia's members stay connected and interact with the community on functioned purposes
+        A social network that helps all FMT's members stay connected and interact with the community on functioned purposes
     </description>
 
     <author href="http://inevn.com" email="chipidle@msn.com">I&amp;E Corp.</author>
