@@ -6,8 +6,8 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         id        = "me.inesn.fmt"
         version   = "1.0.4"
-        android-versionCode=""
-        ios-CFBundleVersion="">
+        android-versionCode="7112"
+        ios-CFBundleVersion="7112">
 
 <!-- 
     <name>★ INESN.me</name>
@@ -33,7 +33,7 @@
     <preference name="Orientation" value="portrait" />
     <preference name="HideKeyboardFormAccessoryBar" value="true" />
     <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
-    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-minSdkVersion" value="23" />
     <!-- Define a specific version of PhoneGap to build into your app. -->
     <!-- <preference name="phonegap-version" value="cli-7.0.1" /> -->
     <!-- <preference name="pgb-builder-version" value="2" /> -->
