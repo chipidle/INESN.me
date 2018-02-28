@@ -7,7 +7,7 @@
         version="1.0.4"
         android-versionCode="7291"
         ios-CFBundleVersion="7291"
-        id="me.inesn.apd">
+        id="me.inesn.app">
 
     <name>APD Connections</name>
     <description>A social network that helps all APD's members stay connected and interact with the community on functioned purposes</description>
