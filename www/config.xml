@@ -29,7 +29,7 @@
 
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="AutoHideSplashScreen" value="true" />
-    <preference name="SplashScreenDelay" value="2345" />
+    <preference name="SplashScreenDelay" value="1234" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="SplashMaintainAspectRatio" value="true" />
@@ -154,8 +154,8 @@
     <splash src="res/screen/android/apd/drawable-port-hdpi-screen.png"      platform="android" density="port-hdpi" />
     <splash src="res/screen/android/apd/drawable-port-xhdpi-screen.png"     platform="android" density="port-xhdpi" />
     <splash src="res/screen/android/apd/drawable-port-xxhdpi-screen.png"    platform="android" density="port-xxhdpi" />
-    <!-- <splash src="res/screen/android/apd/drawable-port-xxxhdpi-screen.png"   platform="android" density="port-xxxhdpi" />
-    <splash src="res/screen/android/drawable-land-ldpi-screen.fmt.png"      platform="android" density="land-ldpi" />
+    <splash src="res/screen/android/apd/drawable-port-xxxhdpi-screen.png"   platform="android" density="port-xxxhdpi" />
+    <!-- <splash src="res/screen/android/drawable-land-ldpi-screen.fmt.png"      platform="android" density="land-ldpi" />
     <splash src="res/screen/android/drawable-land-mdpi-screen.fmt.png"      platform="android" density="land-mdpi" />
     <splash src="res/screen/android/drawable-land-hdpi-screen.fmt.png"      platform="android" density="land-hdpi" />
     <splash src="res/screen/android/drawable-land-xhdpi-screen.fmt.png"     platform="android" density="land-xhdpi" />
