@@ -5,8 +5,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         version="1.1.5"
-        android-versionCode="7359"
-        ios-CFBundleVersion="7359"
+        android-versionCode="7634"
+        ios-CFBundleVersion="7634"
         id="me.inesn.apd">
 
     <name>APD Connections</name>
@@ -14,19 +14,15 @@
 
     <author href="http://inevn.com" email="chipidle@msn.com">I&amp;E Corp.</author>
 
-    <!-- Define the main entry-point to the application -->
     <content src="index.html" />
     <!-- <content src="http://localhost:45678" /> -->
 
     <preference name="windows-identity-name" value="51394IECorp.me.inesn.app" />
-    <!-- Customize your app and platform with the preference element. -->
     <preference name="DisallowOverscroll" value="true" />
     <preference name="Orientation" value="portrait" />
     <preference name="HideKeyboardFormAccessoryBar" value="true" />
-    <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-targetSdkVersion" value="25" />
-    <!-- Define a specific version of PhoneGap to build into your app. -->
     <!-- <preference name="phonegap-version" value="cli-7.0.1" /> -->
     <!-- <preference name="pgb-builder-version" value="2" /> -->
     <preference name="phonegap-version" value="cli-6.5.0" />
@@ -107,7 +103,7 @@
         <uses-sdk android:debuggable="true" />
     </edit-config>
  -->    <config-file platform="android" parent="/manifest">
-        <!-- <application android:debuggable="true" /> -->
+        <application android:debuggable="true" />
         <application android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <!-- <activity android:windowSoftInputMode="adjustPan" /> -->
     </config-file>
