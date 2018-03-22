@@ -5,9 +5,9 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         version="1.1.5"
-        android-versionCode="7861"
-        ios-CFBundleVersion="7861"
-        id="http://connections.apd.inevn.com/">
+        android-versionCode="7865"
+        ios-CFBundleVersion="7865"
+        id="me.inesn.apd">
 
     <name>APD Connections</name>
     <description>A social network that helps all APD's members stay connected and interact with the community on functioned purposes</description>
