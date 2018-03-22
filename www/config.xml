@@ -5,12 +5,12 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         version="1.1.5"
-        android-versionCode="7868"
-        ios-CFBundleVersion="7868"
-        id="me.inesn.fmt">
+        android-versionCode="7869"
+        ios-CFBundleVersion="7869"
+        id="me.inesn.goldsunairmedia">
 
-    <name>FMT Connections</name>
-    <description>A social network that helps all FMT's members stay connected and interact with the community on functioned purposes</description>
+    <name>Goldsun Airmedia</name>
+    <description>A social network that helps all Goldsun Airmedia's members stay connected and interact with the community on functioned purposes</description>
 
     <author href="http://inevn.com" email="chipidle@msn.com">I&amp;E Corp.</author>
 
@@ -116,31 +116,31 @@
 
     <!-- Define app icon for each platform. -->
     <!-- <icon src="icon.png" /> -->
-    <icon src="res/icon/android/fmt/drawable-ldpi-icon.png"         platform="android" density="ldpi" />
-    <icon src="res/icon/android/fmt/drawable-mdpi-icon.png"         platform="android" density="mdpi" />
-    <icon src="res/icon/android/fmt/drawable-hdpi-icon.png"         platform="android" density="hdpi" />
-    <icon src="res/icon/android/fmt/drawable-xhdpi-icon.png"        platform="android" density="xhdpi" />
-    <icon src="res/icon/android/fmt/drawable-xxhdpi-icon.png"       platform="android" density="xxhdpi" />
-    <icon src="res/icon/android/fmt/drawable-xxxhdpi-icon.png"      platform="android" density="xxxhdpi" />
+    <icon src="res/icon/android/goldsunairmedia/drawable-ldpi-icon.png"         platform="android" density="ldpi" />
+    <icon src="res/icon/android/goldsunairmedia/drawable-mdpi-icon.png"         platform="android" density="mdpi" />
+    <icon src="res/icon/android/goldsunairmedia/drawable-hdpi-icon.png"         platform="android" density="hdpi" />
+    <icon src="res/icon/android/goldsunairmedia/drawable-xhdpi-icon.png"        platform="android" density="xhdpi" />
+    <icon src="res/icon/android/goldsunairmedia/drawable-xxhdpi-icon.png"       platform="android" density="xxhdpi" />
+    <icon src="res/icon/android/goldsunairmedia/drawable-xxxhdpi-icon.png"      platform="android" density="xxxhdpi" />
     <!-- <icon src="res/icon/blackberry/icon-80.png"                 platform="blackberry" /> -->
     <!-- <icon src="res/icon/blackberry/icon-80.png"                 platform="blackberry" state="hover" /> -->
 
-    <icon src="res/icon/ios/fmt/icon.png"                           platform="ios" width="57"  height="57" />
-    <icon src="res/icon/ios/fmt/icon@2x.png"                        platform="ios" width="114" height="114" />
-    <icon src="res/icon/ios/fmt/icon-40.png"                        platform="ios" width="40"  height="40" />
-    <icon src="res/icon/ios/fmt/icon-40@2x.png"                     platform="ios" width="80"  height="80" />
-    <icon src="res/icon/ios/fmt/icon-50.png"                        platform="ios" width="50"  height="50" />
-    <icon src="res/icon/ios/fmt/icon-50@2x.png"                     platform="ios" width="100" height="100" />
-    <icon src="res/icon/ios/fmt/icon-60.png"                        platform="ios" width="60"  height="60" />
-    <icon src="res/icon/ios/fmt/icon-60@2x.png"                     platform="ios" width="120" height="120" />
-    <icon src="res/icon/ios/fmt/icon-60@3x.png"                     platform="ios" width="180" height="180" />
-    <icon src="res/icon/ios/fmt/icon-72.png"                        platform="ios" width="72"  height="72" />
-    <icon src="res/icon/ios/fmt/icon-72@2x.png"                     platform="ios" width="144" height="144" />
-    <icon src="res/icon/ios/fmt/icon-76.png"                        platform="ios" width="76"  height="76" />
-    <icon src="res/icon/ios/fmt/icon-76@2x.png"                     platform="ios" width="152" height="152" />
-    <icon src="res/icon/ios/fmt/icon-small.png"                     platform="ios" width="29"  height="29" />
-    <icon src="res/icon/ios/fmt/icon-small@2x.png"                  platform="ios" width="58"  height="58" />
-    <icon src="res/icon/ios/fmt/icon-small@3x.png"                  platform="ios" width="87"  height="87" />
+    <icon src="res/icon/ios/goldsunairmedia/icon.png"                           platform="ios" width="57"  height="57" />
+    <icon src="res/icon/ios/goldsunairmedia/icon@2x.png"                        platform="ios" width="114" height="114" />
+    <icon src="res/icon/ios/goldsunairmedia/icon-40.png"                        platform="ios" width="40"  height="40" />
+    <icon src="res/icon/ios/goldsunairmedia/icon-40@2x.png"                     platform="ios" width="80"  height="80" />
+    <icon src="res/icon/ios/goldsunairmedia/icon-50.png"                        platform="ios" width="50"  height="50" />
+    <icon src="res/icon/ios/goldsunairmedia/icon-50@2x.png"                     platform="ios" width="100" height="100" />
+    <icon src="res/icon/ios/goldsunairmedia/icon-60.png"                        platform="ios" width="60"  height="60" />
+    <icon src="res/icon/ios/goldsunairmedia/icon-60@2x.png"                     platform="ios" width="120" height="120" />
+    <icon src="res/icon/ios/goldsunairmedia/icon-60@3x.png"                     platform="ios" width="180" height="180" />
+    <icon src="res/icon/ios/goldsunairmedia/icon-72.png"                        platform="ios" width="72"  height="72" />
+    <icon src="res/icon/ios/goldsunairmedia/icon-72@2x.png"                     platform="ios" width="144" height="144" />
+    <icon src="res/icon/ios/goldsunairmedia/icon-76.png"                        platform="ios" width="76"  height="76" />
+    <icon src="res/icon/ios/goldsunairmedia/icon-76@2x.png"                     platform="ios" width="152" height="152" />
+    <icon src="res/icon/ios/goldsunairmedia/icon-small.png"                     platform="ios" width="29"  height="29" />
+    <icon src="res/icon/ios/goldsunairmedia/icon-small@2x.png"                  platform="ios" width="58"  height="58" />
+    <icon src="res/icon/ios/goldsunairmedia/icon-small@3x.png"                  platform="ios" width="87"  height="87" />
  
 
     <!-- <icon src="res/icon/webos/icon-64.png"                      platform="webos" /> -->
@@ -149,12 +149,12 @@
 
     <!-- Define app splash screen for each platform. -->
     <!-- <splash src="splash.apd.png" /> -->
-    <splash src="res/screen/android/fmt/drawable-port-ldpi-screen.png"      platform="android" density="port-ldpi" />
-    <splash src="res/screen/android/fmt/drawable-port-mdpi-screen.png"      platform="android" density="port-mdpi" />
-    <splash src="res/screen/android/fmt/drawable-port-hdpi-screen.png"      platform="android" density="port-hdpi" />
-    <splash src="res/screen/android/fmt/drawable-port-xhdpi-screen.png"     platform="android" density="port-xhdpi" />
-    <splash src="res/screen/android/fmt/drawable-port-xxhdpi-screen.png"    platform="android" density="port-xxhdpi" />
-    <splash src="res/screen/android/fmt/drawable-port-xxxhdpi-screen.png"   platform="android" density="port-xxxhdpi" />
+    <splash src="res/screen/android/goldsunairmedia/drawable-port-ldpi-screen.png"      platform="android" density="port-ldpi" />
+    <splash src="res/screen/android/goldsunairmedia/drawable-port-mdpi-screen.png"      platform="android" density="port-mdpi" />
+    <splash src="res/screen/android/goldsunairmedia/drawable-port-hdpi-screen.png"      platform="android" density="port-hdpi" />
+    <splash src="res/screen/android/goldsunairmedia/drawable-port-xhdpi-screen.png"     platform="android" density="port-xhdpi" />
+    <splash src="res/screen/android/goldsunairmedia/drawable-port-xxhdpi-screen.png"    platform="android" density="port-xxhdpi" />
+    <splash src="res/screen/android/goldsunairmedia/drawable-port-xxxhdpi-screen.png"   platform="android" density="port-xxxhdpi" />
     <!-- <splash src="res/screen/android/drawable-land-ldpi-screen.fmt.png"      platform="android" density="land-ldpi" />
     <splash src="res/screen/android/drawable-land-mdpi-screen.fmt.png"      platform="android" density="land-mdpi" />
     <splash src="res/screen/android/drawable-land-hdpi-screen.fmt.png"      platform="android" density="land-hdpi" />
@@ -163,24 +163,24 @@
     <splash src="res/screen/android/drawable-land-xxxhdpi-screen.fmt.png"   platform="android" density="land-xxxhdpi" /> -->
     <!-- <splash src="res/screen/blackberry/screen-225.png"                  platform="blackberry" /> -->
     <!-- <splash src="res/screen/wp8/screen-portrait.png"          platform="winphone" /> -->
-    <splash src="res/screen/ios/fmt/Default-568h@2x~iphone.png"             platform="ios" width="640"  height="1136" />
-    <splash src="res/screen/ios/fmt/Default-667h.png"                       platform="ios" width="750"  height="1334" />
-    <splash src="res/screen/ios/fmt/Default-736h.png"                       platform="ios" width="1242" height="2208" />
-    <!-- <splash src="res/screen/ios/fmt/Default-Landscape-736h.png"             platform="ios" width="2208" height="1242" /> -->
-    <!-- <splash src="res/screen/ios/fmt/Default-Landscape@2x~ipad.png"          platform="ios" width="2048" height="1536" /> -->
-    <!-- <splash src="res/screen/ios/fmt/Default-Landscape~ipad.png"             platform="ios" width="1024" height="768" /> -->
-    <splash src="res/screen/ios/fmt/Default-Portrait@2x~ipad.png"           platform="ios" width="1536" height="2048" />
-    <splash src="res/screen/ios/fmt/Default-Portrait~ipad.png"              platform="ios" width="768"  height="1024" />
-    <splash src="res/screen/ios/fmt/Default@2x~iphone.png"                  platform="ios" width="640"  height="960" />
-    <splash src="res/screen/ios/fmt/Default~iphone.png"                     platform="ios" width="320"  height="480" />
+    <splash src="res/screen/ios/goldsunairmedia/Default-568h@2x~iphone.png"             platform="ios" width="640"  height="1136" />
+    <splash src="res/screen/ios/goldsunairmedia/Default-667h.png"                       platform="ios" width="750"  height="1334" />
+    <splash src="res/screen/ios/goldsunairmedia/Default-736h.png"                       platform="ios" width="1242" height="2208" />
+    <!-- <splash src="res/screen/ios/goldsunairmedia/Default-Landscape-736h.png"             platform="ios" width="2208" height="1242" /> -->
+    <!-- <splash src="res/screen/ios/goldsunairmedia/Default-Landscape@2x~ipad.png"          platform="ios" width="2048" height="1536" /> -->
+    <!-- <splash src="res/screen/ios/goldsunairmedia/Default-Landscape~ipad.png"             platform="ios" width="1024" height="768" /> -->
+    <splash src="res/screen/ios/goldsunairmedia/Default-Portrait@2x~ipad.png"           platform="ios" width="1536" height="2048" />
+    <splash src="res/screen/ios/goldsunairmedia/Default-Portrait~ipad.png"              platform="ios" width="768"  height="1024" />
+    <splash src="res/screen/ios/goldsunairmedia/Default@2x~iphone.png"                  platform="ios" width="640"  height="960" />
+    <splash src="res/screen/ios/goldsunairmedia/Default~iphone.png"                     platform="ios" width="320"  height="480" />
 
     <!--platform name="android">
-        <resource-file src="res/icon/android/fmt/notify_icon-ldpi.png" target="res/drawable-ldpi/notify_icon.png" />
-        <resource-file src="res/icon/android/fmt/notify_icon-mdpi.png" target="res/drawable-mdpi/notify_icon.png" />
-        <resource-file src="res/icon/android/fmt/notify_icon-hdpi.png" target="res/drawable-hdpi/notify_icon.png" />
-        <resource-file src="res/icon/android/fmt/notify_icon-xhdpi.png" target="res/drawable-xhdpi/notify_icon.png" />
-        <resource-file src="res/icon/android/fmt/notify_icon-xxhdpi.png" target="res/drawable-xxhdpi/notify_icon.png" />
-        <resource-file src="res/icon/android/fmt/notify_icon-xxxhdpi.png" target="res/drawable-xxxhdpi/notify_icon.png" />
+        <resource-file src="res/icon/android/goldsunairmedia/notify_icon-ldpi.png" target="res/drawable-ldpi/notify_icon.png" />
+        <resource-file src="res/icon/android/goldsunairmedia/notify_icon-mdpi.png" target="res/drawable-mdpi/notify_icon.png" />
+        <resource-file src="res/icon/android/goldsunairmedia/notify_icon-hdpi.png" target="res/drawable-hdpi/notify_icon.png" />
+        <resource-file src="res/icon/android/goldsunairmedia/notify_icon-xhdpi.png" target="res/drawable-xhdpi/notify_icon.png" />
+        <resource-file src="res/icon/android/goldsunairmedia/notify_icon-xxhdpi.png" target="res/drawable-xxhdpi/notify_icon.png" />
+        <resource-file src="res/icon/android/goldsunairmedia/notify_icon-xxxhdpi.png" target="res/drawable-xxxhdpi/notify_icon.png" />
     </platform-->
     <!-- <platform name="windows"> -->
         <!-- For Windows the recommended approach to define app icons is to use target attribute -->
