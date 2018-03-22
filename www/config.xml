@@ -103,7 +103,7 @@
         <uses-sdk android:debuggable="true" />
     </edit-config>
  -->    <config-file platform="android" parent="/manifest">
-        <application android:debuggable="true" />
+        <!-- <application android:debuggable="true" /> -->
         <application android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <!-- <activity android:windowSoftInputMode="adjustPan" /> -->
     </config-file>
