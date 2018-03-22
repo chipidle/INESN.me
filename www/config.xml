@@ -5,8 +5,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         version="1.1.5"
-        android-versionCode="7879"
-        ios-CFBundleVersion="7879"
+        android-versionCode="7880"
+        ios-CFBundleVersion="7880"
         id="me.inesn.apd">
 
     <name>APD Connections</name>
