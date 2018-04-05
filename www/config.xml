@@ -23,7 +23,7 @@
     <preference name="HideKeyboardFormAccessoryBar" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-targetSdkVersion" value="25" />
-    <!-- <preference name="phonegap-version" value="cli-6.5.0" /> -->
+    <preference name="phonegap-version" value="cli-6.5.0" />
     <!-- <preference name="phonegap-version" value="cli-7.0.1" /> -->
     <!-- <preference name="pgb-builder-version" value="2" /> -->
 
