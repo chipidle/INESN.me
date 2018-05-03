@@ -5,8 +5,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         version="1.1.8"
-        android-versionCode="9516"
-        ios-CFBundleVersion="9516"
+        android-versionCode="10311"
+        ios-CFBundleVersion="10311"
         id="me.inesn.goldsunairmedia">
 
     <name>Goldsun Airmedia</name>
@@ -18,7 +18,6 @@
     <!-- <content src="http://localhost:45678" /> -->
 
     <preference name="windows-identity-name" value="51394IECorp.me.inesn.app" />
-    <preference name="DisallowOverscroll" value="true" />
     <preference name="Orientation" value="portrait" />
     <preference name="HideKeyboardFormAccessoryBar" value="true" />
     <preference name="android-minSdkVersion" value="14" />
@@ -33,9 +32,11 @@
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="fullscreen" value="false" />
+    <preference name="fullscreen" value="true" />
     <preference name="stay-in-webview" value="true" />
+    <preference name="UIWebViewBounce" value="false" />
     <preference name="webviewbounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
     <preference name="EnableViewportScale" value="false" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
     <preference name="OpenAllWhitelistURLsInWebView" value="true" />
@@ -50,6 +51,7 @@
     <!-- <preference name="deployment-target" value="8.3" /> -->
     <!-- <preference name="AllowBackForwardNavigationGestures" value="true" /> -->
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <preference name="iosPersistentFileLocation" value="Library" />
 
     <!-- Plugins -->
     <!-- Core plugins -->
@@ -94,27 +96,27 @@
     <!-- <plugin name="cocoon-cordova-labs-local-webserver" source="npm" spec="2.4.1" /> -->
     <!-- <plugin name="cocoon-cordova-labs-wkwebview-engine-localhost" source="npm" spec="0.5.1" /> -->
 
-    <!-- <feature name="StatusBar">
+    <feature name="StatusBar">
         <param name="ios-package" value="CDVStatusBar" onload="true" />
-    </feature> -->
+    </feature>
     <feature name="CDVWKWebViewEngine">
         <param name="ios-package" value="CDVWKWebViewEngine" />
     </feature>
 
-    <!--<edit-config file="AndroidManifest.xml" target="/manifest" mode="merge">
+<!--     <edit-config file="AndroidManifest.xml" target="/manifest" mode="merge">
         <uses-sdk android:debuggable="true" />
-    </edit-config>-->
-    <!-- <config-file platform="android" parent="/manifest"> -->
+    </edit-config>
+ -->    <config-file platform="android" parent="/manifest">
         <!-- <application android:debuggable="true" /> -->
-        <!-- <application android:theme="@android:style/Theme.NoTitleBar.Fullscreen" /> -->
+        <application android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <!-- <activity android:windowSoftInputMode="adjustPan" /> -->
-    <!-- </config-file> -->
-    <!-- <config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true" mode="replace" target="*-Info.plist"> -->
-        <!-- <false/> -->
-    <!-- </config-file> -->
-    <!-- <config-file platform="ios" parent="UIStatusBarHidden" overwrite="true" mode="replace" target="*-Info.plist"> -->
-        <!-- <true/> -->
-    <!-- </config-file> -->
+    </config-file>
+    <config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true" mode="replace" target="*-Info.plist">
+        <false/>
+    </config-file>
+    <config-file platform="ios" parent="UIStatusBarHidden" overwrite="true" mode="replace" target="*-Info.plist">
+        <true/>
+    </config-file>
 
     <!-- Define app icon for each platform. -->
     <!-- <icon src="icon.png" /> -->
