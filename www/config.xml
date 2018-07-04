@@ -17,7 +17,7 @@
     <content src="index.html" />
     <!-- <content src="http://localhost:45678" /> -->
 
-    <preference name="windows-identity-name" value="51394IECorp.me.inesn.app" />
+    <!-- <preference name="windows-identity-name" value="51394IECorp.me.inesn.app" /> -->
     <preference name="Orientation" value="portrait" />
     <preference name="HideKeyboardFormAccessoryBar" value="true" />
     <preference name="android-minSdkVersion" value="14" />
