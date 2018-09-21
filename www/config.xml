@@ -5,8 +5,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         version="1.1.10"
-        android-versionCode="14910"
-        ios-CFBundleVersion="14910"
+        android-versionCode="14964"
+        ios-CFBundleVersion="14964"
         id="me.inesn.hanu">
 
     <name>Hanu Connections</name>
@@ -82,7 +82,7 @@
     <plugin name="cordova-plugin-whitelist" source="npm" spec="1.3.2" />
     <!-- Additional plugins -->
     <plugin name="cordova-plugin-fullscreen" source="npm" spec="1.1.0" />
-    <plugin name="cordova-plugin-fingerprint-aio" source="npm" spec="1.3.8" />
+    <!-- <plugin name="cordova-plugin-fingerprint-aio" source="npm" spec="1.3.8" /> -->
     <plugin name="cordova-plugin-appavailability" source="npm" spec="0.4.2" />
     <plugin name="ionic-plugin-keyboard" source="npm" spec="2.2.1" />
     <plugin name="phonegap-plugin-push" source="npm" spec="1.10.4">
