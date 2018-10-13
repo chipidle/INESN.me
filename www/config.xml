@@ -5,8 +5,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         version="1.1.11"
-        android-versionCode="15935"
-        ios-CFBundleVersion="15935"
+        android-versionCode="16081"
+        ios-CFBundleVersion="16081"
         id="me.inesn.hado">
 
     <name>Hadoland</name>
