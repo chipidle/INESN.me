@@ -5,11 +5,11 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         version="1.1.11"
-        android-versionCode="16081"
-        ios-CFBundleVersion="16081"
+        android-versionCode="16082"
+        ios-CFBundleVersion="16082"
         id="me.inesn.hado">
 
-    <name>Hadoland</name>
+    <name>iEstate</name>
     <description>A social network that helps all Hadoland's members stay connected and interact with the community on functioned purposes</description>
 
     <author href="http://inevn.com" email="chipidle@msn.com">I&amp;E Corp.</author>
