@@ -5,8 +5,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         version="1.1.11"
-        android-versionCode="16287"
-        ios-CFBundleVersion="16287"
+        android-versionCode="16288"
+        ios-CFBundleVersion="16288"
         id="me.inesn.hado">
 
     <name>iEstate</name>
