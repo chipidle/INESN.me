@@ -5,12 +5,12 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         version="1.1.11"
-        android-versionCode="16288"
-        ios-CFBundleVersion="16288"
-        id="me.inesn.hado">
+        android-versionCode="16289"
+        ios-CFBundleVersion="16289"
+        id="me.inesn.fmt">
 
-    <name>iEstate</name>
-    <description>a social platform that helps connect and match all real estate buyers & sellers with verified product sources and qualities</description>
+    <name>FMT Connections</name>
+    <description>A social network that helps all FMT's members stay connected and interact with the community on functioned purposes</description>
 
     <author href="http://inevn.com" email="chipidle@msn.com">I&amp;E Corp.</author>
 
@@ -158,32 +158,32 @@
 
     <!-- Define app icon for each platform. -->
     <!-- <icon src="icon.png" /> -->
-    <icon src="res/icon/android/hado/drawable-ldpi-icon.png"         platform="android" density="ldpi" />
-    <icon src="res/icon/android/hado/drawable-mdpi-icon.png"         platform="android" density="mdpi" />
-    <icon src="res/icon/android/hado/drawable-hdpi-icon.png"         platform="android" density="hdpi" />
-    <icon src="res/icon/android/hado/drawable-xhdpi-icon.png"        platform="android" density="xhdpi" />
-    <icon src="res/icon/android/hado/drawable-xxhdpi-icon.png"       platform="android" density="xxhdpi" />
-    <icon src="res/icon/android/hado/drawable-xxxhdpi-icon.png"      platform="android" density="xxxhdpi" />
+    <icon src="res/icon/android/fmt/drawable-ldpi-icon.png"         platform="android" density="ldpi" />
+    <icon src="res/icon/android/fmt/drawable-mdpi-icon.png"         platform="android" density="mdpi" />
+    <icon src="res/icon/android/fmt/drawable-hdpi-icon.png"         platform="android" density="hdpi" />
+    <icon src="res/icon/android/fmt/drawable-xhdpi-icon.png"        platform="android" density="xhdpi" />
+    <icon src="res/icon/android/fmt/drawable-xxhdpi-icon.png"       platform="android" density="xxhdpi" />
+    <icon src="res/icon/android/fmt/drawable-xxxhdpi-icon.png"      platform="android" density="xxxhdpi" />
     <!-- <icon src="res/icon/blackberry/icon-80.png"                 platform="blackberry" /> -->
     <!-- <icon src="res/icon/blackberry/icon-80.png"                 platform="blackberry" state="hover" /> -->
 
-    <icon src="res/icon/ios/hado/icon.png"                           platform="ios" width="57"  height="57" />
-    <icon src="res/icon/ios/hado/icon@2x.png"                        platform="ios" width="114" height="114" />
-    <icon src="res/icon/ios/hado/icon-40.png"                        platform="ios" width="40"  height="40" />
-    <icon src="res/icon/ios/hado/icon-40@2x.png"                     platform="ios" width="80"  height="80" />
-    <icon src="res/icon/ios/hado/icon-50.png"                        platform="ios" width="50"  height="50" />
-    <icon src="res/icon/ios/hado/icon-50@2x.png"                     platform="ios" width="100" height="100" />
-    <icon src="res/icon/ios/hado/icon-60.png"                        platform="ios" width="60"  height="60" />
-    <icon src="res/icon/ios/hado/icon-60@2x.png"                     platform="ios" width="120" height="120" />
-    <icon src="res/icon/ios/hado/icon-60@3x.png"                     platform="ios" width="180" height="180" />
-    <icon src="res/icon/ios/hado/icon-72.png"                        platform="ios" width="72"  height="72" />
-    <icon src="res/icon/ios/hado/icon-72@2x.png"                     platform="ios" width="144" height="144" />
-    <icon src="res/icon/ios/hado/icon-76.png"                        platform="ios" width="76"  height="76" />
-    <icon src="res/icon/ios/hado/icon-76@2x.png"                     platform="ios" width="152" height="152" />
-    <icon src="res/icon/ios/hado/icon-small.png"                     platform="ios" width="29"  height="29" />
-    <icon src="res/icon/ios/hado/icon-small@2x.png"                  platform="ios" width="58"  height="58" />
-    <icon src="res/icon/ios/hado/icon-small@3x.png"                  platform="ios" width="87"  height="87" />
-    <!-- <icon src="res/icon/ios/hado/icon-1024.png"                      platform="ios" width="1024" height="1024" /> -->
+    <icon src="res/icon/ios/fmt/icon.png"                           platform="ios" width="57"  height="57" />
+    <icon src="res/icon/ios/fmt/icon@2x.png"                        platform="ios" width="114" height="114" />
+    <icon src="res/icon/ios/fmt/icon-40.png"                        platform="ios" width="40"  height="40" />
+    <icon src="res/icon/ios/fmt/icon-40@2x.png"                     platform="ios" width="80"  height="80" />
+    <icon src="res/icon/ios/fmt/icon-50.png"                        platform="ios" width="50"  height="50" />
+    <icon src="res/icon/ios/fmt/icon-50@2x.png"                     platform="ios" width="100" height="100" />
+    <icon src="res/icon/ios/fmt/icon-60.png"                        platform="ios" width="60"  height="60" />
+    <icon src="res/icon/ios/fmt/icon-60@2x.png"                     platform="ios" width="120" height="120" />
+    <icon src="res/icon/ios/fmt/icon-60@3x.png"                     platform="ios" width="180" height="180" />
+    <icon src="res/icon/ios/fmt/icon-72.png"                        platform="ios" width="72"  height="72" />
+    <icon src="res/icon/ios/fmt/icon-72@2x.png"                     platform="ios" width="144" height="144" />
+    <icon src="res/icon/ios/fmt/icon-76.png"                        platform="ios" width="76"  height="76" />
+    <icon src="res/icon/ios/fmt/icon-76@2x.png"                     platform="ios" width="152" height="152" />
+    <icon src="res/icon/ios/fmt/icon-small.png"                     platform="ios" width="29"  height="29" />
+    <icon src="res/icon/ios/fmt/icon-small@2x.png"                  platform="ios" width="58"  height="58" />
+    <icon src="res/icon/ios/fmt/icon-small@3x.png"                  platform="ios" width="87"  height="87" />
+    <!-- <icon src="res/icon/ios/fmt/icon-1024.png"                      platform="ios" width="1024" height="1024" /> -->
  
 
     <!-- <icon src="res/icon/webos/icon-64.png"                      platform="webos" /> -->
@@ -192,12 +192,12 @@
 
     <!-- Define app splash screen for each platform. -->
     <!-- <splash src="splash.apd.png" /> -->
-    <splash src="res/screen/android/hado/drawable-port-ldpi-screen.png"      platform="android" density="port-ldpi" />
-    <splash src="res/screen/android/hado/drawable-port-mdpi-screen.png"      platform="android" density="port-mdpi" />
-    <splash src="res/screen/android/hado/drawable-port-hdpi-screen.png"      platform="android" density="port-hdpi" />
-    <splash src="res/screen/android/hado/drawable-port-xhdpi-screen.png"     platform="android" density="port-xhdpi" />
-    <splash src="res/screen/android/hado/drawable-port-xxhdpi-screen.png"    platform="android" density="port-xxhdpi" />
-    <splash src="res/screen/android/hado/drawable-port-xxxhdpi-screen.png"   platform="android" density="port-xxxhdpi" />
+    <splash src="res/screen/android/fmt/drawable-port-ldpi-screen.png"      platform="android" density="port-ldpi" />
+    <splash src="res/screen/android/fmt/drawable-port-mdpi-screen.png"      platform="android" density="port-mdpi" />
+    <splash src="res/screen/android/fmt/drawable-port-hdpi-screen.png"      platform="android" density="port-hdpi" />
+    <splash src="res/screen/android/fmt/drawable-port-xhdpi-screen.png"     platform="android" density="port-xhdpi" />
+    <splash src="res/screen/android/fmt/drawable-port-xxhdpi-screen.png"    platform="android" density="port-xxhdpi" />
+    <splash src="res/screen/android/fmt/drawable-port-xxxhdpi-screen.png"   platform="android" density="port-xxxhdpi" />
     <!-- <splash src="res/screen/android/drawable-land-ldpi-screen.fmt.png"      platform="android" density="land-ldpi" />
     <splash src="res/screen/android/drawable-land-mdpi-screen.fmt.png"      platform="android" density="land-mdpi" />
     <splash src="res/screen/android/drawable-land-hdpi-screen.fmt.png"      platform="android" density="land-hdpi" />
@@ -206,24 +206,24 @@
     <splash src="res/screen/android/drawable-land-xxxhdpi-screen.fmt.png"   platform="android" density="land-xxxhdpi" /> -->
     <!-- <splash src="res/screen/blackberry/screen-225.png"                  platform="blackberry" /> -->
     <!-- <splash src="res/screen/wp8/screen-portrait.png"          platform="winphone" /> -->
-    <splash src="res/screen/ios/hado/Default-568h@2x~iphone.png"             platform="ios" width="640"  height="1136" />
-    <splash src="res/screen/ios/hado/Default-667h.png"                       platform="ios" width="750"  height="1334" />
-    <splash src="res/screen/ios/hado/Default-736h.png"                       platform="ios" width="1242" height="2208" />
-    <!-- <splash src="res/screen/ios/hado/Default-Landscape-736h.png"             platform="ios" width="2208" height="1242" /> -->
-    <!-- <splash src="res/screen/ios/hado/Default-Landscape@2x~ipad.png"          platform="ios" width="2048" height="1536" /> -->
-    <!-- <splash src="res/screen/ios/hado/Default-Landscape~ipad.png"             platform="ios" width="1024" height="768" /> -->
-    <splash src="res/screen/ios/hado/Default-Portrait@2x~ipad.png"           platform="ios" width="1536" height="2048" />
-    <splash src="res/screen/ios/hado/Default-Portrait~ipad.png"              platform="ios" width="768"  height="1024" />
-    <splash src="res/screen/ios/hado/Default@2x~iphone.png"                  platform="ios" width="640"  height="960" />
-    <splash src="res/screen/ios/hado/Default~iphone.png"                     platform="ios" width="320"  height="480" />
+    <splash src="res/screen/ios/fmt/Default-568h@2x~iphone.png"             platform="ios" width="640"  height="1136" />
+    <splash src="res/screen/ios/fmt/Default-667h.png"                       platform="ios" width="750"  height="1334" />
+    <splash src="res/screen/ios/fmt/Default-736h.png"                       platform="ios" width="1242" height="2208" />
+    <!-- <splash src="res/screen/ios/fmt/Default-Landscape-736h.png"             platform="ios" width="2208" height="1242" /> -->
+    <!-- <splash src="res/screen/ios/fmt/Default-Landscape@2x~ipad.png"          platform="ios" width="2048" height="1536" /> -->
+    <!-- <splash src="res/screen/ios/fmt/Default-Landscape~ipad.png"             platform="ios" width="1024" height="768" /> -->
+    <splash src="res/screen/ios/fmt/Default-Portrait@2x~ipad.png"           platform="ios" width="1536" height="2048" />
+    <splash src="res/screen/ios/fmt/Default-Portrait~ipad.png"              platform="ios" width="768"  height="1024" />
+    <splash src="res/screen/ios/fmt/Default@2x~iphone.png"                  platform="ios" width="640"  height="960" />
+    <splash src="res/screen/ios/fmt/Default~iphone.png"                     platform="ios" width="320"  height="480" />
 
     <!--platform name="android">
-        <resource-file src="res/icon/android/hado/notify_icon-ldpi.png" target="res/drawable-ldpi/notify_icon.png" />
-        <resource-file src="res/icon/android/hado/notify_icon-mdpi.png" target="res/drawable-mdpi/notify_icon.png" />
-        <resource-file src="res/icon/android/hado/notify_icon-hdpi.png" target="res/drawable-hdpi/notify_icon.png" />
-        <resource-file src="res/icon/android/hado/notify_icon-xhdpi.png" target="res/drawable-xhdpi/notify_icon.png" />
-        <resource-file src="res/icon/android/hado/notify_icon-xxhdpi.png" target="res/drawable-xxhdpi/notify_icon.png" />
-        <resource-file src="res/icon/android/hado/notify_icon-xxxhdpi.png" target="res/drawable-xxxhdpi/notify_icon.png" />
+        <resource-file src="res/icon/android/fmt/notify_icon-ldpi.png" target="res/drawable-ldpi/notify_icon.png" />
+        <resource-file src="res/icon/android/fmt/notify_icon-mdpi.png" target="res/drawable-mdpi/notify_icon.png" />
+        <resource-file src="res/icon/android/fmt/notify_icon-hdpi.png" target="res/drawable-hdpi/notify_icon.png" />
+        <resource-file src="res/icon/android/fmt/notify_icon-xhdpi.png" target="res/drawable-xhdpi/notify_icon.png" />
+        <resource-file src="res/icon/android/fmt/notify_icon-xxhdpi.png" target="res/drawable-xxhdpi/notify_icon.png" />
+        <resource-file src="res/icon/android/fmt/notify_icon-xxxhdpi.png" target="res/drawable-xxxhdpi/notify_icon.png" />
     </platform-->
     <!-- <platform name="windows"> -->
         <!-- For Windows the recommended approach to define app icons is to use target attribute -->
