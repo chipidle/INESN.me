@@ -5,12 +5,12 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         version="1.1.11"
-        android-versionCode="16082"
-        ios-CFBundleVersion="16082"
+        android-versionCode="16287"
+        ios-CFBundleVersion="16287"
         id="me.inesn.hado">
 
     <name>iEstate</name>
-    <description>A social network that helps all Hadoland's members stay connected and interact with the community on functioned purposes</description>
+    <description>a social platform that helps connect and match all real estate buyers & sellers with verified product sources and qualities</description>
 
     <author href="http://inevn.com" email="chipidle@msn.com">I&amp;E Corp.</author>
 
@@ -23,7 +23,7 @@
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-targetSdkVersion" value="26" />
     <preference name="phonegap-version" value="cli-6.5.0" />
-    <!-- <preference name="phonegap-version" value="cli-8.0.0" /> -->
+    <preference name="phonegap-version" platform="ios" value="cli-8.0.0" />
     <!-- <preference name="pgb-builder-version" value="2" /> -->
 
     <preference name="AllowInlineMediaPlayback" value="true" />
@@ -114,6 +114,10 @@
         <plugin name="cordova-plugin-whitelist" source="npm" spec="1.3.2" />
         <!-- Additional plugins -->
         <plugin name="cordova-plugin-fullscreen" source="npm" spec="1.2.0" />
+        <plugin name="cordova-plugin-googlemaps" source="npm" spec="2.4.5">
+            <variable name="API_KEY_FOR_ANDROID" value="AIzaSyDNI_ZWPqvdS6r6gPVO50I4TlYkfkZdXh8" />
+            <variable name="API_KEY_FOR_IOS" value="AIzaSyDNI_ZWPqvdS6r6gPVO50I4TlYkfkZdXh8" />
+        </plugin>
     </platform>
 
     <plugin name="cordova-plugin-appavailability" source="npm" spec="0.4.2" />
