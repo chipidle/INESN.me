@@ -22,8 +22,8 @@
     <preference name="HideKeyboardFormAccessoryBar" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-targetSdkVersion" value="26" />
-    <!-- <preference name="phonegap-version" value="cli-6.5.0" /> -->
-    <preference name="phonegap-version" value="cli-8.0.0" />
+    <preference name="phonegap-version" value="cli-6.5.0" />
+    <!-- <preference name="phonegap-version" value="cli-8.0.0" /> -->
     <!-- <preference name="pgb-builder-version" value="2" /> -->
 
     <preference name="AllowInlineMediaPlayback" value="true" />
@@ -114,10 +114,7 @@
         <plugin name="cordova-plugin-whitelist" source="npm" spec="1.3.2" />
         <!-- Additional plugins -->
         <plugin name="cordova-plugin-fullscreen" source="npm" spec="1.2.0" />
-        <plugin name="cordova-plugin-googlemaps" source="npm" spec="2.4.5">
-            <variable name="API_KEY_FOR_ANDROID" value="AIzaSyDNI_ZWPqvdS6r6gPVO50I4TlYkfkZdXh8" />
-            <variable name="API_KEY_FOR_IOS" value="AIzaSyDNI_ZWPqvdS6r6gPVO50I4TlYkfkZdXh8" />
-        </plugin>
+ 
     </platform>
 
     <plugin name="cordova-plugin-appavailability" source="npm" spec="0.4.2" />
