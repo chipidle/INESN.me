@@ -5,8 +5,8 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.12"
-		android-versionCode="16428"
-		ios-CFBundleVersion="16428"
+		android-versionCode="16461"
+		ios-CFBundleVersion="16461"
 		id="me.inesn.hado">
 
 	<name>iEstate</name>
@@ -122,8 +122,8 @@
 		<plugin name="cordova-plugin-fullscreen" source="npm" spec="1.2.0" />
 
 		<plugin name="cordova-plugin-googlemaps" source="npm" spec="2.4.5">
-			<variable name="API_KEY_FOR_ANDROID" value="AIzaSyDNI_ZWPqvdS6r6gPVO50I4TlYkfkZdXh8" />
-			<variable name="API_KEY_FOR_IOS" value="AIzaSyDNI_ZWPqvdS6r6gPVO50I4TlYkfkZdXh8" />
+			<variable name="API_KEY_FOR_ANDROID" value="AIzaSyBpJHsH-cx-1LGmwTbfxteCVRiP8N7Lwy8" />
+			<variable name="API_KEY_FOR_IOS" value="AIzaSyBpJHsH-cx-1LGmwTbfxteCVRiP8N7Lwy8" />
 		</plugin>
 
 		<config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true" mode="replace" target="*-Info.plist">
