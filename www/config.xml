@@ -1,296 +1,299 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
-<widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        version="1.1.12"
-        android-versionCode="16291"
-        ios-CFBundleVersion="16291"
-        id="me.inesn.hado">
+<widget xmlns	 = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		version="1.1.12"
+		android-versionCode="16428"
+		ios-CFBundleVersion="16428"
+		id="me.inesn.hado">
 
-    <name>iEstate</name>
-    <description>a social platform that helps connect and match all real estate buyers &amp; sellers with verified product sources and qualities</description>
+	<name>iEstate</name>
+	<description>a social platform that helps connect and match all real estate buyers &amp; sellers with verified product sources and qualities</description>
 
-    <author href="http://inevn.com" email="chipidle@msn.com">I&amp;E Corp.</author>
+	<author href="http://inevn.com" email="chipidle@msn.com">I&amp;E Corp.</author>
 
-    <content src="index.html" />
-    <!-- <content src="http://localhost:45678" /> -->
+	<content src="index.html" />
+	<!-- <content src="http://localhost:45678" /> -->
 
-    <!-- <preference name="windows-identity-name" value="51394IECorp.me.inesn.app" /> -->
-    <preference name="Orientation" value="portrait" />
-    <preference name="HideKeyboardFormAccessoryBar" value="true" />
-    <preference name="android-minSdkVersion" value="14" />
-    <preference name="android-targetSdkVersion" value="26" />
-    <!-- <preference name="phonegap-version" value="cli-6.5.0" /> -->
-    <preference name="phonegap-version" value="cli-8.0.0" />
-    <!-- <preference name="pgb-builder-version" value="2" /> -->
+	<!-- <preference name="windows-identity-name" value="51394IECorp.me.inesn.app" /> -->
+	<preference name="Orientation" value="portrait" />
+	<preference name="HideKeyboardFormAccessoryBar" value="true" />
+	<preference name="android-minSdkVersion" value="14" />
+	<preference name="android-targetSdkVersion" value="26" />
+	<!-- <preference name="phonegap-version" value="cli-6.5.0" /> -->
+	<preference name="phonegap-version" value="cli-8.0.0" />
+	<!-- <preference name="pgb-builder-version" value="2" /> -->
 
-    <preference name="AllowInlineMediaPlayback" value="true" />
-    <preference name="AutoHideSplashScreen" value="true" />
-    <preference name="SplashScreenDelay" value="1234" />
-    <preference name="ShowSplashScreenSpinner" value="false" />
-    <preference name="StatusBarOverlaysWebView" value="true" />
-    <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="fullscreen" value="true" />
-    <preference name="stay-in-webview" value="true" />
-    <preference name="UIWebViewBounce" value="false" />
-    <preference name="webviewbounce" value="false" />
-    <preference name="DisallowOverscroll" value="true" />
-    <preference name="EnableViewportScale" value="false" />
-    <preference name="MediaPlaybackRequiresUserAction" value="false" />
-    <preference name="OpenAllWhitelistURLsInWebView" value="true" />
-    <preference name="exit-on-suspend" value="false" />
-    <preference name="KeepRunning" value="true" />
-    <preference name="UIWebViewDecelerationSpeed" value="fast" />
-    <preference name="useBrowserHistory" value="true" />
-    <preference name="keyboardDisplayRequiresUserAction" value="false" />
-    <preference name="SuppressesLongPressGesture" value="true" />
-    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
-    <!-- <preference name="android-build-tool" value="gradle" /> -->
-    <!-- <preference name="deployment-target" value="8.3" /> -->
-    <!-- <preference name="AllowBackForwardNavigationGestures" value="true" /> -->
-    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
-    <preference name="iosPersistentFileLocation" value="Library" />
-    <!-- <preference name="UseSwiftLanguageVersion" value="3.2" /> -->
-    <!-- <preference name="swift-version" value="3.2" /> -->
+	<preference name="AllowInlineMediaPlayback" value="true" />
+	<preference name="AutoHideSplashScreen" value="true" />
+	<preference name="SplashScreenDelay" value="1234" />
+	<preference name="ShowSplashScreenSpinner" value="false" />
+	<preference name="StatusBarOverlaysWebView" value="true" />
+	<preference name="SplashMaintainAspectRatio" value="true" />
+	<preference name="fullscreen" value="true" />
+	<preference name="stay-in-webview" value="true" />
+	<preference name="UIWebViewBounce" value="false" />
+	<preference name="webviewbounce" value="false" />
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="EnableViewportScale" value="false" />
+	<preference name="MediaPlaybackRequiresUserAction" value="false" />
+	<preference name="OpenAllWhitelistURLsInWebView" value="true" />
+	<preference name="exit-on-suspend" value="false" />
+	<preference name="KeepRunning" value="true" />
+	<preference name="UIWebViewDecelerationSpeed" value="fast" />
+	<preference name="useBrowserHistory" value="true" />
+	<preference name="keyboardDisplayRequiresUserAction" value="false" />
+	<preference name="SuppressesLongPressGesture" value="true" />
+	<preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+	<!-- <preference name="android-build-tool" value="gradle" /> -->
+	<!-- <preference name="deployment-target" value="8.3" /> -->
+	<!-- <preference name="AllowBackForwardNavigationGestures" value="true" /> -->
+	<preference name="AndroidPersistentFileLocation" value="Compatibility" />
+	<preference name="iosPersistentFileLocation" value="Library" />
+	<!-- <preference name="UseSwiftLanguageVersion" value="3.2" /> -->
+	<!-- <preference name="swift-version" value="3.2" /> -->
 
-    <!-- Plugins -->
-    <!-- Core plugins -->
-    <!-- <plugin name="cordova-plugin-battery-status" source="npm" spec="1.2.0" /> -->
-    <platform name="android">
-        <plugin name="cordova-plugin-camera" source="npm" spec="2.4.1" />
-        <plugin name="cordova-plugin-console" source="npm" spec="1.0.7" />
-        <!-- <plugin name="cordova-plugin-contacts" source="npm" spec="2.2.0" /> -->
-        <plugin name="cordova-plugin-device" source="npm" spec="1.1.6" />
-        <plugin name="cordova-plugin-device-motion" source="npm" spec="1.2.5" />
-        <plugin name="cordova-plugin-device-orientation" source="npm" spec="1.0.7" />
-        <plugin name="cordova-plugin-dialogs" source="npm" spec="1.3.3" />
-        <plugin name="cordova-plugin-file" source="npm" spec="4.3.3" />
-        <plugin name="cordova-plugin-file-transfer" source="npm" spec="1.6.3" />
-        <!-- <plugin name="cordova-plugin-geolocation" source="npm" spec="2.4.0" /> -->
-        <!-- <plugin name="cordova-plugin-globalization" source="npm" spec="1.0.4" /> -->
-        <plugin name="cordova-plugin-inappbrowser" source="npm" spec="1.7.1" />
-        <!-- <plugin name="cordova-plugin-themeablebrowser" /> -->
-        <plugin name="cordova-plugin-media" source="npm" spec="3.0.1" />
-        <plugin name="cordova-plugin-media-capture" source="npm" spec="1.4.3" />
-        <plugin name="cordova-plugin-network-information" source="npm" spec="1.3.3" />
-        <plugin name="cordova-plugin-splashscreen" source="npm" spec="4.0.3" />
-        <plugin name="cordova-plugin-vibration" source="npm" spec="2.1.5" />
-        <plugin name="cordova-plugin-statusbar" source="npm" spec="2.2.3" />
-        <plugin name="cordova-plugin-whitelist" source="npm" spec="1.3.2" />
-        <!-- Additional plugins -->
-        <plugin name="cordova-plugin-fullscreen" source="npm" spec="1.1.0" />
-     
-        <plugin name="cordova-plugin-fingerprint-aio" source="npm" spec="1.3.8" />
-    </platform>
-    <platform name="ios">
-        <plugin name="cordova-plugin-camera" source="npm" spec="4.0.3">
-            <variable name="CAMERA_USAGE_DESCRIPTION" value="Let you take a picture." />
-            <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Let you select a picture." />
-            <variable name="PHOTO_LIBRARY_USAGE_DESCRIPTION" value="Let you select a picture." />
-        </plugin>
-        <plugin name="cordova-plugin-console" source="npm" spec="1.1.0" />
-        <!-- <plugin name="cordova-plugin-contacts" source="npm" spec="2.2.0" /> -->
-        <plugin name="cordova-plugin-device" source="npm" spec="2.0.2" />
-        <plugin name="cordova-plugin-device-motion" source="npm" spec="2.0.1" />
-        <plugin name="cordova-plugin-device-orientation" source="npm" spec="2.0.1" />
-        <plugin name="cordova-plugin-dialogs" source="npm" spec="2.0.1" />
-        <plugin name="cordova-plugin-file" source="npm" spec="6.0.1" />
-        <plugin name="cordova-plugin-file-transfer" source="npm" spec="1.7.1" />
-        <!-- <plugin name="cordova-plugin-geolocation" source="npm" spec="2.4.0" /> -->
-        <!-- <plugin name="cordova-plugin-globalization" source="npm" spec="1.0.4" /> -->
-        <plugin name="cordova-plugin-inappbrowser" source="npm" spec="3.0.0" />
-        <!-- <plugin name="cordova-plugin-themeablebrowser" /> -->
-        <plugin name="cordova-plugin-media" source="npm" spec="5.0.2" />
-        <plugin name="cordova-plugin-media-capture" source="npm" spec="3.0.2">
-            <variable name="CAMERA_USAGE_DESCRIPTION" value="Let you take a picture." />
-            <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Let you select a picture." />
-        </plugin>
-        <plugin name="cordova-plugin-network-information" source="npm" spec="2.0.1" />
-        <plugin name="cordova-plugin-splashscreen" source="npm" spec="4.0.3" />
-        <plugin name="cordova-plugin-vibration" source="npm" spec="3.1.0" />
-        <plugin name="cordova-plugin-statusbar" source="npm" spec="2.4.2" />
-        <plugin name="cordova-plugin-whitelist" source="npm" spec="1.3.2" />
-        <!-- Additional plugins -->
-        <plugin name="cordova-plugin-fullscreen" source="npm" spec="1.2.0" />
- 
-        <plugin name="cordova-plugin-googlemaps" source="npm" spec="2.4.5">
-            <variable name="API_KEY_FOR_ANDROID" value="AIzaSyDNI_ZWPqvdS6r6gPVO50I4TlYkfkZdXh8" />
-            <variable name="API_KEY_FOR_IOS" value="AIzaSyDNI_ZWPqvdS6r6gPVO50I4TlYkfkZdXh8" />
-        </plugin>
-    </platform>
+	<!-- Plugins -->
+	<!-- Core plugins -->
+	<!-- <plugin name="cordova-plugin-battery-status" source="npm" spec="1.2.0" /> -->
+	<platform name="android">
+		<plugin name="cordova-plugin-camera" source="npm" spec="2.4.1" />
+		<plugin name="cordova-plugin-console" source="npm" spec="1.0.7" />
+		<!-- <plugin name="cordova-plugin-contacts" source="npm" spec="2.2.0" /> -->
+		<plugin name="cordova-plugin-device" source="npm" spec="1.1.6" />
+		<plugin name="cordova-plugin-device-motion" source="npm" spec="1.2.5" />
+		<plugin name="cordova-plugin-device-orientation" source="npm" spec="1.0.7" />
+		<plugin name="cordova-plugin-dialogs" source="npm" spec="1.3.3" />
+		<plugin name="cordova-plugin-file" source="npm" spec="4.3.3" />
+		<plugin name="cordova-plugin-file-transfer" source="npm" spec="1.6.3" />
+		<!-- <plugin name="cordova-plugin-geolocation" source="npm" spec="2.4.0" /> -->
+		<!-- <plugin name="cordova-plugin-globalization" source="npm" spec="1.0.4" /> -->
+		<plugin name="cordova-plugin-inappbrowser" source="npm" spec="1.7.1" />
+		<plugin name="cordova-plugin-media" source="npm" spec="3.0.1" />
+		<plugin name="cordova-plugin-media-capture" source="npm" spec="1.4.3" />
+		<plugin name="cordova-plugin-network-information" source="npm" spec="1.3.3" />
+		<plugin name="cordova-plugin-splashscreen" source="npm" spec="4.0.3" />
+		<plugin name="cordova-plugin-vibration" source="npm" spec="2.1.5" />
+		<plugin name="cordova-plugin-statusbar" source="npm" spec="2.2.3" />
+		<plugin name="cordova-plugin-whitelist" source="npm" spec="1.3.2" />
 
-    <plugin name="cordova-plugin-appavailability" source="npm" spec="0.4.2" />
-    <plugin name="ionic-plugin-keyboard" source="npm" spec="2.2.1" />
-    <plugin name="phonegap-plugin-push" source="npm" spec="1.10.4">
-        <param name="SENDER_ID" value="57811167537" />
-        <!-- <param name="SENDER_ID" value="435143661192" /> -->
-        <!-- <param name="SENDER_ID" value="85075801930" /> -->
-    </plugin>
-    <plugin name="cordova-plugin-wkwebview-engine" source="npm" spec="1.1.3" />
-    <plugin name="cordova-plugin-file-opener2" source="npm" spec="2.0.19" />
+		<!-- Additional plugins -->
+		<plugin name="cordova-plugin-fullscreen" source="npm" spec="1.1.0" />
+	 
+		<plugin name="cordova-plugin-fingerprint-aio" source="npm" spec="1.3.8" />
 
-    <feature name="StatusBar">
-        <param name="ios-package" value="CDVStatusBar" onload="true" />
-    </feature>
-    <feature name="CDVWKWebViewEngine">
-        <param name="ios-package" value="CDVWKWebViewEngine" />
-    </feature>
+		<config-file platform="android" parent="/manifest">
+			<!-- <application android:debuggable="true" /> -->
+			<application android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+			<!-- <activity android:windowSoftInputMode="adjustPan" /> -->
+		</config-file>
+	</platform>
+	<platform name="ios">
+		<plugin name="cordova-plugin-camera" source="npm" spec="4.0.3">
+			<variable name="CAMERA_USAGE_DESCRIPTION" value="Let you take a picture." />
+			<variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Let you select a picture." />
+			<variable name="PHOTO_LIBRARY_USAGE_DESCRIPTION" value="Let you select a picture." />
+		</plugin>
+		<plugin name="cordova-plugin-console" source="npm" spec="1.1.0" />
+		<!-- <plugin name="cordova-plugin-contacts" source="npm" spec="2.2.0" /> -->
+		<plugin name="cordova-plugin-device" source="npm" spec="2.0.2" />
+		<plugin name="cordova-plugin-device-motion" source="npm" spec="2.0.1" />
+		<plugin name="cordova-plugin-device-orientation" source="npm" spec="2.0.1" />
+		<plugin name="cordova-plugin-dialogs" source="npm" spec="2.0.1" />
+		<plugin name="cordova-plugin-file" source="npm" spec="6.0.1" />
+		<plugin name="cordova-plugin-file-transfer" source="npm" spec="1.7.1" />
+		<!-- <plugin name="cordova-plugin-geolocation" source="npm" spec="2.4.0" /> -->
+		<!-- <plugin name="cordova-plugin-globalization" source="npm" spec="1.0.4" /> -->
+		<plugin name="cordova-plugin-inappbrowser" source="npm" spec="3.0.0" />
+		<plugin name="cordova-plugin-media" source="npm" spec="5.0.2" />
+		<plugin name="cordova-plugin-media-capture" source="npm" spec="3.0.2">
+			<variable name="CAMERA_USAGE_DESCRIPTION" value="Let you take a picture." />
+			<variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Let you select a picture." />
+		</plugin>
+		<plugin name="cordova-plugin-network-information" source="npm" spec="2.0.1" />
+		<plugin name="cordova-plugin-splashscreen" source="npm" spec="4.0.3" />
+		<plugin name="cordova-plugin-vibration" source="npm" spec="3.1.0" />
+		<plugin name="cordova-plugin-statusbar" source="npm" spec="2.4.2" />
+		<plugin name="cordova-plugin-whitelist" source="npm" spec="1.3.2" />
 
-<!--     <edit-config file="AndroidManifest.xml" target="/manifest" mode="merge">
-        <uses-sdk android:debuggable="true" />
-    </edit-config>
- -->    <config-file platform="android" parent="/manifest">
-        <!-- <application android:debuggable="true" /> -->
-        <application android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-        <!-- <activity android:windowSoftInputMode="adjustPan" /> -->
-    </config-file>
-    <config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true" mode="replace" target="*-Info.plist">
-        <false/>
-    </config-file>
-    <config-file platform="ios" parent="UIStatusBarHidden" overwrite="true" mode="replace" target="*-Info.plist">
-        <true/>
-    </config-file>
-    <config-file platform="ios" parent="NSPhotoLibraryUsageDescription">
-        <string>For uploading receipt images</string>
-    </config-file>
+		<!-- Additional plugins -->
+		<plugin name="cordova-plugin-fullscreen" source="npm" spec="1.2.0" />
 
-    <!-- Define app icon for each platform. -->
-    <!-- <icon src="icon.png" /> -->
-    <icon src="res/icon/android/hado/drawable-ldpi-icon.png"         platform="android" density="ldpi" />
-    <icon src="res/icon/android/hado/drawable-mdpi-icon.png"         platform="android" density="mdpi" />
-    <icon src="res/icon/android/hado/drawable-hdpi-icon.png"         platform="android" density="hdpi" />
-    <icon src="res/icon/android/hado/drawable-xhdpi-icon.png"        platform="android" density="xhdpi" />
-    <icon src="res/icon/android/hado/drawable-xxhdpi-icon.png"       platform="android" density="xxhdpi" />
-    <icon src="res/icon/android/hado/drawable-xxxhdpi-icon.png"      platform="android" density="xxxhdpi" />
-    <!-- <icon src="res/icon/blackberry/icon-80.png"                 platform="blackberry" /> -->
-    <!-- <icon src="res/icon/blackberry/icon-80.png"                 platform="blackberry" state="hover" /> -->
+		<plugin name="cordova-plugin-googlemaps" source="npm" spec="2.4.5">
+			<variable name="API_KEY_FOR_ANDROID" value="AIzaSyDNI_ZWPqvdS6r6gPVO50I4TlYkfkZdXh8" />
+			<variable name="API_KEY_FOR_IOS" value="AIzaSyDNI_ZWPqvdS6r6gPVO50I4TlYkfkZdXh8" />
+		</plugin>
 
-    <icon src="res/icon/ios/hado/icon.png"                           platform="ios" width="57"  height="57" />
-    <icon src="res/icon/ios/hado/icon@2x.png"                        platform="ios" width="114" height="114" />
-    <icon src="res/icon/ios/hado/icon-40.png"                        platform="ios" width="40"  height="40" />
-    <icon src="res/icon/ios/hado/icon-40@2x.png"                     platform="ios" width="80"  height="80" />
-    <icon src="res/icon/ios/hado/icon-50.png"                        platform="ios" width="50"  height="50" />
-    <icon src="res/icon/ios/hado/icon-50@2x.png"                     platform="ios" width="100" height="100" />
-    <icon src="res/icon/ios/hado/icon-60.png"                        platform="ios" width="60"  height="60" />
-    <icon src="res/icon/ios/hado/icon-60@2x.png"                     platform="ios" width="120" height="120" />
-    <icon src="res/icon/ios/hado/icon-60@3x.png"                     platform="ios" width="180" height="180" />
-    <icon src="res/icon/ios/hado/icon-72.png"                        platform="ios" width="72"  height="72" />
-    <icon src="res/icon/ios/hado/icon-72@2x.png"                     platform="ios" width="144" height="144" />
-    <icon src="res/icon/ios/hado/icon-76.png"                        platform="ios" width="76"  height="76" />
-    <icon src="res/icon/ios/hado/icon-76@2x.png"                     platform="ios" width="152" height="152" />
-    <icon src="res/icon/ios/hado/icon-small.png"                     platform="ios" width="29"  height="29" />
-    <icon src="res/icon/ios/hado/icon-small@2x.png"                  platform="ios" width="58"  height="58" />
-    <icon src="res/icon/ios/hado/icon-small@3x.png"                  platform="ios" width="87"  height="87" />
-    <!-- <icon src="res/icon/ios/hado/icon-1024.png"                      platform="ios" width="1024" height="1024" /> -->
- 
+		<config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true" mode="replace" target="*-Info.plist">
+			<false/>
+		</config-file>
+		<config-file platform="ios" parent="UIStatusBarHidden" overwrite="true" mode="replace" target="*-Info.plist">
+			<true/>
+		</config-file>
+		<config-file platform="ios" parent="NSPhotoLibraryUsageDescription" mode="replace" target="*-Info.plist">
+			<string>For uploading receipt images</string>
+		</config-file>
 
-    <!-- <icon src="res/icon/webos/icon-64.png"                      platform="webos" /> -->
-    <!-- <icon src="res/icon/wp8/icon-48.png"              platform="winphone" /> -->
-    <!-- <icon src="res/icon/wp8/icon-173.png"             platform="winphone"   role="background" /> -->
+		<feature name="StatusBar">
+			<param name="ios-package" value="CDVStatusBar" onload="true" />
+		</feature>
+		<feature name="CDVWKWebViewEngine">
+			<param name="ios-package" value="CDVWKWebViewEngine" />
+		</feature>
+	</platform>
 
-    <!-- Define app splash screen for each platform. -->
-    <!-- <splash src="splash.apd.png" /> -->
-    <splash src="res/screen/android/hado/drawable-port-ldpi-screen.png"      platform="android" density="port-ldpi" />
-    <splash src="res/screen/android/hado/drawable-port-mdpi-screen.png"      platform="android" density="port-mdpi" />
-    <splash src="res/screen/android/hado/drawable-port-hdpi-screen.png"      platform="android" density="port-hdpi" />
-    <splash src="res/screen/android/hado/drawable-port-xhdpi-screen.png"     platform="android" density="port-xhdpi" />
-    <splash src="res/screen/android/hado/drawable-port-xxhdpi-screen.png"    platform="android" density="port-xxhdpi" />
-    <splash src="res/screen/android/hado/drawable-port-xxxhdpi-screen.png"   platform="android" density="port-xxxhdpi" />
-    <!-- <splash src="res/screen/android/drawable-land-ldpi-screen.fmt.png"      platform="android" density="land-ldpi" />
-    <splash src="res/screen/android/drawable-land-mdpi-screen.fmt.png"      platform="android" density="land-mdpi" />
-    <splash src="res/screen/android/drawable-land-hdpi-screen.fmt.png"      platform="android" density="land-hdpi" />
-    <splash src="res/screen/android/drawable-land-xhdpi-screen.fmt.png"     platform="android" density="land-xhdpi" />
-    <splash src="res/screen/android/drawable-land-xxhdpi-screen.fmt.png"    platform="android" density="land-xxhdpi" />
-    <splash src="res/screen/android/drawable-land-xxxhdpi-screen.fmt.png"   platform="android" density="land-xxxhdpi" /> -->
-    <!-- <splash src="res/screen/blackberry/screen-225.png"                  platform="blackberry" /> -->
-    <!-- <splash src="res/screen/wp8/screen-portrait.png"          platform="winphone" /> -->
-    <splash src="res/screen/ios/hado/Default-568h@2x~iphone.png"             platform="ios" width="640"  height="1136" />
-    <splash src="res/screen/ios/hado/Default-667h.png"                       platform="ios" width="750"  height="1334" />
-    <splash src="res/screen/ios/hado/Default-736h.png"                       platform="ios" width="1242" height="2208" />
-    <!-- <splash src="res/screen/ios/hado/Default-Landscape-736h.png"             platform="ios" width="2208" height="1242" /> -->
-    <!-- <splash src="res/screen/ios/hado/Default-Landscape@2x~ipad.png"          platform="ios" width="2048" height="1536" /> -->
-    <!-- <splash src="res/screen/ios/hado/Default-Landscape~ipad.png"             platform="ios" width="1024" height="768" /> -->
-    <splash src="res/screen/ios/hado/Default-Portrait@2x~ipad.png"           platform="ios" width="1536" height="2048" />
-    <splash src="res/screen/ios/hado/Default-Portrait~ipad.png"              platform="ios" width="768"  height="1024" />
-    <splash src="res/screen/ios/hado/Default@2x~iphone.png"                  platform="ios" width="640"  height="960" />
-    <splash src="res/screen/ios/hado/Default~iphone.png"                     platform="ios" width="320"  height="480" />
+	<plugin name="cordova-plugin-appavailability" source="npm" spec="0.4.2" />
+	<plugin name="ionic-plugin-keyboard" source="npm" spec="2.2.1" />
+	<plugin name="phonegap-plugin-push" source="npm" spec="1.10.4">
+		<param name="SENDER_ID" value="57811167537" />
+		<!-- <param name="SENDER_ID" value="435143661192" /> -->
+		<!-- <param name="SENDER_ID" value="85075801930" /> -->
+	</plugin>
+	<plugin name="cordova-plugin-wkwebview-engine" source="npm" spec="1.1.3" />
+	<plugin name="cordova-plugin-file-opener2" source="npm" spec="2.0.19" />
 
-    <!--platform name="android">
-        <resource-file src="res/icon/android/hado/notify_icon-ldpi.png" target="res/drawable-ldpi/notify_icon.png" />
-        <resource-file src="res/icon/android/hado/notify_icon-mdpi.png" target="res/drawable-mdpi/notify_icon.png" />
-        <resource-file src="res/icon/android/hado/notify_icon-hdpi.png" target="res/drawable-hdpi/notify_icon.png" />
-        <resource-file src="res/icon/android/hado/notify_icon-xhdpi.png" target="res/drawable-xhdpi/notify_icon.png" />
-        <resource-file src="res/icon/android/hado/notify_icon-xxhdpi.png" target="res/drawable-xxhdpi/notify_icon.png" />
-        <resource-file src="res/icon/android/hado/notify_icon-xxxhdpi.png" target="res/drawable-xxxhdpi/notify_icon.png" />
-    </platform-->
-    <!-- <platform name="windows"> -->
-        <!-- For Windows the recommended approach to define app icons is to use target attribute -->
-        <!-- <icon src="res/icon/windows/StoreLogo.png"         target="StoreLogo" /> -->
-        <!-- <icon src="res/icon/windows/Square30x30Logo.png"   target="Square30x30Logo" /> -->
-        <!-- <icon src="res/icon/windows/Square44x44Logo.png"   target="Square44x44Logo" /> -->
-        <!-- <icon src="res/icon/windows/Square70x70Logo.png"   target="Square70x70Logo" /> -->
-        <!-- <icon src="res/icon/windows/Square71x71Logo.png"   target="Square71x71Logo" /> -->
-        <!-- <icon src="res/icon/windows/Square150x150Logo.png" target="Square150x150Logo" /> -->
-        <!-- <icon src="res/icon/windows/Square310x310Logo.png" target="Square310x310Logo" /> -->
-        <!-- <icon src="res/icon/windows/Wide310x150Logo.png"   target="Wide310x150Logo" /> -->
-        <!-- <icon src="res/icon/windows/Square150x150Logo.scale-100.png"        platform="windows" width="150"  height="150" /> -->
-        <!-- <icon src="res/icon/windows/Square30x30Logo.scale-100.png"          platform="windows" width="30"   height="30" /> -->
-        <!-- <icon src="res/icon/windows/StoreLogo.scale-100.png"                platform="windows" width="50"   height="50" /> -->
-        <!-- <splash src="res/screen/windows/SplashScreen.scale-100.png"         platform="windows" width="620"  height="300" /> -->
-        <!-- scaled images are specified here for backward compatibility only so we can find them by size -->
-        <!-- <icon src="res/icon/windows/StoreLogo.scale-240.png"                platform="windows" width="120"  height="120" /> -->
-        <!-- <icon src="res/icon/windows/Square44x44Logo.scale-100.png"          platform="windows" width="44"   height="44" /> -->
-        <!-- <icon src="res/icon/windows/Square44x44Logo.scale-240.png"          platform="windows" width="106"  height="106" /> -->
-        <!-- <icon src="res/icon/windows/Square70x70Logo.scale-100.png"          platform="windows" width="70"   height="70" /> -->
-        <!-- <icon src="res/icon/windows/Square71x71Logo.scale-100.png"          platform="windows" width="71"   height="71" /> -->
-        <!-- <icon src="res/icon/windows/Square71x71Logo.scale-240.png"          platform="windows" width="170"  height="170" /> -->
-        <!-- <icon src="res/icon/windows/Square150x150Logo.scale-240.png"        platform="windows" width="360"  height="360" /> -->
-        <!-- <icon src="res/icon/windows/Square310x310Logo.scale-100.png"        platform="windows" width="310"  height="310" /> -->
-        <!-- <icon src="res/icon/windows/Wide310x150Logo.scale-100.png"          platform="windows" width="310"  height="150" /> -->
-        <!-- <icon src="res/icon/windows/Wide310x150Logo.scale-240.png"          platform="windows" width="744"  height="360" /> -->
-        <!-- <splash src="res/screen/windows/SplashScreenPhone.scale-240.png"    platform="windows" width="1152" height="1920" /> -->
-    <!-- </platform> -->
+	<!--	 <edit-config file="AndroidManifest.xml" target="/manifest" mode="merge">
+		<uses-sdk android:debuggable="true" />
+	</edit-config>
+	-->
 
-    <!--
-        Define access to external domains.
+	<!-- Define app icon for each platform. -->
+	<!-- <icon src="icon.png" /> -->
+	<icon src="res/icon/android/hado/drawable-ldpi-icon.png"		 platform="android" density="ldpi" />
+	<icon src="res/icon/android/hado/drawable-mdpi-icon.png"		 platform="android" density="mdpi" />
+	<icon src="res/icon/android/hado/drawable-hdpi-icon.png"		 platform="android" density="hdpi" />
+	<icon src="res/icon/android/hado/drawable-xhdpi-icon.png"		platform="android" density="xhdpi" />
+	<icon src="res/icon/android/hado/drawable-xxhdpi-icon.png"	   platform="android" density="xxhdpi" />
+	<icon src="res/icon/android/hado/drawable-xxxhdpi-icon.png"	  platform="android" density="xxxhdpi" />
+	<!-- <icon src="res/icon/blackberry/icon-80.png"				 platform="blackberry" /> -->
+	<!-- <icon src="res/icon/blackberry/icon-80.png"				 platform="blackberry" state="hover" /> -->
 
-        <access />            - a blank access tag denies access to all external resources.
-        <access origin="*" /> - a wildcard access tag allows access to all external resource.
+	<icon src="res/icon/ios/hado/icon.png"						   platform="ios" width="57"  height="57" />
+	<icon src="res/icon/ios/hado/icon@2x.png"						platform="ios" width="114" height="114" />
+	<icon src="res/icon/ios/hado/icon-40.png"						platform="ios" width="40"  height="40" />
+	<icon src="res/icon/ios/hado/icon-40@2x.png"					 platform="ios" width="80"  height="80" />
+	<icon src="res/icon/ios/hado/icon-50.png"						platform="ios" width="50"  height="50" />
+	<icon src="res/icon/ios/hado/icon-50@2x.png"					 platform="ios" width="100" height="100" />
+	<icon src="res/icon/ios/hado/icon-60.png"						platform="ios" width="60"  height="60" />
+	<icon src="res/icon/ios/hado/icon-60@2x.png"					 platform="ios" width="120" height="120" />
+	<icon src="res/icon/ios/hado/icon-60@3x.png"					 platform="ios" width="180" height="180" />
+	<icon src="res/icon/ios/hado/icon-72.png"						platform="ios" width="72"  height="72" />
+	<icon src="res/icon/ios/hado/icon-72@2x.png"					 platform="ios" width="144" height="144" />
+	<icon src="res/icon/ios/hado/icon-76.png"						platform="ios" width="76"  height="76" />
+	<icon src="res/icon/ios/hado/icon-76@2x.png"					 platform="ios" width="152" height="152" />
+	<icon src="res/icon/ios/hado/icon-small.png"					 platform="ios" width="29"  height="29" />
+	<icon src="res/icon/ios/hado/icon-small@2x.png"				  platform="ios" width="58"  height="58" />
+	<icon src="res/icon/ios/hado/icon-small@3x.png"				  platform="ios" width="87"  height="87" />
+	<!-- <icon src="res/icon/ios/hado/icon-1024.png"					  platform="ios" width="1024" height="1024" /> -->
 
-        Otherwise, you can specify specific domains:
-    -->
-    <access origin="*" />
-    <allow-navigation href="https://inesn.me:*" />
-    <!-- <allow-navigation href="*" /> -->
-    <allow-navigation href="blob:*" />
-    <allow-navigation href="gap://ready" />
-    <allow-navigation href="http://localhost*" />
-    <allow-navigation href="fb://*" />
-    <allow-navigation href="twitter://*" />
-    <!--
-       <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
-       <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
-       <access origin="http://phonegap.com" browserOnly="true" /> - only allows http://phonegap.com to be opened by the child browser.
-    -->
 
-    <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
-    <!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
+	<!-- <icon src="res/icon/webos/icon-64.png"					  platform="webos" /> -->
+	<!-- <icon src="res/icon/wp8/icon-48.png"			  platform="winphone" /> -->
+	<!-- <icon src="res/icon/wp8/icon-173.png"			 platform="winphone"   role="background" /> -->
 
-    <allow-intent href="file:*" />
-    <allow-intent href="http:*" />
-    <allow-intent href="https:*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
-    <platform name="android">
-        <allow-intent href="market:*" />
-    </platform>
-    <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
-    </platform>
+	<!-- Define app splash screen for each platform. -->
+	<!-- <splash src="splash.apd.png" /> -->
+	<splash src="res/screen/android/hado/drawable-port-ldpi-screen.png"	  platform="android" density="port-ldpi" />
+	<splash src="res/screen/android/hado/drawable-port-mdpi-screen.png"	  platform="android" density="port-mdpi" />
+	<splash src="res/screen/android/hado/drawable-port-hdpi-screen.png"	  platform="android" density="port-hdpi" />
+	<splash src="res/screen/android/hado/drawable-port-xhdpi-screen.png"	 platform="android" density="port-xhdpi" />
+	<splash src="res/screen/android/hado/drawable-port-xxhdpi-screen.png"	platform="android" density="port-xxhdpi" />
+	<splash src="res/screen/android/hado/drawable-port-xxxhdpi-screen.png"   platform="android" density="port-xxxhdpi" />
+	<!-- <splash src="res/screen/android/drawable-land-ldpi-screen.fmt.png"	  platform="android" density="land-ldpi" />
+	<splash src="res/screen/android/drawable-land-mdpi-screen.fmt.png"	  platform="android" density="land-mdpi" />
+	<splash src="res/screen/android/drawable-land-hdpi-screen.fmt.png"	  platform="android" density="land-hdpi" />
+	<splash src="res/screen/android/drawable-land-xhdpi-screen.fmt.png"	 platform="android" density="land-xhdpi" />
+	<splash src="res/screen/android/drawable-land-xxhdpi-screen.fmt.png"	platform="android" density="land-xxhdpi" />
+	<splash src="res/screen/android/drawable-land-xxxhdpi-screen.fmt.png"   platform="android" density="land-xxxhdpi" /> -->
+	<!-- <splash src="res/screen/blackberry/screen-225.png"				  platform="blackberry" /> -->
+	<!-- <splash src="res/screen/wp8/screen-portrait.png"		  platform="winphone" /> -->
+	<splash src="res/screen/ios/hado/Default-568h@2x~iphone.png"			 platform="ios" width="640"  height="1136" />
+	<splash src="res/screen/ios/hado/Default-667h.png"					   platform="ios" width="750"  height="1334" />
+	<splash src="res/screen/ios/hado/Default-736h.png"					   platform="ios" width="1242" height="2208" />
+	<!-- <splash src="res/screen/ios/hado/Default-Landscape-736h.png"			 platform="ios" width="2208" height="1242" /> -->
+	<!-- <splash src="res/screen/ios/hado/Default-Landscape@2x~ipad.png"		  platform="ios" width="2048" height="1536" /> -->
+	<!-- <splash src="res/screen/ios/hado/Default-Landscape~ipad.png"			 platform="ios" width="1024" height="768" /> -->
+	<splash src="res/screen/ios/hado/Default-Portrait@2x~ipad.png"		   platform="ios" width="1536" height="2048" />
+	<splash src="res/screen/ios/hado/Default-Portrait~ipad.png"			  platform="ios" width="768"  height="1024" />
+	<splash src="res/screen/ios/hado/Default@2x~iphone.png"				  platform="ios" width="640"  height="960" />
+	<splash src="res/screen/ios/hado/Default~iphone.png"					 platform="ios" width="320"  height="480" />
+
+	<!--platform name="android">
+		<resource-file src="res/icon/android/hado/notify_icon-ldpi.png" target="res/drawable-ldpi/notify_icon.png" />
+		<resource-file src="res/icon/android/hado/notify_icon-mdpi.png" target="res/drawable-mdpi/notify_icon.png" />
+		<resource-file src="res/icon/android/hado/notify_icon-hdpi.png" target="res/drawable-hdpi/notify_icon.png" />
+		<resource-file src="res/icon/android/hado/notify_icon-xhdpi.png" target="res/drawable-xhdpi/notify_icon.png" />
+		<resource-file src="res/icon/android/hado/notify_icon-xxhdpi.png" target="res/drawable-xxhdpi/notify_icon.png" />
+		<resource-file src="res/icon/android/hado/notify_icon-xxxhdpi.png" target="res/drawable-xxxhdpi/notify_icon.png" />
+	</platform-->
+	<!-- <platform name="windows"> -->
+		<!-- For Windows the recommended approach to define app icons is to use target attribute -->
+		<!-- <icon src="res/icon/windows/StoreLogo.png"		 target="StoreLogo" /> -->
+		<!-- <icon src="res/icon/windows/Square30x30Logo.png"   target="Square30x30Logo" /> -->
+		<!-- <icon src="res/icon/windows/Square44x44Logo.png"   target="Square44x44Logo" /> -->
+		<!-- <icon src="res/icon/windows/Square70x70Logo.png"   target="Square70x70Logo" /> -->
+		<!-- <icon src="res/icon/windows/Square71x71Logo.png"   target="Square71x71Logo" /> -->
+		<!-- <icon src="res/icon/windows/Square150x150Logo.png" target="Square150x150Logo" /> -->
+		<!-- <icon src="res/icon/windows/Square310x310Logo.png" target="Square310x310Logo" /> -->
+		<!-- <icon src="res/icon/windows/Wide310x150Logo.png"   target="Wide310x150Logo" /> -->
+		<!-- <icon src="res/icon/windows/Square150x150Logo.scale-100.png"		platform="windows" width="150"  height="150" /> -->
+		<!-- <icon src="res/icon/windows/Square30x30Logo.scale-100.png"		  platform="windows" width="30"   height="30" /> -->
+		<!-- <icon src="res/icon/windows/StoreLogo.scale-100.png"				platform="windows" width="50"   height="50" /> -->
+		<!-- <splash src="res/screen/windows/SplashScreen.scale-100.png"		 platform="windows" width="620"  height="300" /> -->
+		<!-- scaled images are specified here for backward compatibility only so we can find them by size -->
+		<!-- <icon src="res/icon/windows/StoreLogo.scale-240.png"				platform="windows" width="120"  height="120" /> -->
+		<!-- <icon src="res/icon/windows/Square44x44Logo.scale-100.png"		  platform="windows" width="44"   height="44" /> -->
+		<!-- <icon src="res/icon/windows/Square44x44Logo.scale-240.png"		  platform="windows" width="106"  height="106" /> -->
+		<!-- <icon src="res/icon/windows/Square70x70Logo.scale-100.png"		  platform="windows" width="70"   height="70" /> -->
+		<!-- <icon src="res/icon/windows/Square71x71Logo.scale-100.png"		  platform="windows" width="71"   height="71" /> -->
+		<!-- <icon src="res/icon/windows/Square71x71Logo.scale-240.png"		  platform="windows" width="170"  height="170" /> -->
+		<!-- <icon src="res/icon/windows/Square150x150Logo.scale-240.png"		platform="windows" width="360"  height="360" /> -->
+		<!-- <icon src="res/icon/windows/Square310x310Logo.scale-100.png"		platform="windows" width="310"  height="310" /> -->
+		<!-- <icon src="res/icon/windows/Wide310x150Logo.scale-100.png"		  platform="windows" width="310"  height="150" /> -->
+		<!-- <icon src="res/icon/windows/Wide310x150Logo.scale-240.png"		  platform="windows" width="744"  height="360" /> -->
+		<!-- <splash src="res/screen/windows/SplashScreenPhone.scale-240.png"	platform="windows" width="1152" height="1920" /> -->
+	<!-- </platform> -->
+
+	<!--
+		Define access to external domains.
+
+		<access />			- a blank access tag denies access to all external resources.
+		<access origin="*" /> - a wildcard access tag allows access to all external resource.
+
+		Otherwise, you can specify specific domains:
+	-->
+	<access origin="*" />
+	<allow-navigation href="https://inesn.me:*" />
+	<!-- <allow-navigation href="*" /> -->
+	<allow-navigation href="blob:*" />
+	<allow-navigation href="gap://ready" />
+	<allow-navigation href="http://localhost*" />
+	<allow-navigation href="fb://*" />
+	<allow-navigation href="twitter://*" />
+	<!--
+	   <access origin="http://phonegap.com" />					- allow any secure requests to http://phonegap.com/
+	   <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
+	   <access origin="http://phonegap.com" browserOnly="true" /> - only allows http://phonegap.com to be opened by the child browser.
+	-->
+
+	<!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
+	<!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
+
+	<allow-intent href="file:*" />
+	<allow-intent href="http:*" />
+	<allow-intent href="https:*" />
+	<allow-intent href="tel:*" />
+	<allow-intent href="sms:*" />
+	<allow-intent href="mailto:*" />
+	<allow-intent href="geo:*" />
+	<platform name="android">
+		<allow-intent href="market:*" />
+	</platform>
+	<platform name="ios">
+		<allow-intent href="itms:*" />
+		<allow-intent href="itms-apps:*" />
+	</platform>
 
 </widget>
