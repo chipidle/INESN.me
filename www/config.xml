@@ -5,8 +5,8 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.12"
-		android-versionCode="19470"
-		ios-CFBundleVersion="19470"
+		android-versionCode="19472"
+		ios-CFBundleVersion="19472"
 		id="me.inesn.hanu">
 
 	<name>Hanu Connections</name>
@@ -64,7 +64,7 @@
 		<plugin name="cordova-plugin-device-motion" source="npm" spec="2.0.1" />
 		<plugin name="cordova-plugin-device-orientation" source="npm" spec="2.0.1" />
 		<plugin name="cordova-plugin-dialogs" source="npm" spec="2.0.1" />
-		<plugin name="cordova-plugin-file" source="npm" spec="6.0.1" />
+		<plugin name="cordova-plugin-file" source="npm" spec="4.3.3" />
 		<plugin name="cordova-plugin-file-transfer" source="npm" spec="1.7.1" />
 		<!-- <plugin name="cordova-plugin-geolocation" source="npm" spec="2.4.0" /> -->
 		<!-- <plugin name="cordova-plugin-globalization" source="npm" spec="1.0.4" /> -->
