@@ -5,8 +5,8 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.12"
-		android-versionCode="19470"
-		ios-CFBundleVersion="19470"
+		android-versionCode="19471"
+		ios-CFBundleVersion="19471"
 		id="me.inesn.hanu">
 
 	<name>Hanu Connections</name>
@@ -54,7 +54,7 @@
 	<!-- <plugin name="cordova-plugin-battery-status" source="npm" spec="1.2.0" /> -->
 	<platform name="android">
 		<preference name="phonegap-version" value="cli-8.0.0" />
-		<!-- <preference name="pgb-builder-version" value="2" /> -->
+		<preference name="pgb-builder-version" value="2" />
 		<preference name="android-minSdkVersion" value="14" />
 		<preference name="android-targetSdkVersion" value="28" />
 		<plugin name="cordova-plugin-camera" source="npm" spec="4.0.3" />
