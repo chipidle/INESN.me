@@ -16,7 +16,6 @@
 
 	<content src="index.html" />
 	<!-- <content src="http://localhost:45678" /> -->
-	<preference name="phonegap-version" value="cli-6.5.0" />
 
 	<!-- <preference name="windows-identity-name" value="51394IECorp.me.inesn.app" /> -->
 	<preference name="Orientation" value="portrait" />
@@ -55,9 +54,9 @@
 	<!-- <plugin name="cordova-plugin-battery-status" source="npm" spec="1.2.0" /> -->
 	<platform name="android">
 		<preference name="phonegap-version" value="cli-6.5.0" />
-		<!-- <preference name="pgb-builder-version" value="2" /> -->
+		<preference name="pgb-builder-version" value="2" />
 		<preference name="android-minSdkVersion" value="14" />
-		<preference name="android-targetSdkVersion" value="26" />
+		<preference name="android-targetSdkVersion" value="28" />
 		<plugin name="cordova-plugin-camera" source="npm" spec="2.4.1" />
 		<plugin name="cordova-plugin-console" source="npm" spec="1.0.7" />
 		<!-- <plugin name="cordova-plugin-contacts" source="npm" spec="2.2.0" /> -->
