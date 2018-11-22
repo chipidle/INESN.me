@@ -65,7 +65,7 @@
 		<plugin name="cordova-plugin-device-orientation" source="npm" spec="2.0.1" />
 		<plugin name="cordova-plugin-dialogs" source="npm" spec="2.0.1" />
 		<plugin name="cordova-plugin-file" source="npm" spec="4.3.3" />
-		<plugin name="cordova-plugin-file-transfer" source="npm" spec="1.7.1" />
+		<plugin name="cordova-plugin-file-transfer" source="npm" spec="1.6.3" />
 		<!-- <plugin name="cordova-plugin-geolocation" source="npm" spec="2.4.0" /> -->
 		<!-- <plugin name="cordova-plugin-globalization" source="npm" spec="1.0.4" /> -->
 		<plugin name="cordova-plugin-inappbrowser" source="npm" spec="3.0.0" />
