@@ -53,7 +53,7 @@
 	<!-- Core plugins -->
 	<!-- <plugin name="cordova-plugin-battery-status" source="npm" spec="1.2.0" /> -->
 	<platform name="android">
-		<preference name="phonegap-version" value="cli-7.0.0" />
+		<preference name="phonegap-version" value="cli-8.1.1" />
 		<!-- <preference name="pgb-builder-version" value="2" /> -->
 		<preference name="android-minSdkVersion" value="14" />
 		<preference name="android-targetSdkVersion" value="28" />
