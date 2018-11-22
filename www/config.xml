@@ -20,12 +20,6 @@
 	<!-- <preference name="windows-identity-name" value="51394IECorp.me.inesn.app" /> -->
 	<preference name="Orientation" value="portrait" />
 	<preference name="HideKeyboardFormAccessoryBar" value="true" />
-	<preference name="android-minSdkVersion" value="14" />
-	<preference name="android-targetSdkVersion" value="26" />
-	<!-- <preference name="phonegap-version" value="cli-6.5.0" /> -->
-	<preference name="phonegap-version" value="cli-8.0.0" />
-	<!-- <preference name="pgb-builder-version" value="2" /> -->
-
 	<preference name="AllowInlineMediaPlayback" value="true" />
 	<preference name="AutoHideSplashScreen" value="true" />
 	<preference name="SplashScreenDelay" value="1234" />
@@ -59,6 +53,10 @@
 	<!-- Core plugins -->
 	<!-- <plugin name="cordova-plugin-battery-status" source="npm" spec="1.2.0" /> -->
 	<platform name="android">
+		<preference name="phonegap-version" value="cli-6.5.0" />
+		<!-- <preference name="pgb-builder-version" value="2" /> -->
+		<preference name="android-minSdkVersion" value="14" />
+		<preference name="android-targetSdkVersion" value="26" />
 		<plugin name="cordova-plugin-camera" source="npm" spec="2.4.1" />
 		<plugin name="cordova-plugin-console" source="npm" spec="1.0.7" />
 		<!-- <plugin name="cordova-plugin-contacts" source="npm" spec="2.2.0" /> -->
@@ -91,6 +89,8 @@
 		</config-file>
 	</platform>
 	<platform name="ios">
+		<preference name="phonegap-version" value="cli-8.0.0" />
+		<!-- <preference name="pgb-builder-version" value="2" /> -->
 		<plugin name="cordova-plugin-camera" source="npm" spec="4.0.3">
 			<variable name="CAMERA_USAGE_DESCRIPTION" value="Let you take a picture." />
 			<variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Let you select a picture." />
