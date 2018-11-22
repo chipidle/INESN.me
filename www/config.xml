@@ -5,8 +5,8 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.12"
-		android-versionCode="19469"
-		ios-CFBundleVersion="19469"
+		android-versionCode="19470"
+		ios-CFBundleVersion="19470"
 		id="me.inesn.hanu">
 
 	<name>Hanu Connections</name>
@@ -16,6 +16,7 @@
 
 	<content src="index.html" />
 	<!-- <content src="http://localhost:45678" /> -->
+	<preference name="phonegap-version" value="cli-6.5.0" />
 
 	<!-- <preference name="windows-identity-name" value="51394IECorp.me.inesn.app" /> -->
 	<preference name="Orientation" value="portrait" />
