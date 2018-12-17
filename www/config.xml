@@ -144,7 +144,7 @@
 		</feature>
 	</platform>
 
-	<plugin name="cordova-plugin-crypt-file" source="npm" spec="1.3.3" />
+	<!-- <plugin name="cordova-plugin-crypt-file" source="npm" spec="1.3.3" /> -->
 	<plugin name="cordova-plugin-appavailability" source="npm" spec="0.4.2" />
 	<plugin name="ionic-plugin-keyboard" source="npm" spec="2.2.1" />
 	<plugin name="phonegap-plugin-push" source="npm" spec="1.10.4">
