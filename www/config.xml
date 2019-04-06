@@ -59,6 +59,11 @@
 		<preference name="phonegap-version" value="cli-6.5.0" />
 		<preference name="android-minSdkVersion" value="14" />
 		<preference name="android-targetSdkVersion" value="28" />
+
+		<plugin name="cordova-plugin-file" source="npm" spec="4.3.3" />
+		<plugin name="cordova-plugin-file-transfer" source="npm" spec="1.6.3" />
+		<plugin name="cordova-plugin-media" source="npm" spec="5.0.0" />
+
 		<plugin name="cordova-plugin-camera" source="npm" spec="4.0.3" />
 		<plugin name="cordova-plugin-console" source="npm" spec="1.1.0" />
 		<!-- <plugin name="cordova-plugin-contacts" source="npm" spec="2.2.0" /> -->
@@ -94,6 +99,11 @@
 			<variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Let you select a picture." />
 			<variable name="PHOTO_LIBRARY_USAGE_DESCRIPTION" value="Let you select a picture." />
 		</plugin>
+
+		<plugin name="cordova-plugin-file" source="npm" spec="6.0.1" />
+		<plugin name="cordova-plugin-file-transfer" source="npm" spec="1.7.1" />
+		<plugin name="cordova-plugin-media" source="npm" spec="5.0.2" />
+
 		<plugin name="cordova-plugin-console" source="npm" spec="1.1.0" />
 		<!-- <plugin name="cordova-plugin-contacts" source="npm" spec="2.2.0" /> -->
 		<plugin name="cordova-plugin-device" source="npm" spec="2.0.2" />
@@ -135,9 +145,6 @@
 	</platform>
 
 	<plugin name="cordova-plugin-dialogs" source="npm" spec="2.0.1" />
-	<plugin name="cordova-plugin-file" source="npm" spec="6.0.1" />
-	<plugin name="cordova-plugin-file-transfer" source="npm" spec="1.7.1" />
-	<plugin name="cordova-plugin-media" source="npm" spec="5.0.2" />
 	<!-- <plugin name="cordova-plugin-googlemaps" source="npm" spec="2.4.5">
 		<variable name="API_KEY_FOR_ANDROID" value="AIzaSyBpJHsH-cx-1LGmwTbfxteCVRiP8N7Lwy8" />
 		<variable name="API_KEY_FOR_IOS" value="AIzaSyBpJHsH-cx-1LGmwTbfxteCVRiP8N7Lwy8" />
