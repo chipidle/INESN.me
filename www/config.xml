@@ -142,10 +142,10 @@
 		</feature>
 	</platform>
 
-	<plugin name="cordova-plugin-googlemaps" source="npm" spec="2.4.5">
+	<!-- <plugin name="cordova-plugin-googlemaps" source="npm" spec="2.4.5">
 		<variable name="API_KEY_FOR_ANDROID" value="AIzaSyBpJHsH-cx-1LGmwTbfxteCVRiP8N7Lwy8" />
 		<variable name="API_KEY_FOR_IOS" value="AIzaSyBpJHsH-cx-1LGmwTbfxteCVRiP8N7Lwy8" />
-	</plugin>
+	</plugin> -->
 	<!-- <plugin name="cordova-plugin-crypt-file" source="npm" spec="1.3.3" /> -->
 	<plugin name="cordova-plugin-appavailability" source="npm" spec="0.4.2" />
 	<plugin name="ionic-plugin-keyboard" source="npm" spec="2.2.1" />
