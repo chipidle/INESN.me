@@ -5,8 +5,8 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.13"
-		android-versionCode="24889"
-		ios-CFBundleVersion="24889"
+		android-versionCode="26796"
+		ios-CFBundleVersion="26796"
 		id="me.inesn.hanu">
 
 	<name>Hanu Connections</name>
@@ -53,6 +53,7 @@
 	<!-- Core plugins -->
 	<!-- <plugin name="cordova-plugin-battery-status" source="npm" spec="1.2.0" /> -->
 	<platform name="android">
+		<preference name="ErrorUrl" value="file:///android_asset/www/error.html"/>
 		<!-- <preference name="android-build-tool" value="gradle" />
 		<preference name="pgb-builder-version" value="2" />
 		<preference name="phonegap-version" value="cli-8.0.0" /> -->
@@ -92,13 +93,10 @@
 		</config-file>
 	</platform>
 	<platform name="ios">
+		<preference name="ErrorUrl" value="error.html"/>
 		<preference name="phonegap-version" value="cli-8.0.0" />
 		<!-- <preference name="pgb-builder-version" value="2" /> -->
-		<plugin name="cordova-plugin-camera" source="npm" spec="4.0.3">
-			<variable name="CAMERA_USAGE_DESCRIPTION" value="Let you take a picture." />
-			<variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Let you select a picture." />
-			<variable name="PHOTO_LIBRARY_USAGE_DESCRIPTION" value="Let you select a picture." />
-		</plugin>
+		<plugin name="cordova-plugin-camera" source="npm" spec="4.0.3" />
 
 		<plugin name="cordova-plugin-file" source="npm" spec="6.0.1" />
 		<plugin name="cordova-plugin-file-transfer" source="npm" spec="1.7.1" />
@@ -125,16 +123,24 @@
 		<!-- Additional plugins -->
 		<plugin name="cordova-plugin-fullscreen" source="npm" spec="1.2.0" />
 
-
-		<config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true" mode="replace" target="*-Info.plist">
+		<config-file parent="UIViewControllerBasedStatusBarAppearance" overwrite="true" mode="replace" target="*-Info.plist">
 			<false/>
 		</config-file>
-		<config-file platform="ios" parent="UIStatusBarHidden" overwrite="true" mode="replace" target="*-Info.plist">
+		<config-file parent="UIStatusBarHidden" overwrite="true" mode="replace" target="*-Info.plist">
 			<true/>
 		</config-file>
-		<config-file platform="ios" parent="NSPhotoLibraryUsageDescription" mode="replace" target="*-Info.plist">
-			<string>For uploading receipt images</string>
-		</config-file>
+		<edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+		    <string>need camera access to take pictures</string>
+		</edit-config>
+		<edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
+		    <string>need photo library access to get pictures from there</string>
+		</edit-config>
+		<edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+		    <string>need location access to find things nearby</string>
+		</edit-config>
+		<edit-config target="NSPhotoLibraryAddUsageDescription" file="*-Info.plist" mode="merge">
+		    <string>need photo library access to save pictures there</string>
+		</edit-config>
 
 		<feature name="StatusBar">
 			<param name="ios-package" value="CDVStatusBar" onload="true" />
@@ -272,7 +278,8 @@
 		Otherwise, you can specify specific domains:
 	-->
 	<access origin="*" />
-	<allow-navigation href="https://inesn.me:*" />
+	<allow-navigation href="https://*inevn.com*" />
+	<allow-navigation href="https://*google.com*" />
 	<!-- <allow-navigation href="*" /> -->
 	<allow-navigation href="blob:*" />
 	<allow-navigation href="gap://ready" />
