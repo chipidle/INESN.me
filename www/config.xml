@@ -5,8 +5,8 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.14"
-		android-versionCode="26813"
-		ios-CFBundleVersion="26813"
+		android-versionCode="26820"
+		ios-CFBundleVersion="26820"
 		id="me.inesn.hanu">
 
 	<name>Hanu Connections</name>
@@ -41,6 +41,7 @@
 	<preference name="keyboardDisplayRequiresUserAction" value="false" />
 	<preference name="SuppressesLongPressGesture" value="true" />
 	<preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+	<preference name="KeyboardShrinksView" value="true" />
 	<!-- <preference name="android-build-tool" value="gradle" /> -->
 	<!-- <preference name="deployment-target" value="8.3" /> -->
 	<!-- <preference name="AllowBackForwardNavigationGestures" value="true" /> -->
@@ -180,6 +181,7 @@
 	</plugin> -->
 	<!-- <plugin name="cordova-plugin-crypt-file" source="npm" spec="1.3.3" /> -->
 	<plugin name="cordova-plugin-appavailability" source="npm" spec="0.4.2" />
+	<plugin name="cordova-plugin-keyboard" source="npm" spec="1.2.0" />
 	<plugin name="ionic-plugin-keyboard" source="npm" spec="2.2.1" />
 	<plugin name="phonegap-plugin-push" source="npm" spec="1.10.4">
 		<param name="SENDER_ID" value="57811167537" />
