@@ -5,8 +5,8 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.14"
-		android-versionCode="26884"
-		ios-CFBundleVersion="26884"
+		android-versionCode="26939"
+		ios-CFBundleVersion="26939"
 		id="me.inesn.hanu">
 
 	<name>Hanu Connections</name>
