@@ -5,8 +5,8 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.14"
-		android-versionCode="27420"
-		ios-CFBundleVersion="27420"
+		android-versionCode="27428"
+		ios-CFBundleVersion="27428"
 		id="me.inesn.hanu">
 
 	<name>Hanu Connections</name>
@@ -58,7 +58,7 @@
 		<preference name="pgb-builder-version" value="2" />
 		<preference name="phonegap-version" value="cli-8.0.0" /> -->
 		<preference name="phonegap-version" value="cli-7.1.0" />
-		<preference name="android-minSdkVersion" value="14" />
+		<preference name="android-minSdkVersion" value="15" />
 		<preference name="android-targetSdkVersion" value="28" />
 
 		<plugin name="cordova-plugin-file" source="npm" spec="4.3.3" />
