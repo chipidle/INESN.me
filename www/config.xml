@@ -61,9 +61,9 @@
 		<preference name="android-minSdkVersion" value="15" />
 		<preference name="android-targetSdkVersion" value="28" />
 
-		<plugin name="cordova-plugin-file" source="npm" spec="6.0.0" />
-		<plugin name="cordova-plugin-file-transfer" source="npm" spec="1.6.3" />
-		<plugin name="cordova-plugin-media" source="npm" spec="5.0.0" />
+		<plugin name="cordova-plugin-file" source="npm" spec="6.0.1" />
+		<plugin name="cordova-plugin-file-transfer" source="npm" spec="1.7.1" />
+		<plugin name="cordova-plugin-media" source="npm" spec="5.0.2" />
 
 		<plugin name="cordova-plugin-camera" source="npm" spec="4.0.3" />
 		<plugin name="cordova-plugin-console" source="npm" spec="1.1.0" />
