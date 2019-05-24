@@ -5,8 +5,8 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.14"
-		android-versionCode="27494"
-		ios-CFBundleVersion="27494"
+		android-versionCode="27495"
+		ios-CFBundleVersion="27495"
 		id="me.inesn.hanu">
 
 	<name>Hanu Connections</name>
@@ -54,9 +54,9 @@
 	<!-- <plugin name="cordova-plugin-battery-status" source="npm" spec="1.2.0" /> -->
 	<platform name="android">
 		<preference name="ErrorUrl" value="file:///android_asset/www/error.html"/>
-		<!-- <preference name="android-build-tool" value="gradle" /> -->
 		<!-- <preference name="phonegap-version" value="cli-8.0.0" /> -->
 		<preference name="phonegap-version" value="cli-7.1.0" />
+		<preference name="android-build-tool" value="gradle" />
 		<preference name="pgb-builder-version" value="2" />
 		<preference name="android-minSdkVersion" value="15" />
 		<preference name="android-targetSdkVersion" value="28" />
@@ -87,7 +87,9 @@
 		<plugin name="cordova-plugin-whitelist" source="npm" spec="1.3.2" />
 
 		<!-- Additional plugins -->	 
-		<plugin name="phonegap-plugin-push" source="npm" spec="1.9.0" />
+		<plugin name="phonegap-plugin-push" source="npm" spec="1.11.1">
+			<param name="SENDER_ID" value="325396542520" />
+		</plugin>
 		<plugin name="cordova-plugin-fingerprint-aio" source="npm" spec="1.3.8" />
 	</platform>
 	<platform name="ios">
