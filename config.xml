@@ -152,7 +152,7 @@
     <plugin name="cordova-plugin-file-opener2" source="npm" spec="2.0.19" />
 
     <plugin name="phonegap-plugin-push" spec="~2.1.2">
-        <!-- <variable name="FCM_VERSION" value="11.0.1" /> -->
+        <variable name="FCM_VERSION" value="11.0.1" />
         <!-- <param name="SENDER_ID" value="325396542520" /> -->
     </plugin>
 
