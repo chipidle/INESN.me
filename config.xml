@@ -5,12 +5,12 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         version="1.1.15"
-        android-versionCode="29726"
-        ios-CFBundleVersion="29726"
+        android-versionCode="29727"
+        ios-CFBundleVersion="29727"
         id="me.inesn.inevo">
 
     <name>INEVO</name>
-    <description>an Internal Network Platform exceptionally designed for &lt;b&gt;I&amp;E Virtual Organization&lt;/b&gt;, whose mission is to help you ultimize your internal resource management; stay connected and interact with your particular community, no matter where in the world you are.</description>
+    <description>an Internal Network Platform exceptionally designed for I&amp;E Virtual Organization, whose mission is to help you ultimize your internal resource management; stay connected and interact with your particular community, no matter where in the world you are.</description>
     <author href="https://inevn.com" email="chipidle@msn.com">I&amp;E Corp.</author>
     <content src="index.html" />
 
