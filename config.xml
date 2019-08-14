@@ -5,8 +5,8 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         version="1.1.15"
-        android-versionCode="29743"
-        ios-CFBundleVersion="29743"
+        android-versionCode="29748"
+        ios-CFBundleVersion="29748"
         id="me.inesn.hanu">
 
     <name>Hanu Connections</name>
@@ -54,7 +54,7 @@
     </platform>
     <platform name="ios">
         <preference name="ErrorUrl" value="error.html"/>
-        <!-- <resource-file src="GoogleService-Info.plist" /> -->
+        <resource-file src="GoogleService-Info.plist" />
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
 
