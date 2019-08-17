@@ -5,8 +5,8 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         version="1.1.15"
-        android-versionCode="29877"
-        ios-CFBundleVersion="29877"
+        android-versionCode="29878"
+        ios-CFBundleVersion="29878"
         id="me.inesn.inevo">
 
     <name>INEVO</name>
