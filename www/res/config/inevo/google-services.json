@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "79148117737",
+    "firebase_url": "https://inevo-inevn.firebaseio.com",
+    "project_id": "inevo-inevn",
+    "storage_bucket": "inevo-inevn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79148117737:android:8faa52ef295844bb",
+        "android_client_info": {
+          "package_name": "me.inesn.inevo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79148117737-v1s0q2k080lthkmec3l84m4ti7qq0fo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq6wsU7v0HvHGroU3lk82Hc51ECW3VLtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79148117737-v1s0q2k080lthkmec3l84m4ti7qq0fo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
