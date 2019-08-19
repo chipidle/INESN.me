@@ -5,8 +5,8 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         version="1.1.15"
-        android-versionCode="29878"
-        ios-CFBundleVersion="29878"
+        android-versionCode="29892"
+        ios-CFBundleVersion="29892"
         id="me.inesn.inevo">
 
     <name>INEVO</name>
@@ -17,7 +17,7 @@
     <preference name="Orientation" value="portrait" />
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="AutoHideSplashScreen" value="true" />
-    <preference name="SplashScreenDelay" value="0" />
+    <!-- <preference name="SplashScreenDelay" value="0" /> -->
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="SplashMaintainAspectRatio" value="true" />
