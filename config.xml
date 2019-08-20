@@ -1,165 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <widget xmlns="http://www.w3.org/ns/widgets"
-        xmlns:gap="http://phonegap.com/ns/1.0"
-        xmlns:cdv="http://cordova.apache.org/ns/1.0"
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        version="1.1.15"
-        android-versionCode="29896"
-        ios-CFBundleVersion="29896"
-        id="me.inesn.inevo">
+		xmlns:gap="http://phonegap.com/ns/1.0"
+		xmlns:cdv="http://cordova.apache.org/ns/1.0"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		version="1.1.15"
+		android-versionCode="29916"
+		ios-CFBundleVersion="29916"
+		id="me.inesn.inevo">
 
-    <name>INEVO</name>
-    <description>an Internal Network Platform exceptionally designed for I&amp;E Virtual Organization, whose mission is to help you ultimize your internal resource management; stay connected and interact with your particular community, no matter where in the world you are.</description>
-    <author href="https://inevn.com" email="chipidle@msn.com">I&amp;E Corp.</author>
-    <content src="index.html" />
+	<name>INEVO</name>
+	<description>an Internal Network Platform exceptionally designed for I&amp;E Virtual Organization, whose mission is to help you ultimize your internal resource management; stay connected and interact with your particular community, no matter where in the world you are.</description>
+	<author href="https://inevn.com" email="chipidle@msn.com">I&amp;E Corp.</author>
+	<content src="index.html" />
 
-    <preference name="Orientation" value="portrait" />
-    <preference name="AllowInlineMediaPlayback" value="true" />
-    <preference name="AutoHideSplashScreen" value="true" />
-    <!-- <preference name="SplashScreenDelay" value="0" /> -->
-    <preference name="ShowSplashScreenSpinner" value="false" />
-    <preference name="StatusBarOverlaysWebView" value="true" />
-    <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="fullscreen" value="true" />
-    <preference name="stay-in-webview" value="true" />
-    <preference name="UIWebViewBounce" value="false" />
-    <preference name="webviewbounce" value="false" />
-    <preference name="DisallowOverscroll" value="true" />
-    <preference name="EnableViewportScale" value="false" />
-    <preference name="MediaPlaybackRequiresUserAction" value="false" />
-    <preference name="OpenAllWhitelistURLsInWebView" value="true" />
-    <preference name="exit-on-suspend" value="false" />
-    <preference name="KeepRunning" value="true" />
-    <preference name="UIWebViewDecelerationSpeed" value="fast" />
-    <preference name="useBrowserHistory" value="true" />
-    <preference name="keyboardDisplayRequiresUserAction" value="false" />
-    <preference name="HideKeyboardFormAccessoryBar" value="true" />
-    <preference name="KeyboardResize" value="true" />
-    <preference name="SuppressesLongPressGesture" value="true" />
-    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
-    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
-    <preference name="iosPersistentFileLocation" value="Library" />
+	<preference name="Orientation" value="portrait" />
+	<preference name="AllowInlineMediaPlayback" value="true" />
+	<preference name="AutoHideSplashScreen" value="true" />
+	<preference name="SplashScreenDelay" value="0" />
+	<preference name="ShowSplashScreenSpinner" value="false" />
+	<preference name="StatusBarOverlaysWebView" value="true" />
+	<preference name="SplashMaintainAspectRatio" value="true" />
+	<preference name="fullscreen" value="true" />
+	<preference name="stay-in-webview" value="true" />
+	<preference name="UIWebViewBounce" value="false" />
+	<preference name="webviewbounce" value="false" />
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="EnableViewportScale" value="false" />
+	<preference name="MediaPlaybackRequiresUserAction" value="false" />
+	<preference name="OpenAllWhitelistURLsInWebView" value="true" />
+	<preference name="exit-on-suspend" value="false" />
+	<preference name="KeepRunning" value="true" />
+	<preference name="UIWebViewDecelerationSpeed" value="fast" />
+	<preference name="useBrowserHistory" value="true" />
+	<preference name="keyboardDisplayRequiresUserAction" value="false" />
+	<preference name="HideKeyboardFormAccessoryBar" value="true" />
+	<preference name="KeyboardResize" value="true" />
+	<preference name="SuppressesLongPressGesture" value="true" />
+	<preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+	<preference name="AndroidPersistentFileLocation" value="Compatibility" />
+	<preference name="iosPersistentFileLocation" value="Library" />
 
-    <preference name="phonegap-version" value="cli-8.0.0" />
+	<preference name="phonegap-version" value="cli-8.0.0" />
 
-    <platform name="android">
-        <preference name="ErrorUrl" value="file:///android_asset/www/error.html"/>
-        <preference name="android-minSdkVersion" value="16" />
-        <preference name="android-targetSdkVersion" value="28" />
-        <resource-file src="www/res/config/inevo/google-services.json" target="app/google-services.json" />
-        <allow-intent href="market:*" />
+	<platform name="android">
+		<preference name="ErrorUrl" value="file:///android_asset/www/error.html"/>
+		<preference name="android-minSdkVersion" value="16" />
+		<preference name="android-targetSdkVersion" value="28" />
+		<resource-file src="www/res/config/inevo/google-services.json" target="app/google-services.json" />
+		<allow-intent href="market:*" />
 
-        <plugin name="cordova-plugin-fingerprint-aio" source="npm" spec="1.3.8" />
-    </platform>
-    <platform name="ios">
-        <preference name="ErrorUrl" value="error.html"/>
-        <!-- <resource-file src="www/res/config/inevo/GoogleService-Info.plist" /> -->
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
+		<plugin name="cordova-plugin-fingerprint-aio" source="npm" spec="1.3.8" />
 
-        <feature name="StatusBar">
-            <param name="ios-package" value="CDVStatusBar" onload="true" />
-        </feature>
-        <feature name="CDVWKWebViewEngine">
-            <param name="ios-package" value="CDVWKWebViewEngine" />
-        </feature>
+		<icon src="www/res/icon/android/inevo/drawable-ldpi-icon.png"    density="ldpi" />
+		<icon src="www/res/icon/android/inevo/drawable-mdpi-icon.png"    density="mdpi" />
+		<icon src="www/res/icon/android/inevo/drawable-hdpi-icon.png"    density="hdpi" />
+		<icon src="www/res/icon/android/inevo/drawable-xhdpi-icon.png"   density="xhdpi" />
+		<icon src="www/res/icon/android/inevo/drawable-xxhdpi-icon.png"  density="xxhdpi" />
+		<icon src="www/res/icon/android/inevo/drawable-xxxhdpi-icon.png" density="xxxhdpi" />
 
-        <config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true" mode="replace" target="*-Info.plist">
-            <false/>
-        </config-file>
-        <config-file platform="ios" parent="UIStatusBarHidden" overwrite="true" mode="replace" target="*-Info.plist">
-            <true/>
-        </config-file>
-        <config-file platform="ios" parent="NSCameraUsageDescription" mode="replace" target="*-Info.plist">
-            <string>For uploading receipt images</string>
-        </config-file>
-        <config-file platform="ios" parent="NSPhotoLibraryUsageDescription" mode="replace" target="*-Info.plist">
-            <string>For uploading receipt images</string>
-        </config-file>
-        <config-file platform="ios" parent="NSLocationWhenInUseUsageDescription" mode="replace" target="*-Info.plist">
-            <string>For uploading receipt images</string>
-        </config-file>
-        <config-file platform="ios" parent="NSPhotoLibraryAddUsageDescription" mode="replace" target="*-Info.plist">
-            <string>For uploading receipt images</string>
-        </config-file>
-    </platform>
+		<splash src="www/res/screen/android/inevo/drawable-port-ldpi-screen.png"    density="port-ldpi" />
+		<splash src="www/res/screen/android/inevo/drawable-port-mdpi-screen.png"    density="port-mdpi" />
+		<splash src="www/res/screen/android/inevo/drawable-port-hdpi-screen.png"    density="port-hdpi" />
+		<splash src="www/res/screen/android/inevo/drawable-port-xhdpi-screen.png"   density="port-xhdpi" />
+		<splash src="www/res/screen/android/inevo/drawable-port-xxhdpi-screen.png"  density="port-xxhdpi" />
+		<splash src="www/res/screen/android/inevo/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi" />
 
-    <icon src="www/res/icon/android/inevo/drawable-ldpi-icon.png"         platform="android" density="ldpi" />
-    <icon src="www/res/icon/android/inevo/drawable-mdpi-icon.png"         platform="android" density="mdpi" />
-    <icon src="www/res/icon/android/inevo/drawable-hdpi-icon.png"         platform="android" density="hdpi" />
-    <icon src="www/res/icon/android/inevo/drawable-xhdpi-icon.png"        platform="android" density="xhdpi" />
-    <icon src="www/res/icon/android/inevo/drawable-xxhdpi-icon.png"       platform="android" density="xxhdpi" />
-    <icon src="www/res/icon/android/inevo/drawable-xxxhdpi-icon.png"      platform="android" density="xxxhdpi" />
+	</platform>
+	<platform name="ios">
+		<preference name="ErrorUrl" value="error.html"/>
+		<!-- <resource-file src="www/res/config/inevo/GoogleService-Info.plist" /> -->
+		<allow-intent href="itms:*" />
+		<allow-intent href="itms-apps:*" />
 
-    <icon src="www/res/icon/ios/inevo/icon-1024.png"                    platform="ios" width="1024" height="1024" />
-    <icon src="www/res/icon/ios/inevo/icon.png"                         platform="ios" width="57"   height="57" />
-    <icon src="www/res/icon/ios/inevo/icon@2x.png"                      platform="ios" width="114"  height="114" />
-    <icon src="www/res/icon/ios/inevo/icon-40.png"                      platform="ios" width="40"   height="40" />
-    <icon src="www/res/icon/ios/inevo/icon-40@2x.png"                   platform="ios" width="80"   height="80" />
-    <icon src="www/res/icon/ios/inevo/icon-50.png"                      platform="ios" width="50"   height="50" />
-    <icon src="www/res/icon/ios/inevo/icon-50@2x.png"                   platform="ios" width="100"  height="100" />
-    <icon src="www/res/icon/ios/inevo/icon-60.png"                      platform="ios" width="60"   height="60" />
-    <icon src="www/res/icon/ios/inevo/icon-60@2x.png"                   platform="ios" width="120"  height="120" />
-    <icon src="www/res/icon/ios/inevo/icon-60@3x.png"                   platform="ios" width="180"  height="180" />
-    <icon src="www/res/icon/ios/inevo/icon-72.png"                      platform="ios" width="72"   height="72" />
-    <icon src="www/res/icon/ios/inevo/icon-72@2x.png"                   platform="ios" width="144"  height="144" />
-    <icon src="www/res/icon/ios/inevo/icon-76.png"                      platform="ios" width="76"   height="76" />
-    <icon src="www/res/icon/ios/inevo/icon-76@2x.png"                   platform="ios" width="152"  height="152" />
-    <icon src="www/res/icon/ios/inevo/icon-small.png"                   platform="ios" width="29"   height="29" />
-    <icon src="www/res/icon/ios/inevo/icon-small@2x.png"                platform="ios" width="58"   height="58" />
-    <icon src="www/res/icon/ios/inevo/icon-small@3x.png"                platform="ios" width="87"   height="87" />
+		<feature name="StatusBar">
+			<param name="ios-package" value="CDVStatusBar" onload="true" />
+		</feature>
+		<feature name="CDVWKWebViewEngine">
+			<param name="ios-package" value="CDVWKWebViewEngine" />
+		</feature>
 
-    <splash src="www/res/screen/android/inevo/drawable-port-ldpi-screen.png"      platform="android" density="port-ldpi" />
-    <splash src="www/res/screen/android/inevo/drawable-port-mdpi-screen.png"      platform="android" density="port-mdpi" />
-    <splash src="www/res/screen/android/inevo/drawable-port-hdpi-screen.png"      platform="android" density="port-hdpi" />
-    <splash src="www/res/screen/android/inevo/drawable-port-xhdpi-screen.png"     platform="android" density="port-xhdpi" />
-    <splash src="www/res/screen/android/inevo/drawable-port-xxhdpi-screen.png"    platform="android" density="port-xxhdpi" />
-    <splash src="www/res/screen/android/inevo/drawable-port-xxxhdpi-screen.png"   platform="android" density="port-xxxhdpi" />
+		<config-file parent="UIViewControllerBasedStatusBarAppearance" overwrite="true" mode="replace" target="*-Info.plist">
+			<false/>
+		</config-file>
+		<config-file parent="UIStatusBarHidden" overwrite="true" mode="replace" target="*-Info.plist">
+			<true/>
+		</config-file>
+		<config-file parent="NSCameraUsageDescription" mode="replace" target="*-Info.plist">
+			<string>For uploading receipt images</string>
+		</config-file>
+		<config-file parent="NSPhotoLibraryUsageDescription" mode="replace" target="*-Info.plist">
+			<string>For uploading receipt images</string>
+		</config-file>
+		<config-file parent="NSLocationWhenInUseUsageDescription" mode="replace" target="*-Info.plist">
+			<string>For uploading receipt images</string>
+		</config-file>
+		<config-file parent="NSPhotoLibraryAddUsageDescription" mode="replace" target="*-Info.plist">
+			<string>For uploading receipt images</string>
+		</config-file>
 
-    <splash src="www/res/screen/ios/inevo/Default-568h@2x~iphone.png"           platform="ios" width="640"  height="1136" />
-    <splash src="www/res/screen/ios/inevo/Default-667h.png"                     platform="ios" width="750"  height="1334" />
-    <splash src="www/res/screen/ios/inevo/Default-736h.png"                     platform="ios" width="1242" height="2208" />
-    <splash src="www/res/screen/ios/inevo/Default-Portrait@2x~ipad.png"         platform="ios" width="1536" height="2048" />
-    <splash src="www/res/screen/ios/inevo/Default-Portrait~ipad.png"            platform="ios" width="768"  height="1024" />
-    <splash src="www/res/screen/ios/inevo/Default@2x~iphone.png"                platform="ios" width="640"  height="960" />
-    <splash src="www/res/screen/ios/inevo/Default~iphone.png"                   platform="ios" width="320"  height="480" />
+		<icon src="www/res/icon/ios/inevo/icon-1024.png"     width="1024" height="1024" />
+		<icon src="www/res/icon/ios/inevo/icon.png"          width="57"   height="57" />
+		<icon src="www/res/icon/ios/inevo/icon@2x.png"       width="114"  height="114" />
+		<icon src="www/res/icon/ios/inevo/icon-40.png"       width="40"   height="40" />
+		<icon src="www/res/icon/ios/inevo/icon-40@2x.png"    width="80"   height="80" />
+		<icon src="www/res/icon/ios/inevo/icon-50.png"       width="50"   height="50" />
+		<icon src="www/res/icon/ios/inevo/icon-50@2x.png"    width="100"  height="100" />
+		<icon src="www/res/icon/ios/inevo/icon-60.png"       width="60"   height="60" />
+		<icon src="www/res/icon/ios/inevo/icon-60@2x.png"    width="120"  height="120" />
+		<icon src="www/res/icon/ios/inevo/icon-60@3x.png"    width="180"  height="180" />
+		<icon src="www/res/icon/ios/inevo/icon-72.png"       width="72"   height="72" />
+		<icon src="www/res/icon/ios/inevo/icon-72@2x.png"    width="144"  height="144" />
+		<icon src="www/res/icon/ios/inevo/icon-76.png"       width="76"   height="76" />
+		<icon src="www/res/icon/ios/inevo/icon-76@2x.png"    width="152"  height="152" />
+		<icon src="www/res/icon/ios/inevo/icon-small.png"    width="29"   height="29" />
+		<icon src="www/res/icon/ios/inevo/icon-small@2x.png" width="58"   height="58" />
+		<icon src="www/res/icon/ios/inevo/icon-small@3x.png" width="87"   height="87" />
 
-    <access origin="*" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
+		<splash src="www/res/screen/ios/inevo/Default-568h@2x~iphone.png"   width="640"  height="1136" />
+		<splash src="www/res/screen/ios/inevo/Default-667h.png"             width="750"  height="1334" />
+		<splash src="www/res/screen/ios/inevo/Default-736h.png"             width="1242" height="2208" />
+		<splash src="www/res/screen/ios/inevo/Default-Portrait@2x~ipad.png" width="1536" height="2048" />
+		<splash src="www/res/screen/ios/inevo/Default-Portrait~ipad.png"    width="768"  height="1024" />
+		<splash src="www/res/screen/ios/inevo/Default@2x~iphone.png"        width="640"  height="960" />
+		<splash src="www/res/screen/ios/inevo/Default~iphone.png"           width="320"  height="480" />
+	</platform>
 
-    <plugin name="cordova-plugin-file" source="npm" spec="6.0.1" />
-    <plugin name="cordova-plugin-file-transfer" source="npm" spec="1.7.1" />
-    <plugin name="cordova-plugin-media" source="npm" spec="5.0.2" />
-    <plugin name="cordova-plugin-camera" source="npm" spec="4.0.3" />
-    <plugin name="cordova-plugin-console" source="npm" spec="1.1.0" />
-    <plugin name="cordova-plugin-device" source="npm" spec="2.0.2" />
-    <plugin name="cordova-plugin-dialogs" source="npm" spec="2.0.1" />
-    <plugin name="cordova-plugin-media-capture" source="npm" spec="3.0.2" />
-    <plugin name="cordova-plugin-network-information" source="npm" spec="2.0.1" />
-    <plugin name="cordova-plugin-splashscreen" source="npm" spec="4.0.3" />
-    <plugin name="cordova-plugin-vibration" source="npm" spec="3.1.0" />
-    <plugin name="cordova-plugin-statusbar" source="npm" spec="2.4.2" />
-    <plugin name="cordova-plugin-whitelist" spec="1.3.2" />
+	<access origin="*" />
+	<allow-intent href="http://*/*" />
+	<allow-intent href="https://*/*" />
+	<allow-intent href="tel:*" />
+	<allow-intent href="sms:*" />
+	<allow-intent href="mailto:*" />
+	<allow-intent href="geo:*" />
 
-    <plugin name="cordova-plugin-inappbrowser" source="npm" spec="3.0.0" />
-    <plugin name="cordova-plugin-fullscreen" source="npm" spec="1.2.0" />
-    <!-- <plugin name="cordova-plugin-keyboard" source="npm" spec="1.2.0" /> -->
-    <plugin name="ionic-plugin-keyboard" source="npm" spec="2.2.1" />
-    <!-- <plugin name="cordova-plugin-ionic-keyboard" source="npm" spec="2.1.3" /> -->
-    <plugin name="cordova-plugin-wkwebview-engine" source="npm" spec="1.1.3" />
-    <plugin name="phonegap-plugin-push" spec="~2.1.2">
-        <!-- <variable name="FCM_VERSION" value="11.0.1" /> -->
-        <!-- <param name="SENDER_ID" value="435143661192" /> -->
-    </plugin>
+	<plugin name="cordova-plugin-file" source="npm" spec="6.0.1" />
+	<plugin name="cordova-plugin-file-transfer" source="npm" spec="1.7.1" />
+	<plugin name="cordova-plugin-media" source="npm" spec="5.0.2" />
+	<plugin name="cordova-plugin-camera" source="npm" spec="4.0.3" />
+	<plugin name="cordova-plugin-console" source="npm" spec="1.1.0" />
+	<plugin name="cordova-plugin-device" source="npm" spec="2.0.2" />
+	<plugin name="cordova-plugin-dialogs" source="npm" spec="2.0.1" />
+	<plugin name="cordova-plugin-media-capture" source="npm" spec="3.0.2" />
+	<plugin name="cordova-plugin-network-information" source="npm" spec="2.0.1" />
+	<plugin name="cordova-plugin-splashscreen" source="npm" spec="4.0.3" />
+	<plugin name="cordova-plugin-vibration" source="npm" spec="3.1.0" />
+	<plugin name="cordova-plugin-statusbar" source="npm" spec="2.4.2" />
+	<plugin name="cordova-plugin-whitelist" spec="1.3.2" />
 
-    <!-- <plugin name="cordova-plugin-file-opener2" source="npm" spec="2.0.19" /> -->
-    <!-- <engine name="android" spec="~7.0.0" /> -->
-    <!-- <engine name="ios" spec="~4.5.4" /> -->
+	<plugin name="cordova-plugin-inappbrowser" source="npm" spec="3.0.0" />
+	<plugin name="cordova-plugin-fullscreen" source="npm" spec="1.2.0" />
+	<!-- <plugin name="cordova-plugin-keyboard" source="npm" spec="1.2.0" /> -->
+	<plugin name="ionic-plugin-keyboard" source="npm" spec="2.2.1" />
+	<!-- <plugin name="cordova-plugin-ionic-keyboard" source="npm" spec="2.1.3" /> -->
+	<plugin name="cordova-plugin-wkwebview-engine" source="npm" spec="1.1.3" />
+	<plugin name="phonegap-plugin-push" spec="~2.1.2">
+		<!-- <variable name="FCM_VERSION" value="11.0.1" /> -->
+		<!-- <param name="SENDER_ID" value="435143661192" /> -->
+	</plugin>
+
+	<!-- <plugin name="cordova-plugin-file-opener2" source="npm" spec="2.0.19" /> -->
+	<!-- <engine name="android" spec="~7.0.0" /> -->
+	<!-- <engine name="ios" spec="~4.5.4" /> -->
 
 </widget>
