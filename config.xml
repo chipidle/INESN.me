@@ -45,7 +45,7 @@
 
 	<platform name="android">
 		<preference name="ErrorUrl" value="file:///android_asset/www/error.html"/>
-		<preference name="android-minSdkVersion" value="16" />
+		<preference name="android-minSdkVersion" value="19" />
 		<preference name="android-targetSdkVersion" value="28" />
 		<resource-file src="www/res/config/inevo/google-services.json" target="app/google-services.json" />
 		<allow-intent href="market:*" />
