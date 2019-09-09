@@ -128,7 +128,9 @@
 
 	<access origin="*" />
 	<allow-navigation href="https:*" />
+	<allow-navigation href="file:*" />
 	<allow-intent href="https://*/*" />
+	<allow-intent href="file:*" />
 	<allow-intent href="tel:*" />
 	<allow-intent href="sms:*" />
 	<allow-intent href="mailto:*" />
