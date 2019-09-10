@@ -59,12 +59,12 @@
 		<icon src="www/res/icon/android/inevo/drawable-xxhdpi-icon.png"  density="xxhdpi" />
 		<icon src="www/res/icon/android/inevo/drawable-xxxhdpi-icon.png" density="xxxhdpi" />
 
-		<splash src="www/res/screen/android/inevo/drawable-port-ldpi-screen.png"    density="port-ldpi" />
-		<splash src="www/res/screen/android/inevo/drawable-port-mdpi-screen.png"    density="port-mdpi" />
-		<splash src="www/res/screen/android/inevo/drawable-port-hdpi-screen.png"    density="port-hdpi" />
-		<splash src="www/res/screen/android/inevo/drawable-port-xhdpi-screen.png"   density="port-xhdpi" />
-		<splash src="www/res/screen/android/inevo/drawable-port-xxhdpi-screen.png"  density="port-xxhdpi" />
-		<splash src="www/res/screen/android/inevo/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi" />
+		<splash src="www/res/screen/android/inevo/drawable-port-ldpi-screen.png"    density="ldpi" />
+		<splash src="www/res/screen/android/inevo/drawable-port-mdpi-screen.png"    density="mdpi" />
+		<splash src="www/res/screen/android/inevo/drawable-port-hdpi-screen.png"    density="hdpi" />
+		<splash src="www/res/screen/android/inevo/drawable-port-xhdpi-screen.png"   density="xhdpi" />
+		<splash src="www/res/screen/android/inevo/drawable-port-xxhdpi-screen.png"  density="xxhdpi" />
+		<splash src="www/res/screen/android/inevo/drawable-port-xxxhdpi-screen.png" density="xxxhdpi" />
 
 	</platform>
 	<platform name="ios">
