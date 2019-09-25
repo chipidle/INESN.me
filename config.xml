@@ -5,8 +5,8 @@
 		xmlns:cdv="http://cordova.apache.org/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.17"
-		android-versionCode="30640"
-		ios-CFBundleVersion="30640"
+		android-versionCode="30641"
+		ios-CFBundleVersion="30641"
 		id="me.inesn.inevo">
 
 	<name>INEVO</name>
@@ -41,8 +41,8 @@
 	<preference name="AndroidPersistentFileLocation" value="Compatibility" />
 	<preference name="iosPersistentFileLocation" value="Library" />
 
-	<preference name="phonegap-version" value="cli-8.0.0" />
-	<!-- <preference name="phonegap-version" value="cli-9.0.0" /> -->
+	<!-- <preference name="phonegap-version" value="cli-8.0.0" /> -->
+	<preference name="phonegap-version" value="cli-9.0.0" />
 
 	<platform name="android">
 		<preference name="ErrorUrl" value="file:///android_asset/www/error.html"/>
