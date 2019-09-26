@@ -5,8 +5,8 @@
 		xmlns:cdv="http://cordova.apache.org/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.17"
-		android-versionCode="30721"
-		ios-CFBundleVersion="30721"
+		android-versionCode="30722"
+		ios-CFBundleVersion="30722"
 		id="me.inesn.inevo">
 
 	<name>INEVO</name>
@@ -50,9 +50,6 @@
 		<preference name="android-targetSdkVersion" value="28" />
 		<resource-file src="www/res/config/inevo/google-services.json" target="app/google-services.json" />
 		<allow-intent href="market:*" />
-
-		<plugin name="cordova-plugin-fingerprint-aio" source="npm" spec="1.3.8" />
-		<plugin name="cordova-plugin-qrscanner" source="npm" />
 
 		<icon src="www/res/icon/android/inevo/drawable-ldpi-icon.png"    density="ldpi" />
 		<icon src="www/res/icon/android/inevo/drawable-mdpi-icon.png"    density="mdpi" />
@@ -156,6 +153,10 @@
 	<plugin name="cordova-plugin-statusbar" source="npm" spec="2.4.2" />
 	<plugin name="cordova-plugin-whitelist" spec="1.3.2" />
 
+	<platform name="android">
+		<plugin name="cordova-plugin-fingerprint-aio" source="npm" spec="1.3.8" />
+		<plugin name="cordova-plugin-qrscanner" source="npm" />
+	</platform>
 	<plugin name="cordova-plugin-camera-preview" source="npm" />
 	<plugin name="cordova-plugin-inappbrowser" source="npm" spec="3.0.0" />
 	<plugin name="cordova-plugin-fullscreen" source="npm" spec="1.2.0" />
