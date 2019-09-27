@@ -166,7 +166,12 @@
 		<!-- <variable name="FCM_VERSION" value="11.0.1" /> -->
 		<!-- <param name="SENDER_ID" value="325396542520" /> -->
 	</plugin>
-	<plugin name="cordova-plugin-qrscanner" source="npm" />
+	<platform name="android">
+		<plugin name="cordova-plugin-qrscanner" source="npm" />
+	</platform>
+	<platform name="ios">
+		<!-- <plugin name="cordova-plugin-qrscanner" source="npm" /> -->
+	</platform>
 
 	<!-- <plugin name="cordova-plugin-file-opener2" source="npm" spec="2.0.19" /> -->
 	<!-- <engine name="android" spec="~7.0.0" /> -->
