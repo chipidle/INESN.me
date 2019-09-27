@@ -42,8 +42,6 @@
 	<preference name="iosPersistentFileLocation" value="Library" />
 
 	<preference name="phonegap-version" value="cli-8.0.0" />
-	<dependency id="cordova-plugin-add-swift-support" version="2.0.2" />
-	<plugin name="cordova-plugin-add-swift-support" version="2.0.2" />
 
 	<platform name="android">
 		<preference name="ErrorUrl" value="file:///android_asset/www/error.html" />
@@ -51,6 +49,8 @@
 		<preference name="android-targetSdkVersion" value="28" />
 		<resource-file src="www/res/config/inevo/google-services.json" target="app/google-services.json" />
 		<allow-intent href="market:*" />
+
+		<plugin name="cordova-plugin-qrscanner" source="npm" />
 
 		<icon src="www/res/icon/android/inevo/drawable-ldpi-icon.png"    density="ldpi" />
 		<icon src="www/res/icon/android/inevo/drawable-mdpi-icon.png"    density="mdpi" />
@@ -71,7 +71,7 @@
 	<platform name="ios">
 		<!-- <preference name="phonegap-version" value="cli-9.0.0" /> -->
 		<!-- <preference name="UseLegacySwiftLanguageVersion" value="true" /> -->
-		<preference name="UseSwiftLanguageVersion" value="4.2" />
+		<!-- <preference name="UseSwiftLanguageVersion" value="4.2" /> -->
 		<preference name="swift-version" value="4.2" />
 		<preference name="ErrorUrl" value="error.html" />
 		<resource-file src="www/res/config/inevo/GoogleService-Info.plist" />
@@ -85,7 +85,7 @@
 			<param name="ios-package" value="CDVWKWebViewEngine" />
 		</feature>
 
-		<!-- <plugin name="cordova-plugin-qr-barcode-scanner" source="npm" /> -->
+		<plugin name="cordova-plugin-qr-barcode-scanner" source="npm" />
 
 		<config-file parent="UIViewControllerBasedStatusBarAppearance" overwrite="true" mode="replace" target="*-Info.plist">
 			<false/>
@@ -170,10 +170,8 @@
 		<!-- <param name="SENDER_ID" value="325396542520" /> -->
 	</plugin>
 	<platform name="android">
-		<plugin name="cordova-plugin-qrscanner" source="npm" />
 	</platform>
 	<platform name="ios">
-		<plugin name="cordova-plugin-qrscanner" source="npm" />
 	</platform>
 
 	<!-- <plugin name="cordova-plugin-file-opener2" source="npm" spec="2.0.19" /> -->
