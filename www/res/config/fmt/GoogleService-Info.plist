@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>57811167537-6ch4dtp5qs79mjo1irsad80rqv1vflta.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.57811167537-6ch4dtp5qs79mjo1irsad80rqv1vflta</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDg7eJgVk_xTEJuwgacevu8VXNE7S_t5Tw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>57811167537</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>me.inesn.fmt</string>
+	<key>PROJECT_ID</key>
+	<string>fmt-connections</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fmt-connections.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:57811167537:ios:13baab1946752cc2596810</string>
+	<key>DATABASE_URL</key>
+	<string>https://fmt-connections.firebaseio.com</string>
+</dict>
+</plist>

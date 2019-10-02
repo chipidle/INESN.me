@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "57811167537",
+    "firebase_url": "https://fmt-connections.firebaseio.com",
+    "project_id": "fmt-connections",
+    "storage_bucket": "fmt-connections.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57811167537:android:bebc20a0e84a5556596810",
+        "android_client_info": {
+          "package_name": "me.inesn.fmt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57811167537-71ibq7uf2l8jgvsf8i088gc4gh4mhelf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4budjhw17kMfekHP2Asw-e4Xs9w3SIWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57811167537-71ibq7uf2l8jgvsf8i088gc4gh4mhelf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

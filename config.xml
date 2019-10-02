@@ -5,12 +5,12 @@
 		xmlns:cdv="http://cordova.apache.org/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.17"
-		android-versionCode="30751"
-		ios-CFBundleVersion="30751"
-		id="me.inesn.hanu">
+		android-versionCode="30862"
+		ios-CFBundleVersion="30862"
+		id="me.inesn.fmt">
 
-	<name>Hanu Connections</name>
-	<description>A social network that helps all Hanu's members stay connected and interact with the community on functioned purposes</description>
+	<name>FMT Connections</name>
+	<description>A social network that helps all FMT's members stay connected and interact with the community on functioned purposes</description>
 	<author href="https://inevn.com" email="chipidle@msn.com">I&amp;E Corp.</author>
 	<content src="index.html" />
 
@@ -47,24 +47,24 @@
 		<preference name="ErrorUrl" value="file:///android_asset/www/error.html" />
 		<preference name="android-minSdkVersion" value="19" />
 		<preference name="android-targetSdkVersion" value="28" />
-		<resource-file src="www/res/config/hanu/google-services.json" target="app/google-services.json" />
+		<resource-file src="www/res/config/fmt/google-services.json" target="app/google-services.json" />
 		<allow-intent href="market:*" />
 
 		<plugin name="cordova-plugin-qrscanner" source="npm" />
 
-		<icon src="www/res/icon/android/hanu/drawable-ldpi-icon.png"    density="ldpi" />
-		<icon src="www/res/icon/android/hanu/drawable-mdpi-icon.png"    density="mdpi" />
-		<icon src="www/res/icon/android/hanu/drawable-hdpi-icon.png"    density="hdpi" />
-		<icon src="www/res/icon/android/hanu/drawable-xhdpi-icon.png"   density="xhdpi" />
-		<icon src="www/res/icon/android/hanu/drawable-xxhdpi-icon.png"  density="xxhdpi" />
-		<icon src="www/res/icon/android/hanu/drawable-xxxhdpi-icon.png" density="xxxhdpi" />
+		<icon src="www/res/icon/android/fmt/drawable-ldpi-icon.png"    density="ldpi" />
+		<icon src="www/res/icon/android/fmt/drawable-mdpi-icon.png"    density="mdpi" />
+		<icon src="www/res/icon/android/fmt/drawable-hdpi-icon.png"    density="hdpi" />
+		<icon src="www/res/icon/android/fmt/drawable-xhdpi-icon.png"   density="xhdpi" />
+		<icon src="www/res/icon/android/fmt/drawable-xxhdpi-icon.png"  density="xxhdpi" />
+		<icon src="www/res/icon/android/fmt/drawable-xxxhdpi-icon.png" density="xxxhdpi" />
 
-		<splash src="www/res/screen/android/hanu/drawable-port-ldpi-screen.png"    density="ldpi" />
-		<splash src="www/res/screen/android/hanu/drawable-port-mdpi-screen.png"    density="mdpi" />
-		<splash src="www/res/screen/android/hanu/drawable-port-hdpi-screen.png"    density="hdpi" />
-		<splash src="www/res/screen/android/hanu/drawable-port-xhdpi-screen.png"   density="xhdpi" />
-		<splash src="www/res/screen/android/hanu/drawable-port-xxhdpi-screen.png"  density="xxhdpi" />
-		<splash src="www/res/screen/android/hanu/drawable-port-xxxhdpi-screen.png" density="xxxhdpi" />
+		<splash src="www/res/screen/android/fmt/drawable-port-ldpi-screen.png"    density="ldpi" />
+		<splash src="www/res/screen/android/fmt/drawable-port-mdpi-screen.png"    density="mdpi" />
+		<splash src="www/res/screen/android/fmt/drawable-port-hdpi-screen.png"    density="hdpi" />
+		<splash src="www/res/screen/android/fmt/drawable-port-xhdpi-screen.png"   density="xhdpi" />
+		<splash src="www/res/screen/android/fmt/drawable-port-xxhdpi-screen.png"  density="xxhdpi" />
+		<splash src="www/res/screen/android/fmt/drawable-port-xxxhdpi-screen.png" density="xxxhdpi" />
 
 		<plugin name="cordova-plugin-fingerprint-aio" source="npm" spec="1.3.8" />
 	</platform>
@@ -74,7 +74,7 @@
 		<!-- <preference name="UseSwiftLanguageVersion" value="4.2" /> -->
 		<preference name="swift-version" value="4.2" />
 		<preference name="ErrorUrl" value="error.html" />
-		<resource-file src="www/res/config/hanu/GoogleService-Info.plist" />
+		<resource-file src="www/res/config/fmt/GoogleService-Info.plist" />
 		<allow-intent href="itms:*" />
 		<allow-intent href="itms-apps:*" />
 
@@ -106,31 +106,31 @@
 			<string>For uploading receipt images</string>
 		</config-file>
 
-		<icon src="www/res/icon/ios/hanu/icon-1024.png"     width="1024" height="1024" />
-		<icon src="www/res/icon/ios/hanu/icon.png"          width="57"   height="57" />
-		<icon src="www/res/icon/ios/hanu/icon@2x.png"       width="114"  height="114" />
-		<icon src="www/res/icon/ios/hanu/icon-40.png"       width="40"   height="40" />
-		<icon src="www/res/icon/ios/hanu/icon-40@2x.png"    width="80"   height="80" />
-		<icon src="www/res/icon/ios/hanu/icon-50.png"       width="50"   height="50" />
-		<icon src="www/res/icon/ios/hanu/icon-50@2x.png"    width="100"  height="100" />
-		<icon src="www/res/icon/ios/hanu/icon-60.png"       width="60"   height="60" />
-		<icon src="www/res/icon/ios/hanu/icon-60@2x.png"    width="120"  height="120" />
-		<icon src="www/res/icon/ios/hanu/icon-60@3x.png"    width="180"  height="180" />
-		<icon src="www/res/icon/ios/hanu/icon-72.png"       width="72"   height="72" />
-		<icon src="www/res/icon/ios/hanu/icon-72@2x.png"    width="144"  height="144" />
-		<icon src="www/res/icon/ios/hanu/icon-76.png"       width="76"   height="76" />
-		<icon src="www/res/icon/ios/hanu/icon-76@2x.png"    width="152"  height="152" />
-		<icon src="www/res/icon/ios/hanu/icon-small.png"    width="29"   height="29" />
-		<icon src="www/res/icon/ios/hanu/icon-small@2x.png" width="58"   height="58" />
-		<icon src="www/res/icon/ios/hanu/icon-small@3x.png" width="87"   height="87" />
+		<icon src="www/res/icon/ios/fmt/icon-1024.png"     width="1024" height="1024" />
+		<icon src="www/res/icon/ios/fmt/icon.png"          width="57"   height="57" />
+		<icon src="www/res/icon/ios/fmt/icon@2x.png"       width="114"  height="114" />
+		<icon src="www/res/icon/ios/fmt/icon-40.png"       width="40"   height="40" />
+		<icon src="www/res/icon/ios/fmt/icon-40@2x.png"    width="80"   height="80" />
+		<icon src="www/res/icon/ios/fmt/icon-50.png"       width="50"   height="50" />
+		<icon src="www/res/icon/ios/fmt/icon-50@2x.png"    width="100"  height="100" />
+		<icon src="www/res/icon/ios/fmt/icon-60.png"       width="60"   height="60" />
+		<icon src="www/res/icon/ios/fmt/icon-60@2x.png"    width="120"  height="120" />
+		<icon src="www/res/icon/ios/fmt/icon-60@3x.png"    width="180"  height="180" />
+		<icon src="www/res/icon/ios/fmt/icon-72.png"       width="72"   height="72" />
+		<icon src="www/res/icon/ios/fmt/icon-72@2x.png"    width="144"  height="144" />
+		<icon src="www/res/icon/ios/fmt/icon-76.png"       width="76"   height="76" />
+		<icon src="www/res/icon/ios/fmt/icon-76@2x.png"    width="152"  height="152" />
+		<icon src="www/res/icon/ios/fmt/icon-small.png"    width="29"   height="29" />
+		<icon src="www/res/icon/ios/fmt/icon-small@2x.png" width="58"   height="58" />
+		<icon src="www/res/icon/ios/fmt/icon-small@3x.png" width="87"   height="87" />
 
-		<splash src="www/res/screen/ios/hanu/Default-568h@2x~iphone.png"   width="640"  height="1136" />
-		<splash src="www/res/screen/ios/hanu/Default-667h.png"             width="750"  height="1334" />
-		<splash src="www/res/screen/ios/hanu/Default-736h.png"             width="1242" height="2208" />
-		<splash src="www/res/screen/ios/hanu/Default-Portrait@2x~ipad.png" width="1536" height="2048" />
-		<splash src="www/res/screen/ios/hanu/Default-Portrait~ipad.png"    width="768"  height="1024" />
-		<splash src="www/res/screen/ios/hanu/Default@2x~iphone.png"        width="640"  height="960" />
-		<splash src="www/res/screen/ios/hanu/Default~iphone.png"           width="320"  height="480" />
+		<splash src="www/res/screen/ios/fmt/Default-568h@2x~iphone.png"   width="640"  height="1136" />
+		<splash src="www/res/screen/ios/fmt/Default-667h.png"             width="750"  height="1334" />
+		<splash src="www/res/screen/ios/fmt/Default-736h.png"             width="1242" height="2208" />
+		<splash src="www/res/screen/ios/fmt/Default-Portrait@2x~ipad.png" width="1536" height="2048" />
+		<splash src="www/res/screen/ios/fmt/Default-Portrait~ipad.png"    width="768"  height="1024" />
+		<splash src="www/res/screen/ios/fmt/Default@2x~iphone.png"        width="640"  height="960" />
+		<splash src="www/res/screen/ios/fmt/Default~iphone.png"           width="320"  height="480" />
 	</platform>
 
 	<access origin="*" />
@@ -167,7 +167,7 @@
 	<plugin name="cordova-plugin-wkwebview-engine" source="npm" spec="1.1.3" />
 	<plugin name="phonegap-plugin-push" spec="~2.1.2">
 		<!-- <variable name="FCM_VERSION" value="11.0.1" /> -->
-		<!-- <param name="SENDER_ID" value="325396542520" /> -->
+		<!-- <param name="SENDER_ID" value="57811167537" /> -->
 	</plugin>
 	<platform name="android">
 	</platform>
