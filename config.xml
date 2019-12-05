@@ -5,8 +5,8 @@
 		xmlns:cdv="http://cordova.apache.org/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.18"
-		android-versionCode="33548"
-		ios-CFBundleVersion="33548"
+		android-versionCode="33550"
+		ios-CFBundleVersion="33550"
 		id="me.inesn.hanu">
 
 	<name>Hanu Connections</name>
@@ -93,17 +93,20 @@
 		<config-file parent="UIStatusBarHidden" overwrite="true" mode="replace" target="*-Info.plist">
 			<true/>
 		</config-file>
+		<config-file parent="NSLocationAlwaysUsageDescription" mode="replace" target="*-Info.plist">
+			<string>Truy cập bộ nhớ</string>
+		</config-file>
 		<config-file parent="NSCameraUsageDescription" mode="replace" target="*-Info.plist">
-			<string>For uploading receipt images</string>
+			<string>Sử dụng camera</string>
 		</config-file>
 		<config-file parent="NSPhotoLibraryUsageDescription" mode="replace" target="*-Info.plist">
-			<string>For uploading receipt images</string>
+			<string>Truy cập thư viện ảnh</string>
 		</config-file>
 		<config-file parent="NSLocationWhenInUseUsageDescription" mode="replace" target="*-Info.plist">
-			<string>For uploading receipt images</string>
+			<string>Truy cập bộ nhớ</string>
 		</config-file>
 		<config-file parent="NSPhotoLibraryAddUsageDescription" mode="replace" target="*-Info.plist">
-			<string>For uploading receipt images</string>
+			<string>Truy cập thư viện ảnh</string>
 		</config-file>
 
 		<icon src="www/res/icon/ios/hanu/icon-1024.png"     width="1024" height="1024" />
