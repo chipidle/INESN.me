@@ -5,8 +5,8 @@
 		xmlns:cdv="http://cordova.apache.org/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.18"
-		android-versionCode="33557"
-		ios-CFBundleVersion="33557"
+		android-versionCode="33558"
+		ios-CFBundleVersion="33558"
 		id="me.inesn.hanu">
 
 	<name>Hanu Connections</name>
