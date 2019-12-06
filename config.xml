@@ -13,6 +13,7 @@
 	<description>A social network that helps all Hanu's members stay connected and interact with the community on functioned purposes</description>
 	<author href="https://inevn.com" email="chipidle@msn.com">I&amp;E Corp.</author>
 	<content src="index.html" />
+	<icon src="icon.png" />
 
 	<preference name="Orientation" value="portrait" />
 	<preference name="AllowInlineMediaPlayback" value="true" />
