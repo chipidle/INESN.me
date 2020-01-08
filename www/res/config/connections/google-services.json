@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:39236643391:android:1d225915d43143995d668a",
         "android_client_info": {
-          "package_name": "me.inesn.myconnections"
+          "package_name": "me.inesn.connections"
         }
       },
       "oauth_client": [
