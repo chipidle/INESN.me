@@ -5,8 +5,8 @@
 		xmlns:cdv="http://cordova.apache.org/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.20"
-		android-versionCode="34610"
-		ios-CFBundleVersion="34610"
+		android-versionCode="34613"
+		ios-CFBundleVersion="34613"
 		id="me.inesn.connections">
 
 	<name>My Connections</name>
