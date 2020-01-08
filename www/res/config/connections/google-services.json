@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "39236643391",
+    "firebase_url": "https://my-connections-7f403.firebaseio.com",
+    "project_id": "my-connections-7f403",
+    "storage_bucket": "my-connections-7f403.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39236643391:android:1d225915d43143995d668a",
+        "android_client_info": {
+          "package_name": "me.inesn.myconnections"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39236643391-ckhu2spdkof9r07aaaqiv040v73u1vlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe9G2hflYInUtcgPkEQj3RbC3XjGiPnmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39236643391-ckhu2spdkof9r07aaaqiv040v73u1vlk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "39236643391-fc40jicuooupqd4ak6c16d6onsh2etnu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "me.inesn.myconnections"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
