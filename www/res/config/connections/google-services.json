@@ -8,7 +8,7 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:39236643391:android:1d225915d43143995d668a",
+        "mobilesdk_app_id": "1:39236643391:android:7ad53f4578db895e5d668a",
         "android_client_info": {
           "package_name": "me.inesn.connections"
         }
@@ -32,10 +32,10 @@
               "client_type": 3
             },
             {
-              "client_id": "39236643391-fc40jicuooupqd4ak6c16d6onsh2etnu.apps.googleusercontent.com",
+              "client_id": "39236643391-1n6ui3p4inc8dv5mb8r16ueue82sh95u.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "me.inesn.myconnections"
+                "bundle_id": "me.inesn.connections"
               }
             }
           ]
