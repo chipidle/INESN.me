@@ -4,9 +4,9 @@
 		xmlns:gap="http://phonegap.com/ns/1.0"
 		xmlns:cdv="http://cordova.apache.org/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
-		version="1.1.20"
-		android-versionCode="35743"
-		ios-CFBundleVersion="35743"
+		version="1.1.21"
+		android-versionCode="35744"
+		ios-CFBundleVersion="35744"
 		id="me.inesn.connections">
 
 	<name>My Connections</name>
