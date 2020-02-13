@@ -5,12 +5,12 @@
 		xmlns:cdv="http://cordova.apache.org/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.20"
-		android-versionCode="35742"
-		ios-CFBundleVersion="35742"
+		android-versionCode="35743"
+		ios-CFBundleVersion="35743"
 		id="me.inesn.connections">
 
 	<name>My Connections</name>
-	<description>Mạng nội bộ gi&uacute;p C&aacute;n bộ, Giảng vi&ecirc;n, Sinh vi&ecirc;n, Cựu sinh vi&ecirc;n v&agrave; Doanh nghiệp kết nối v&agrave; tương t&aacute;c với nhau cho mục đ&iacute;ch đ&agrave;o tạo, cung cấp tri thức v&agrave; hướng nghiệp trong suốt thời gian trước, đang v&agrave; sau khi học tập tại Trường</description>
+	<description></description>
 	<author href="https://inevn.com" email="chipidle@msn.com">I&amp;E Corp.</author>
 	<content src="index.html" />
 	<icon src="www/icon.png" />
