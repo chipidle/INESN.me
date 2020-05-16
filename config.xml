@@ -5,12 +5,12 @@
 		xmlns:cdv="http://cordova.apache.org/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.21"
-		android-versionCode="40765"
-		ios-CFBundleVersion="40765"
+		android-versionCode="40766"
+		ios-CFBundleVersion="40766"
 		id="me.inesn.hanu">
 
-	<name>Hanu Connections</name>
-	<description>A social network that helps all Hanu's members stay connected and interact with the community on functioned purposes</description>
+	<name>HANU Connections</name>
+	<description>A social network that helps all HANU's members stay connected and interact with the community on functioned purposes</description>
 	<author href="https://inevn.com" email="chipidle@msn.com">I&amp;E Corp.</author>
 	<content src="index.html" />
 	<icon src="www/icon.png" />
