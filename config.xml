@@ -5,8 +5,8 @@
 		xmlns:cdv="http://cordova.apache.org/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.21"
-		android-versionCode="40870"
-		ios-CFBundleVersion="40870"
+		android-versionCode="40880"
+		ios-CFBundleVersion="40880"
 		id="me.inesn.inevo">
 
 	<name>INEVO</name>
@@ -178,14 +178,15 @@
 	</plugin>
 	<platform name="android">
 		<plugin name="cordova-plugin-fullscreen" source="npm" spec="1.2.0" />
+
 		<plugin spec="https://github.com/kd8ssq/cordova-plugin-app-icon-changer.git" source="git" />
 	    <!-- copy the new icon to the android drawable folder -->
-	    <resource-file src="www/res/icon/android/hanu/drawable-hdpi-icon.png" target="app/src/main/res/drawable/icon_phonegap_60.png" />
-	    <resource-file src="www/res/icon/android/inevo/drawable-hdpi-icon.png" target="app/src/main/res/mipmap/ic_launcher.png" />
+	    <resource-file src="www/res/icon/android/hanu/drawable-hdpi-icon.png" target="app/src/main/res/drawable/icon_hanu.png" />
+	    <!-- <resource-file src="www/res/icon/android/inevo/drawable-hdpi-icon.png" target="app/src/main/res/mipmap/ic_launcher.png" /> -->
 
 	    <!-- set the default icon name -->
 	    <config-file target="res/values/strings.xml" parent="/*">
-			<string name="default_icon_id">icon_phonegap_default</string>
+			<string name="default_icon_id">icon_default</string>
 		</config-file>
 
 	    <!-- remove MainActivity attributes -->
@@ -200,8 +201,8 @@
 	        <!-- add activity alias for new icon -->
 	        <activity-alias 
 	            android:enabled="false" 
-	            android:name=".MainActivity__icon_phonegap_60" 
-	            android:icon="@drawable/icon_phonegap_60" 
+	            android:name=".MainActivity__icon_hanu" 
+	            android:icon="@drawable/icon_hanu" 
 	            android:label="@string/app_name" 
 	            android:targetActivity=".MainActivity" 
 	            android:configChanges="orientation|screenSize" 
@@ -215,8 +216,8 @@
 	        <!-- the default activity alias -->
 	        <activity-alias 
 	            android:enabled="true" 
-	            android:name=".MainActivity__icon_phonegap_default" 
-	            android:icon="@mipmap/ic_launcher" 
+	            android:name=".MainActivity__icon_default" 
+	            android:icon="@mipmap/icon" 
 	            android:label="@string/app_name" 
 	            android:targetActivity=".MainActivity" 
 	            android:configChanges="orientation|screenSize" 
