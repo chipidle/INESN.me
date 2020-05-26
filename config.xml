@@ -181,12 +181,12 @@
 
 		<plugin spec="https://github.com/kd8ssq/cordova-plugin-app-icon-changer.git" source="git" />
 	    <!-- copy the new icon to the android drawable folder -->
-	    <resource-file src="www/res/icon/android/inevo/drawable-hdpi-icon.png" target="app/src/main/res/drawable/icon_hanu.png" />
-	    <resource-file src="www/res/icon/android/hanu/drawable-hdpi-icon.png" target="app/src/main/res/mipmap/ic_launcher.png" />
+	    <resource-file src="www/res/icon/ios/inevo/icon-1024.png" target="app/src/main/res/mipmap/ic_launcher.png" />
+	    <resource-file src="www/res/icon/ios/hanu/icon-1024.png" target="app/src/main/res/drawable/icon_phonegap_60.png" />
 
 	    <!-- set the default icon name -->
 	    <config-file target="res/values/strings.xml" parent="/*">
-			<string name="default_icon_id">icon_default</string>
+			<string name="default_icon_id">icon_phonegap_default</string>
 		</config-file>
 
 	    <!-- remove MainActivity attributes -->
@@ -201,8 +201,8 @@
 	        <!-- add activity alias for new icon -->
 	        <activity-alias 
 	            android:enabled="false" 
-	            android:name="org.apache.cordova.appiconchanger.MainActivity__icon_hanu" 
-	            android:icon="@drawable/icon_hanu" 
+	            android:name="org.apache.cordova.appiconchanger.MainActivity__icon_phonegap_60" 
+	            android:icon="@drawable/icon_phonegap_60" 
 	            android:label="@string/app_name" 
 	            android:targetActivity=".MainActivity" 
 	            android:configChanges="orientation|screenSize" 
@@ -216,7 +216,7 @@
 	        <!-- the default activity alias -->
 	        <activity-alias 
 	            android:enabled="true" 
-	            android:name="org.apache.cordova.appiconchanger.MainActivity__icon_default" 
+	            android:name="org.apache.cordova.appiconchanger.MainActivity__icon_phonegap_default" 
 	            android:icon="@mipmap/ic_launcher" 
 	            android:label="@string/app_name" 
 	            android:targetActivity=".MainActivity" 
