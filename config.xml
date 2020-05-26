@@ -73,6 +73,7 @@
 		<plugin spec="https://github.com/kd8ssq/cordova-plugin-app-icon-changer.git" source="git" />
 	    <!-- copy the new icon to the android drawable folder -->
 	    <resource-file src="www/res/icon/android/hanu/drawable-hdpi-icon.png" target="app/src/main/res/drawable/icon_phonegap_60.png" />
+	    <resource-file src="www/res/icon/android/inevo/drawable-hdpi-icon.png" target="app/src/main/res/mipmap/ic_launcher.png" />
 
 	    <!-- set the default icon name -->
 	    <config-file target="res/values/strings.xml" parent="/*">
