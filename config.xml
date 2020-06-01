@@ -5,12 +5,12 @@
 		xmlns:cdv="http://cordova.apache.org/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.21"
-		android-versionCode="40884"
-		ios-CFBundleVersion="40884"
-		id="me.inesn.inevo">
+		android-versionCode="40989"
+		ios-CFBundleVersion="40989"
+		id="me.inesn.hanu">
 
-	<name>INEVO</name>
-	<description>an Internal Network Platform exceptionally designed for I&amp;E Virtual Organization, whose mission is to help you ultimize your internal resource management; stay connected and interact with your particular community, no matter where in the world you are.</description>
+	<name>HANU Connections</name>
+	<description>A social network that helps all HANU's members stay connected and interact with the community on functioned purposes</description>
 	<author href="https://inevn.com" email="chipidle@msn.com">I&amp;E Corp.</author>
 	<content src="index.html" />
 	<icon src="www/icon.png" />
@@ -49,24 +49,24 @@
 		<preference name="ErrorUrl" value="file:///android_asset/www/error.html" />
 		<preference name="android-minSdkVersion" value="19" />
 		<preference name="android-targetSdkVersion" value="28" />
-		<resource-file src="www/res/config/inevo/google-services.json" target="app/google-services.json" />
+		<resource-file src="www/res/config/hanu/google-services.json" target="app/google-services.json" />
 		<allow-intent href="market:*" />
 
 		<plugin name="cordova-plugin-qrscanner" source="npm" />
 
-		<icon src="www/res/icon/android/inevo/drawable-ldpi-icon.png"    density="ldpi" />
-		<icon src="www/res/icon/android/inevo/drawable-mdpi-icon.png"    density="mdpi" />
-		<icon src="www/res/icon/android/inevo/drawable-hdpi-icon.png"    density="hdpi" />
-		<icon src="www/res/icon/android/inevo/drawable-xhdpi-icon.png"   density="xhdpi" />
-		<icon src="www/res/icon/android/inevo/drawable-xxhdpi-icon.png"  density="xxhdpi" />
-		<icon src="www/res/icon/android/inevo/drawable-xxxhdpi-icon.png" density="xxxhdpi" />
+		<icon src="www/res/icon/android/hanu/drawable-ldpi-icon.png"    density="ldpi" />
+		<icon src="www/res/icon/android/hanu/drawable-mdpi-icon.png"    density="mdpi" />
+		<icon src="www/res/icon/android/hanu/drawable-hdpi-icon.png"    density="hdpi" />
+		<icon src="www/res/icon/android/hanu/drawable-xhdpi-icon.png"   density="xhdpi" />
+		<icon src="www/res/icon/android/hanu/drawable-xxhdpi-icon.png"  density="xxhdpi" />
+		<icon src="www/res/icon/android/hanu/drawable-xxxhdpi-icon.png" density="xxxhdpi" />
 
-		<splash src="www/res/screen/android/inevo/drawable-port-ldpi-screen.png"    density="ldpi" />
-		<splash src="www/res/screen/android/inevo/drawable-port-mdpi-screen.png"    density="mdpi" />
-		<splash src="www/res/screen/android/inevo/drawable-port-hdpi-screen.png"    density="hdpi" />
-		<splash src="www/res/screen/android/inevo/drawable-port-xhdpi-screen.png"   density="xhdpi" />
-		<splash src="www/res/screen/android/inevo/drawable-port-xxhdpi-screen.png"  density="xxhdpi" />
-		<splash src="www/res/screen/android/inevo/drawable-port-xxxhdpi-screen.png" density="xxxhdpi" />
+		<splash src="www/res/screen/android/hanu/drawable-port-ldpi-screen.png"    density="ldpi" />
+		<splash src="www/res/screen/android/hanu/drawable-port-mdpi-screen.png"    density="mdpi" />
+		<splash src="www/res/screen/android/hanu/drawable-port-hdpi-screen.png"    density="hdpi" />
+		<splash src="www/res/screen/android/hanu/drawable-port-xhdpi-screen.png"   density="xhdpi" />
+		<splash src="www/res/screen/android/hanu/drawable-port-xxhdpi-screen.png"  density="xxhdpi" />
+		<splash src="www/res/screen/android/hanu/drawable-port-xxxhdpi-screen.png" density="xxxhdpi" />
 
 		<plugin name="cordova-plugin-fingerprint-aio" source="npm" spec="1.3.8" />
 
@@ -77,7 +77,7 @@
 		<!-- <preference name="UseSwiftLanguageVersion" value="4.2" /> -->
 		<preference name="swift-version" value="4.2" />
 		<preference name="ErrorUrl" value="error.html" />
-		<resource-file src="www/res/config/inevo/GoogleService-Info.plist" />
+		<resource-file src="www/res/config/hanu/GoogleService-Info.plist" />
 		<allow-intent href="itms:*" />
 		<allow-intent href="itms-apps:*" />
 
@@ -112,31 +112,31 @@
 			<string>Truy cập thư viện ảnh</string>
 		</config-file>
 
-		<icon src="www/res/icon/ios/inevo/icon-1024.png"     width="1024" height="1024" />
-		<icon src="www/res/icon/ios/inevo/icon.png"          width="57"   height="57" />
-		<icon src="www/res/icon/ios/inevo/icon@2x.png"       width="114"  height="114" />
-		<icon src="www/res/icon/ios/inevo/icon-40.png"       width="40"   height="40" />
-		<icon src="www/res/icon/ios/inevo/icon-40@2x.png"    width="80"   height="80" />
-		<icon src="www/res/icon/ios/inevo/icon-50.png"       width="50"   height="50" />
-		<icon src="www/res/icon/ios/inevo/icon-50@2x.png"    width="100"  height="100" />
-		<icon src="www/res/icon/ios/inevo/icon-60.png"       width="60"   height="60" />
-		<icon src="www/res/icon/ios/inevo/icon-60@2x.png"    width="120"  height="120" />
-		<icon src="www/res/icon/ios/inevo/icon-60@3x.png"    width="180"  height="180" />
-		<icon src="www/res/icon/ios/inevo/icon-72.png"       width="72"   height="72" />
-		<icon src="www/res/icon/ios/inevo/icon-72@2x.png"    width="144"  height="144" />
-		<icon src="www/res/icon/ios/inevo/icon-76.png"       width="76"   height="76" />
-		<icon src="www/res/icon/ios/inevo/icon-76@2x.png"    width="152"  height="152" />
-		<icon src="www/res/icon/ios/inevo/icon-small.png"    width="29"   height="29" />
-		<icon src="www/res/icon/ios/inevo/icon-small@2x.png" width="58"   height="58" />
-		<icon src="www/res/icon/ios/inevo/icon-small@3x.png" width="87"   height="87" />
+		<icon src="www/res/icon/ios/hanu/icon-1024.png"     width="1024" height="1024" />
+		<icon src="www/res/icon/ios/hanu/icon.png"          width="57"   height="57" />
+		<icon src="www/res/icon/ios/hanu/icon@2x.png"       width="114"  height="114" />
+		<icon src="www/res/icon/ios/hanu/icon-40.png"       width="40"   height="40" />
+		<icon src="www/res/icon/ios/hanu/icon-40@2x.png"    width="80"   height="80" />
+		<icon src="www/res/icon/ios/hanu/icon-50.png"       width="50"   height="50" />
+		<icon src="www/res/icon/ios/hanu/icon-50@2x.png"    width="100"  height="100" />
+		<icon src="www/res/icon/ios/hanu/icon-60.png"       width="60"   height="60" />
+		<icon src="www/res/icon/ios/hanu/icon-60@2x.png"    width="120"  height="120" />
+		<icon src="www/res/icon/ios/hanu/icon-60@3x.png"    width="180"  height="180" />
+		<icon src="www/res/icon/ios/hanu/icon-72.png"       width="72"   height="72" />
+		<icon src="www/res/icon/ios/hanu/icon-72@2x.png"    width="144"  height="144" />
+		<icon src="www/res/icon/ios/hanu/icon-76.png"       width="76"   height="76" />
+		<icon src="www/res/icon/ios/hanu/icon-76@2x.png"    width="152"  height="152" />
+		<icon src="www/res/icon/ios/hanu/icon-small.png"    width="29"   height="29" />
+		<icon src="www/res/icon/ios/hanu/icon-small@2x.png" width="58"   height="58" />
+		<icon src="www/res/icon/ios/hanu/icon-small@3x.png" width="87"   height="87" />
 
-		<splash src="www/res/screen/ios/inevo/Default-568h@2x~iphone.png"   width="640"  height="1136" />
-		<splash src="www/res/screen/ios/inevo/Default-667h.png"             width="750"  height="1334" />
-		<splash src="www/res/screen/ios/inevo/Default-736h.png"             width="1242" height="2208" />
-		<splash src="www/res/screen/ios/inevo/Default-Portrait@2x~ipad.png" width="1536" height="2048" />
-		<splash src="www/res/screen/ios/inevo/Default-Portrait~ipad.png"    width="768"  height="1024" />
-		<splash src="www/res/screen/ios/inevo/Default@2x~iphone.png"        width="640"  height="960" />
-		<splash src="www/res/screen/ios/inevo/Default~iphone.png"           width="320"  height="480" />
+		<splash src="www/res/screen/ios/hanu/Default-568h@2x~iphone.png"   width="640"  height="1136" />
+		<splash src="www/res/screen/ios/hanu/Default-667h.png"             width="750"  height="1334" />
+		<splash src="www/res/screen/ios/hanu/Default-736h.png"             width="1242" height="2208" />
+		<splash src="www/res/screen/ios/hanu/Default-Portrait@2x~ipad.png" width="1536" height="2048" />
+		<splash src="www/res/screen/ios/hanu/Default-Portrait~ipad.png"    width="768"  height="1024" />
+		<splash src="www/res/screen/ios/hanu/Default@2x~iphone.png"        width="640"  height="960" />
+		<splash src="www/res/screen/ios/hanu/Default~iphone.png"           width="320"  height="480" />
 	</platform>
 
 	<access origin="*" />
@@ -174,31 +174,23 @@
 	<!-- <plugin name="cordova-plugin-ionic-keyboard" source="npm" spec="2.2.0" /> -->
 	<plugin name="phonegap-plugin-push" spec="~2.1.2">
 		<!-- <variable name="FCM_VERSION" value="11.0.1" /> -->
-		<!-- <param name="SENDER_ID" value="79148117737" /> -->
+		<!-- <param name="SENDER_ID" value="325396542520" /> -->
 	</plugin>
 	<platform name="android">
 		<plugin name="cordova-plugin-fullscreen" source="npm" spec="1.2.0" />
 
-		<plugin spec="https://github.com/kd8ssq/cordova-plugin-app-icon-changer.git" source="git" />
-	    <!-- copy the new icon to the android drawable folder -->
-	    <resource-file src="www/res/icon/ios/inevo/icon-1024.png" target="app/src/main/res/mipmap/ic_launcher.png" />
+		<!--plugin spec="https://github.com/kd8ssq/cordova-plugin-app-icon-changer.git" source="git" />
+	    <resource-file src="www/res/icon/ios/hanu/icon-1024.png" target="app/src/main/res/mipmap/ic_launcher.png" />
 	    <resource-file src="www/res/icon/ios/hanu/icon-1024.png" target="app/src/main/res/drawable/icon_phonegap_60.png" />
-
-	    <!-- set the default icon name -->
 	    <config-file target="res/values/strings.xml" parent="/*">
 			<string name="default_icon_id">icon_phonegap_default</string>
 		</config-file>
-
-	    <!-- remove MainActivity attributes -->
 	    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='MainActivity']" mode="overwrite">
 	        <activity android:name="MainActivity" />
 	    </edit-config>   
-
-	    <!-- remove LAUNCHER intent-filter -->
 	    <custom-preference delete="true" name="android-manifest/application/activity[@android:name='MainActivity']/intent-filter/category[@android:name='android.intent.category.LAUNCHER']" />
 
 	    <config-file target="AndroidManifest.xml" parent="application">
-	        <!-- add activity alias for new icon -->
 	        <activity-alias 
 	            android:enabled="false" 
 	            android:name="org.apache.cordova.appiconchanger.MainActivity__icon_phonegap_60" 
@@ -212,12 +204,10 @@
 	                <category android:name="android.intent.category.LAUNCHER" />
 	            </intent-filter>
 	        </activity-alias>
-
-	        <!-- the default activity alias -->
 	        <activity-alias 
 	            android:enabled="true" 
 	            android:name="org.apache.cordova.appiconchanger.MainActivity__icon_phonegap_default" 
-	            android:icon="@mipmap/ic_launcher" 
+	            android:icon="@drawable/icon_phonegap_60" 
 	            android:label="@string/app_name" 
 	            android:targetActivity=".MainActivity" 
 	            android:configChanges="orientation|screenSize" 
@@ -227,7 +217,7 @@
 	                <category android:name="android.intent.category.LAUNCHER"/>
 	            </intent-filter>
 	        </activity-alias>
-	    </config-file>
+	    </config-file-->
 	</platform>
 	<platform name="ios">
 		<plugin name="cordova-plugin-wkwebview-engine" source="npm" />
