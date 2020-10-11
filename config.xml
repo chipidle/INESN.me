@@ -5,11 +5,11 @@
 		xmlns:cdv="http://cordova.apache.org/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.22"
-		android-versionCode="45607"
-		ios-CFBundleVersion="45607"
+		android-versionCode="45963"
+		ios-CFBundleVersion="45963"
 		id="me.inesn.connections">
 
-	<name>My Connections</name>
+	<name>BUH Connections</name>
 	<description></description>
 	<author href="https://inevn.com" email="chipidle@msn.com">I&amp;E Corp.</author>
 	<content src="index.html" />
