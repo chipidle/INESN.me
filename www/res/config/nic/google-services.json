@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "309905361789",
+    "project_id": "nic-connections",
+    "storage_bucket": "nic-connections.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309905361789:android:94bb016d88bb9768a09a14",
+        "android_client_info": {
+          "package_name": "me.inesn.nic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309905361789-9c68rfk2o39bc76jdqku3kflr2b018hq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg_WUJ9XVxhDx5RC4QSrPr5ZHhBg8ipEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309905361789-9c68rfk2o39bc76jdqku3kflr2b018hq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
