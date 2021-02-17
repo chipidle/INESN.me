@@ -5,8 +5,8 @@
 		xmlns:cdv="http://cordova.apache.org/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		version="1.1.22"
-		android-versionCode="48484"
-		ios-CFBundleVersion="48484"
+		android-versionCode="48485"
+		ios-CFBundleVersion="48485"
 		id="me.inesn.nic">
 
 	<name>NIC Connections</name>
