@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>39236643391-1n6ui3p4inc8dv5mb8r16ueue82sh95u.apps.googleusercontent.com</string>
+	<string>153561851598-9rn3gbio0bdak22faftqg55hvmm27uoa.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.39236643391-1n6ui3p4inc8dv5mb8r16ueue82sh95u</string>
+	<string>com.googleusercontent.apps.153561851598-9rn3gbio0bdak22faftqg55hvmm27uoa</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCQOCm_4gJo-OL0phQ-gehTErFE_SIQFf8</string>
+	<string>AIzaSyDselByD9nhliaGF5wBzno4ZZ8teDjZHKs</string>
 	<key>GCM_SENDER_ID</key>
-	<string>39236643391</string>
+	<string>153561851598</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>me.inesn.connections</string>
 	<key>PROJECT_ID</key>
-	<string>my-connections-7f403</string>
+	<string>my-connections-ee17b</string>
 	<key>STORAGE_BUCKET</key>
-	<string>my-connections-7f403.appspot.com</string>
+	<string>my-connections-ee17b.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:39236643391:ios:96c445e185ac05a85d668a</string>
-	<key>DATABASE_URL</key>
-	<string>https://my-connections-7f403.firebaseio.com</string>
+	<string>1:153561851598:ios:5f9f7558ffccfa40b9129f</string>
 </dict>
 </plist>

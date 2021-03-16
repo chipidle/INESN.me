@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "39236643391",
-    "firebase_url": "https://my-connections-7f403.firebaseio.com",
-    "project_id": "my-connections-7f403",
-    "storage_bucket": "my-connections-7f403.appspot.com"
+    "project_number": "153561851598",
+    "project_id": "my-connections-ee17b",
+    "storage_bucket": "my-connections-ee17b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:39236643391:android:7ad53f4578db895e5d668a",
+        "mobilesdk_app_id": "1:153561851598:android:2d25baa6f27afbbfb9129f",
         "android_client_info": {
           "package_name": "me.inesn.connections"
         }
       },
       "oauth_client": [
         {
-          "client_id": "39236643391-ckhu2spdkof9r07aaaqiv040v73u1vlk.apps.googleusercontent.com",
+          "client_id": "153561851598-anevpnhbi2565f9fg9b1c5be6d8mbic7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAe9G2hflYInUtcgPkEQj3RbC3XjGiPnmI"
+          "current_key": "AIzaSyA7zLqrD-ltpw9dbzLs8TAlclyMLxTzrrs"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "39236643391-ckhu2spdkof9r07aaaqiv040v73u1vlk.apps.googleusercontent.com",
+              "client_id": "153561851598-anevpnhbi2565f9fg9b1c5be6d8mbic7.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "39236643391-1n6ui3p4inc8dv5mb8r16ueue82sh95u.apps.googleusercontent.com",
+              "client_id": "153561851598-9rn3gbio0bdak22faftqg55hvmm27uoa.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "me.inesn.connections"
+                "bundle_id": "me.inesn.connections",
+                "app_store_id": "1494257077"
               }
             }
           ]
